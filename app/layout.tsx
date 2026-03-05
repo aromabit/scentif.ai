@@ -1,28 +1,38 @@
 import { Title } from "components/elements/layout"
+import HeaderNav from "components/elements/HeaderNav"
 import "./reset.css"
 
 export const metadata = {
-  title: "Page title",
+  title: "Scentif.ai",
   description: "Page description",
 }
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <html lang="ja">
+    <html lang="en">
       <body>
         <header
           style={{
-            backgroundColor: "#333",
-            boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
-            padding: ".5rem 1rem",
+            backgroundColor: "#fcfcfc",
+            padding: "0 1rem",
             position: "relative",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between",
           }}
         >
-          <Title>Page title</Title>
+          <Title>
+            <img
+              src="/images/logo_1.png"
+              alt="Logo"
+              style={{ height: "3rem", marginRight: "0.5rem" }}
+            />
+          </Title>
+          <HeaderNav />
         </header>
         <main
           style={{
-            background: "#222",
+            background: "#fcfcfc",
             minHeight: "calc(100dvh - 5.625rem)",
             padding: "1rem",
           }}
@@ -31,13 +41,12 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
         </main>
         <footer
           style={{
-            backgroundColor: "#333",
-            boxShadow: "0 -4px 6px rgba(0, 0, 0, 0.1)",
+            backgroundColor: "#fcfcfc",
             fontSize: ".75rem",
             padding: "1rem",
           }}
         >
-          <p>&copy; My organization</p>
+          <p>&copy; Scetif.ai</p>
         </footer>
       </body>
     </html>
