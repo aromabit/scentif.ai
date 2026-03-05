@@ -1,6 +1,6 @@
-# Next.js Static Site Template
+# scentif.ai コーポレートサイト
 
-Next.js 16 + React 19 + TypeScript を使用した静的サイト生成のテンプレートリポジトリです。GitHub Pages へのデプロイが自動化されています。
+scentif.ai のコーポレートサイトです。Next.js による静的サイト生成を採用し、GitHub Pages へ自動デプロイされます。
 
 ## 技術スタック
 
@@ -10,48 +10,31 @@ Next.js 16 + React 19 + TypeScript を使用した静的サイト生成のテン
 - **ESLint** 9 - Flat Config
 - **Prettier** 3
 
-## このテンプレートの使い方
+## 開発環境のセットアップ
 
-1. **「Use this template」ボタン**をクリックして新しいリポジトリを作成
-2. リポジトリをクローン
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-   cd YOUR_REPO
-   ```
-3. 依存関係をインストール
-   ```bash
-   pnpm install
-   ```
-4. 開発サーバーを起動
-   ```bash
-   pnpm dev
-   ```
+リポジトリをクローンして依存関係をインストールします。
 
-## セットアップ後にやること
-
-### 1. `next.config.js` の修正
-
-`basePath` をリポジトリ名に変更してください：
-
-```js
-basePath: process.env.NODE_ENV === "production" ? "/YOUR_REPO_NAME" : "",
+```bash
+git clone https://github.com/aromabit/scentif.ai.git
+cd scentif.ai
+pnpm install
 ```
 
-### 2. `app/layout.tsx` の修正
+開発サーバーを起動します。
 
-メタデータとサイト情報を更新してください：
-
-```tsx
-export const metadata: Metadata = {
-  title: "Your Site Title",
-  description: "Your site description",
-}
+```bash
+pnpm dev
 ```
 
-### 3. GitHub Pages の設定
+## スクリプト
 
-1. リポジトリの **Settings** → **Pages** へ移動
-2. **Source** を「GitHub Actions」に設定
+| コマンド | 説明 |
+|---------|------|
+| `pnpm dev` | 開発サーバーを起動 |
+| `pnpm build` | 静的サイトをビルド（`/out` に出力） |
+| `pnpm lint` | ESLint を実行 |
+| `pnpm format` | Prettier でコードをフォーマット |
+| `pnpm typecheck` | TypeScript の型チェック |
 
 ## ディレクトリ構成
 
@@ -71,23 +54,9 @@ export const metadata: Metadata = {
 └── .prettierrc.json    # Prettier 設定
 ```
 
-## スクリプト
+## デプロイ
 
-| コマンド | 説明 |
-|---------|------|
-| `pnpm dev` | 開発サーバーを起動 |
-| `pnpm build` | 静的サイトをビルド（`/out` に出力） |
-| `pnpm lint` | ESLint を実行 |
-| `pnpm format` | Prettier でコードをフォーマット |
-| `pnpm typecheck` | TypeScript の型チェック |
-
-## 機能
-
-- **静的サイト生成** - `next build` で `/out` に HTML を出力
-- **自動デプロイ** - main ブランチへの push で GitHub Pages に自動デプロイ
-- **自動リント** - push 時に ESLint / Prettier チェックを実行
-- **依存関係の自動更新** - Dependabot による週次チェック
-- **エディタ設定** - VS Code での自動フォーマット設定済み
+`main` ブランチへの push により GitHub Pages へ自動デプロイされます。また push 時に ESLint / Prettier のチェックも自動実行されます。
 
 ## ライセンス
 
