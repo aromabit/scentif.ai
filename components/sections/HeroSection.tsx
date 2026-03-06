@@ -5,7 +5,7 @@ const HeroSection: FC = () => (
     style={{
       alignItems: "center",
       backgroundColor: "#fcfcfc",
-      backgroundImage: "url('/images/bg.png')",
+      backgroundImage: "url('./images/bg.png')",
       backgroundSize: "cover",
       backgroundPosition: "center",
       display: "flex",
