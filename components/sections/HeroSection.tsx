@@ -16,12 +16,18 @@ const HeroSection: FC = () => (
   >
     <p
       style={{
-        fontSize: "1.1rem",
-        color: "#888",
-        letterSpacing: ".05em",
+        fontSize: "clamp(2rem, 5vw, 2.5rem)",
+        fontWeight: 700,
+        color: "rgba(255,255,255,0.6)",
+        letterSpacing: "-.01em",
+        lineHeight: 1.25,
+        maxWidth: "80%",
+        padding: "0 1rem",
       }}
     >
-      Naturalizing AI thru Digital Olfaction
+      Naturalizing AI
+      <br />
+      thru Digital Olfaction
     </p>
   </section>
 )
