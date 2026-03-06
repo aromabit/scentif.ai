@@ -3,9 +3,15 @@ import { FC } from "react"
 const HeroSection: FC = () => (
   <section
     style={{
-      textAlign: "center",
-      padding: "6rem 1rem 5rem",
+      alignItems: "center",
       backgroundColor: "#fcfcfc",
+      backgroundImage: "url('/images/bg.png')",
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+      display: "flex",
+      justifyContent: "center",
+      minHeight: "100dvh",
+      textAlign: "center",
     }}
   >
     <p
