@@ -51,7 +51,12 @@ const ContactSection: FC = () => {
             marginBottom: "2.5rem",
           }}
         >
-          For inquiries about our products and services, please reach out using the form below.
+          For inquiries about our products and services, please reach out using the form below,
+          or email us directly at{" "}
+          <a href="mailto:info@scentif.ai" style={{ color: "#33b9c5" }}>
+            info@scentif.ai
+          </a>
+          .
         </p>
 
         {submitted ? (

@@ -15,7 +15,9 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
           style={{
             backgroundColor: "#fcfcfc",
             padding: "0 1rem",
-            position: "relative",
+            position: "sticky",
+            top: 0,
+            zIndex: 100,
             display: "flex",
             alignItems: "center",
             justifyContent: "space-between",
