@@ -10,10 +10,22 @@ const HeroSection: FC = () => (
       backgroundPosition: "center",
       display: "flex",
       justifyContent: "center",
-      minHeight: "100dvh",
+      minHeight: "66dvh",
       textAlign: "center",
+      flexWrap: "wrap",
+      flexDirection: "column",
+      gap: "1.5rem",
+      padding: "2rem 1rem",
     }}
   >
+    <img
+      src="./images/icon.png"
+      alt="icon"
+      style={{
+        opacity: 0.66,
+        width: "33dvh",
+      }}
+    />
     <p
       style={{
         fontSize: "clamp(2rem, 5vw, 2.5rem)",
@@ -25,9 +37,7 @@ const HeroSection: FC = () => (
         padding: "0 1rem",
       }}
     >
-      Naturalizing AI
-      <br />
-      thru Digital Olfaction
+      Naturalizing AI through Digital Olfaction
     </p>
   </section>
 )
