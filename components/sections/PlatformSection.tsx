@@ -140,17 +140,6 @@ const PlatformSection: FC = () => (
           textAlign: "center",
         }}
       >
-        <h3
-          style={{
-            fontSize: "1.75rem",
-            fontWeight: 700,
-            marginBottom: "1.5rem",
-            color: "#111",
-          }}
-        >
-          Aroma Imaging Sensor [AIS]
-        </h3>
-
         <p
           style={{
             fontSize: "1.75rem",
@@ -176,6 +165,62 @@ const PlatformSection: FC = () => (
           Pattern” upon pure chemicals gas exposure to sensor
         </p>
 
+        <img
+          src="./images/visialize.png"
+          style={{ width: "100%" }}
+          alt="visialize"
+        />
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            justifyContent: "center",
+            marginBottom: "3rem",
+          }}
+        >
+          {[
+            "Benzene",
+            "Ethyl Propionate​",
+            "Ethanol",
+            "Acetone",
+            "Ammonia",
+          ].map((name, i) => (
+            <div
+              key={i}
+              style={{
+                width: "20%",
+              }}
+            >
+              <img
+                src={`./images/visialize${i + 1}.gif`}
+                alt={name}
+                style={{ width: "100%" }}
+              />
+            </div>
+          ))}
+        </div>
+        <h3
+          style={{
+            fontSize: "1.75rem",
+            fontWeight: 700,
+            marginBottom: "1.5rem",
+            color: "#111",
+          }}
+        >
+          Aroma Imaging Sensor [AIS]
+        </h3>
+        <p
+          style={{
+            fontSize: ".95rem",
+            lineHeight: 1.9,
+            color: "#555",
+            marginBottom: "3rem",
+          }}
+        >
+          Aroma Imaging Sensor converts analogue Smell/Odor Input as digital
+          Video/Vision image pattern, similar to conventional vision image
+          sensors or cameras on smartphone.
+        </p>
         <div
           style={{
             display: "flex",
@@ -250,7 +295,6 @@ const PlatformSection: FC = () => (
             )
           )}
         </div>
-
         <p
           style={{
             fontSize: ".95rem",
@@ -259,11 +303,6 @@ const PlatformSection: FC = () => (
             marginBottom: "3rem",
           }}
         >
-          Aroma Imaging Sensor converts analogue Smell/Odor Input as digital
-          Video/Vision image pattern, similar to conventional vision image
-          sensors or cameras on smartphone.
-          <br />
-          <br />
           Aroma Imaging Sensor is the advanced e-nose sensor system platform,
           designed with standardized, compatible data format and architecture
           for scalable, standardized Olfaction machine learning for the
@@ -274,33 +313,42 @@ const PlatformSection: FC = () => (
           &nbsp; Olfaction AI Platform.
         </p>
 
-        <p
-          style={{
-            fontSize: ".8rem",
-            fontWeight: 600,
-            textTransform: "uppercase",
-            letterSpacing: ".08em",
-            color: "#888",
-            marginBottom: "1rem",
-          }}
-        >
-          Key Specifications
-        </p>
-        <ul
-          style={{
-            listStyle: "none",
-            margin: "0 auto 3rem",
-            padding: 0,
-            display: "inline-flex",
-            flexDirection: "column",
-            gap: ".75rem",
-            textAlign: "left",
-          }}
-        >
-          {specs.map((s) => (
-            <CheckItem key={s} text={s} />
-          ))}
-        </ul>
+        <div style={{ padding: "1rem" }}>
+          <p
+            style={{
+              fontSize: ".8rem",
+              fontWeight: 600,
+              textTransform: "uppercase",
+              letterSpacing: ".08em",
+              color: "#888",
+              marginBottom: "1rem",
+            }}
+          >
+            Key Specifications
+          </p>
+          <ul
+            style={{
+              listStyle: "none",
+              margin: "0 auto 3rem",
+              padding: 0,
+              display: "inline-flex",
+              flexDirection: "column",
+              gap: ".75rem",
+              textAlign: "left",
+            }}
+          >
+            {specs.map((s) => (
+              <CheckItem key={s} text={s} />
+            ))}
+          </ul>
+          <div>
+            <img
+              src="./images/spec1.png"
+              alt="5C-SSM"
+              style={{ maxWidth: "16rem", width: "100%" }}
+            />
+          </div>
+        </div>
         <div
           style={{
             backgroundColor: "#fff",
