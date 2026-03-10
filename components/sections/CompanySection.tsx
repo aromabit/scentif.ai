@@ -26,7 +26,6 @@ const management = [
 
 const CompanySection: FC = () => (
   <section id="company">
-    {/* Mission */}
     <div
       style={{
         maxWidth: "720px",
@@ -45,7 +44,10 @@ const CompanySection: FC = () => (
       >
         Mission
       </h2>
-
+      <p style={{ fontWeight: 700, color: "#111", marginBottom: "1rem" }}>
+        ScentifAI is on a mission to Naturalize AI thru Digital Olfaction
+        innovation.
+      </p>
       <div
         style={{
           display: "flex",
@@ -54,19 +56,17 @@ const CompanySection: FC = () => (
           fontSize: "1rem",
           lineHeight: 1.9,
           color: "#444",
+          textAlign: "left",
         }}
       >
         <div>
-          <p style={{ fontWeight: 600, color: "#111", marginBottom: ".25rem" }}>
-            Imagine:
-          </p>
-          <p>
-            &ldquo;Behavior &amp; Reactions of Humanoids with Nose over time vs.
-            those without.&rdquo;
-          </p>
-        </div>
-        <div>
-          <p style={{ fontWeight: 600, color: "#111", marginBottom: ".25rem" }}>
+          <p
+            style={{
+              fontWeight: 600,
+              color: "#111",
+              marginBottom: ".25rem",
+            }}
+          >
             Ask:
           </p>
           <p>&ldquo;Why Nature created Nose?&rdquo;</p>
@@ -76,8 +76,8 @@ const CompanySection: FC = () => (
             Our Belief:
           </p>
           <p>
-            b/c Nose is Efficient &amp; Critical-for-life &amp; Valuable &amp;
-            Emotional!
+            b/c Nose is Efficient & Critical-for-life & Valuable & Emotional!
+            learning organ to understand ambient world.
           </p>
         </div>
         <div>
@@ -86,14 +86,18 @@ const CompanySection: FC = () => (
           </p>
           <p>Let us give the same sensory to AI.</p>
         </div>
-        <p style={{ fontWeight: 700, color: "#111" }}>
-          ScentifAI is on a mission to Naturalize AI thru Digital Olfaction
-          innovation.
-        </p>
+        <div>
+          <p style={{ fontWeight: 600, color: "#111", marginBottom: ".25rem" }}>
+            Imagine:
+          </p>
+          <p>
+            &ldquo;Behavior &amp; reactions of humanoids: one with Nose vs.
+            those without.&rdquo;
+          </p>
+        </div>
       </div>
     </div>
 
-    {/* Company */}
     <div style={{ backgroundColor: "#f5f5f5" }}>
       <div
         style={{
@@ -123,9 +127,12 @@ const CompanySection: FC = () => (
         >
           ScentifAI is Olfaction AI startup.
         </p>
-        <p style={{ fontSize: ".9rem", color: "#888", marginBottom: "2rem" }}>
+        <a
+          href="//aromabit.com"
+          style={{ fontSize: ".9rem", color: "#888", marginBottom: "2rem" }}
+        >
           formerly known as Aroma Bit, Inc.
-        </p>
+        </a>
 
         <p
           style={{
@@ -135,12 +142,13 @@ const CompanySection: FC = () => (
             marginBottom: "1.5rem",
           }}
         >
-          It is a team mixed of industry experts in diverse fields of science,
-          technology and business including five-sense computing,
-          chemists/material scientists, multi-modal semiconductor sensors,
-          electronics, full-stack AI Data engineers, working relentlessly to
-          solve one of the biggest remaining technological challenge in the
-          advent of Physical AI era:
+          We are a team mixed of industry experts in diverse fields of science,
+          technology and business, including: five-sense computing &amp;
+          cognitive science, chemical &amp; material science, multi-modal solid
+          state semiconductor sensors systems & electronics, full-stack AI Data
+          engineers, global investments, business developments, working
+          relentlessly to solve one of the biggest remaining technological
+          challenge in the advent of Physical AI era:
         </p>
 
         <div
@@ -202,7 +210,6 @@ const CompanySection: FC = () => (
           ))}
         </ul>
 
-        {/* Company Information */}
         <h3
           style={{
             fontSize: "1rem",
@@ -223,7 +230,7 @@ const CompanySection: FC = () => (
         >
           <tbody>
             {[
-              ["Company Name", "ScentiAI, Inc."],
+              ["Company Name", "ScentifAI, Inc."],
               ["Representative Director & CEO", "Shunichiro Kuroki"],
               [
                 "Main Bank",
@@ -258,7 +265,6 @@ const CompanySection: FC = () => (
           </tbody>
         </table>
 
-        {/* Partners */}
         <h3
           style={{
             fontSize: "1rem",
