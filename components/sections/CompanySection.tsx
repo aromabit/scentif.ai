@@ -181,8 +181,6 @@ const CompanySection: FC = () => (
           data quality and diversity through the additional &ldquo;chemical
           perception&rdquo; input dimension to future devices and systems.
         </p>
-
-        {/* Management */}
         <h3
           style={{
             fontSize: "1rem",
@@ -262,6 +260,28 @@ const CompanySection: FC = () => (
                 </td>
               </tr>
             ))}
+            <tr style={{ borderBottom: "1px solid #e8e8e8" }}>
+              <th
+                style={{
+                  padding: "1rem 1rem 1rem 0",
+                  textAlign: "left",
+                  fontWeight: 600,
+                  width: "220px",
+                  color: "#111",
+                  verticalAlign: "top",
+                  whiteSpace: "nowrap",
+                }}
+              >
+                Access
+              </th>
+              <td style={{ padding: "1rem 0", color: "#555", lineHeight: 1.7 }}>
+                <p>■Headquarter</p>
+                <p>Sagami Bldg. 2F, 7-13-6 Ginza, Chuo-ku, Tokyo</p>
+                <p>TEL. +81-3-4455-4609</p>
+                <p>■Numazu Office</p>
+                <p>18-9 Ichibacho, Numazu-shi, Shizuoka</p>
+              </td>
+            </tr>
           </tbody>
         </table>
 
