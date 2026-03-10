@@ -48,7 +48,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
             padding: "1rem",
           }}
         >
-          <p>&copy; Scetif.ai</p>
+          <p>&copy; scentifai</p>
         </footer>
       </body>
     </html>
