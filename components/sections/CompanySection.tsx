@@ -17,7 +17,10 @@ const partners = [
 
 const management = [
   { role: "Founder & CEO", name: "Shunichiro Kuroki" },
-  { role: "CTO", name: "Kazuaki Sawada, Ph.D. — Toyohashi University of Technology" },
+  {
+    role: "CTO",
+    name: "Kazuaki Sawada, Ph.D. — Toyohashi University of Technology",
+  },
   { role: "Technology Advisor & ex-CTO", name: "Kenichi Hashizume" },
 ]
 
@@ -54,20 +57,27 @@ const CompanySection: FC = () => (
         }}
       >
         <div>
-          <p style={{ fontWeight: 600, color: "#111", marginBottom: ".25rem" }}>Imagine:</p>
+          <p style={{ fontWeight: 600, color: "#111", marginBottom: ".25rem" }}>
+            Imagine:
+          </p>
           <p>
-            &ldquo;Behavior &amp; Reactions of Humanoids with Nose over time vs. those
-            without.&rdquo;
+            &ldquo;Behavior &amp; Reactions of Humanoids with Nose over time vs.
+            those without.&rdquo;
           </p>
         </div>
         <div>
-          <p style={{ fontWeight: 600, color: "#111", marginBottom: ".25rem" }}>Ask:</p>
+          <p style={{ fontWeight: 600, color: "#111", marginBottom: ".25rem" }}>
+            Ask:
+          </p>
           <p>&ldquo;Why Nature created Nose?&rdquo;</p>
         </div>
         <div>
-          <p style={{ fontWeight: 600, color: "#111", marginBottom: ".25rem" }}>Our Belief:</p>
+          <p style={{ fontWeight: 600, color: "#111", marginBottom: ".25rem" }}>
+            Our Belief:
+          </p>
           <p>
-            b/c Nose is Efficient &amp; Critical-for-life &amp; Valuable &amp; Emotional!
+            b/c Nose is Efficient &amp; Critical-for-life &amp; Valuable &amp;
+            Emotional!
           </p>
         </div>
         <div>
@@ -77,7 +87,8 @@ const CompanySection: FC = () => (
           <p>Let us give the same sensory to AI.</p>
         </div>
         <p style={{ fontWeight: 700, color: "#111" }}>
-          ScentifAI is on a mission to Naturalize AI thru Digital Olfaction innovation.
+          ScentifAI is on a mission to Naturalize AI thru Digital Olfaction
+          innovation.
         </p>
       </div>
     </div>
@@ -86,7 +97,7 @@ const CompanySection: FC = () => (
     <div style={{ backgroundColor: "#f5f5f5" }}>
       <div
         style={{
-          maxWidth: "800px",
+          maxWidth: "1000px",
           margin: "0 auto",
           padding: "5rem 1rem",
         }}
@@ -116,12 +127,20 @@ const CompanySection: FC = () => (
           formerly known as Aroma Bit, Inc.
         </p>
 
-        <p style={{ fontSize: ".95rem", lineHeight: 1.9, color: "#555", marginBottom: "1.5rem" }}>
-          It is a team mixed of industry experts in diverse fields of science, technology and
-          business including five-sense computing, chemists/material scientists, multi-modal
-          semiconductor sensors, electronics, full-stack AI Data engineers, working relentlessly
-          to solve one of the biggest remaining technological challenge in the advent of
-          Physical AI era:
+        <p
+          style={{
+            fontSize: ".95rem",
+            lineHeight: 1.9,
+            color: "#555",
+            marginBottom: "1.5rem",
+          }}
+        >
+          It is a team mixed of industry experts in diverse fields of science,
+          technology and business including five-sense computing,
+          chemists/material scientists, multi-modal semiconductor sensors,
+          electronics, full-stack AI Data engineers, working relentlessly to
+          solve one of the biggest remaining technological challenge in the
+          advent of Physical AI era:
         </p>
 
         <div
@@ -139,12 +158,20 @@ const CompanySection: FC = () => (
           </p>
         </div>
 
-        <p style={{ fontSize: ".95rem", lineHeight: 1.9, color: "#555", marginBottom: "3rem" }}>
-          We believe Olfaction AI uniquely addresses major pain points of Physical AI, including
-          minimizing and improving the efficiency of ever-scarce computational resources, reducing
-          the physical training costs to develop physical world foundation models, while enhancing
-          data quality and diversity through the additional &ldquo;chemical perception&rdquo; input
-          dimension to future devices and systems.
+        <p
+          style={{
+            fontSize: ".95rem",
+            lineHeight: 1.9,
+            color: "#555",
+            marginBottom: "3rem",
+          }}
+        >
+          We believe Olfaction AI uniquely addresses major pain points of
+          Physical AI, including minimizing and improving the efficiency of
+          ever-scarce computational resources, reducing the physical training
+          costs to develop physical world foundation models, while enhancing
+          data quality and diversity through the additional &ldquo;chemical
+          perception&rdquo; input dimension to future devices and systems.
         </p>
 
         {/* Management */}
@@ -221,7 +248,11 @@ const CompanySection: FC = () => (
                 >
                   {label}
                 </th>
-                <td style={{ padding: "1rem 0", color: "#555", lineHeight: 1.7 }}>{value}</td>
+                <td
+                  style={{ padding: "1rem 0", color: "#555", lineHeight: 1.7 }}
+                >
+                  {value}
+                </td>
               </tr>
             ))}
           </tbody>

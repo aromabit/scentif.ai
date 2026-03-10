@@ -4,7 +4,7 @@ import "./reset.css"
 
 export const metadata = {
   title: "Scentif.ai",
-  description: "Page description",
+  description: "ScentifAI® is the Digital Olfaction AI Platform.",
 }
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {

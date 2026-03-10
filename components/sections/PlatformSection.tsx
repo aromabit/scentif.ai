@@ -1,20 +1,19 @@
 import { FC } from "react"
 
 const specs = [
+  "Ultra-compact [1.2mm x 1.2mm sensor array area]",
   "Ultra-high resolution [57,000 px]",
   "High gas sensitivity [100ppb NH3 / 10 ppt Ethanol]",
+  "High-performance, proprietary receptor membrane material portfolio",
   "Low-cost, silicon CMOS based chip [under $10/chip upon mass production]",
-  "On-chip ADC Circuitry & SPI Interface",
-  "PKG 20-pin Connector / LGA for CHIP PKG to Board connection",
-  "High-performance, receptor membrane material portfolio [20 available / 100+ developed]",
+  "On-die ADC Circuitry & SPI Interface",
+  "chip PKG w/ 20-pin Connector / LGA for CHIP PKG to Board connection",
 ]
 
 const features = [
-  "Aroma Imaging Sensor Hardware Platform",
-  "Sensor Datasets / Database",
-  "Sensor Data Analysis",
-  "Olfaction Classification Deep Learning",
-  "Multi-modal Learning",
+  "Sensor Dataset | Database Analysis",
+  "Olfaction Classification Training /  Learning",
+  "Customizable Ambient Sensing Applications/APIs",
 ]
 
 const CheckItem: FC<{ text: string }> = ({ text }) => (
@@ -44,11 +43,10 @@ const CheckItem: FC<{ text: string }> = ({ text }) => (
 
 const PlatformSection: FC = () => (
   <section id="platform">
-    {/* ScentifAI */}
     <div
       id="scentifai"
       style={{
-        maxWidth: "800px",
+        maxWidth: "1000px",
         margin: "0 auto",
         padding: "5rem 1rem",
         textAlign: "center",
@@ -65,14 +63,19 @@ const PlatformSection: FC = () => (
         ScentifAI<sup style={{ fontSize: "1rem" }}>®</sup>
       </h2>
 
-      <p style={{ fontSize: "1rem", lineHeight: 1.9, color: "#444", marginBottom: "2.5rem" }}>
-        ScentifAI<sup>®</sup> is the digital Olfaction AI Platform,
+      <p
+        style={{
+          fontSize: "1rem",
+          lineHeight: 1.9,
+          color: "#444",
+          marginBottom: "2.5rem",
+        }}
+      >
+        ScentifAI® is the Digital Olfaction AI Platform,
         <br />
-        enabling
+        enabling Cross &amp;
         <br />
-        Cross-modal, Multi-modal Platform Machine Learning,
-        <br />
-        with key features including:
+        Multi-modal Machine Learnings capabilities, including:
       </p>
 
       <ul
@@ -91,39 +94,47 @@ const PlatformSection: FC = () => (
         ))}
       </ul>
 
-      <p style={{ fontSize: ".95rem", color: "#888", fontStyle: "italic", marginBottom: "3rem" }}>
+      <p
+        style={{
+          fontSize: ".95rem",
+          color: "#888",
+          fontStyle: "italic",
+          marginBottom: "3rem",
+        }}
+      >
         ….much more to come!
       </p>
 
-      <p style={{ fontSize: ".95rem", lineHeight: 1.9, color: "#555", marginBottom: "2rem" }}>
-        Suitable for various applications including but not limited to humanoid robotics
-        and autonomous driving &amp; navigations,
-        where augmenting olfaction makes critical differences in reaction output or system
-        performance derived from absence of potential data quality &amp; diversity
-        that would have been derived from olfaction input data, during various learning processes,
-        contributing to smarter, differentiated, and efficient system than competitor.
+      <p
+        style={{
+          fontSize: ".95rem",
+          lineHeight: 1.9,
+          color: "#555",
+          marginBottom: "2rem",
+        }}
+      >
+        Suitable for various applications such as physical AI, robotics,
+        autonomous driving &amp; navigations, mobile &amp; wearables, industrial
+        IoTs, where augmenting unique ambient / olfaction perception data stack
+        contributing to differentiated and efficient intelligent systems.
       </p>
 
       <p style={{ fontSize: ".9rem", color: "#555" }}>
-        Contact{" "}
+        Contact &nbsp;
         <a href="mailto:info@scentif.ai" style={{ color: "#33b9c5" }}>
           info@scentif.ai
-        </a>{" "}
-        for earlier access detail.
+        </a>
+        &nbsp; for early access & detail.
       </p>
       <p style={{ fontSize: ".85rem", color: "#888", marginTop: ".5rem" }}>
         Currently available for corporate customers only.
       </p>
     </div>
 
-    {/* Aroma Imaging Sensor */}
-    <div
-      id="aroma-imaging-sensor"
-      style={{ backgroundColor: "#f5f5f5" }}
-    >
+    <div id="aroma-imaging-sensor" style={{ backgroundColor: "#f5f5f5" }}>
       <div
         style={{
-          maxWidth: "800px",
+          maxWidth: "1000px",
           margin: "0 auto",
           padding: "5rem 1rem",
           textAlign: "center",
@@ -149,17 +160,22 @@ const PlatformSection: FC = () => (
             color: "#111",
           }}
         >
-          Invisible World of Aroma.{" "}
+          Invisible World of Aroma. &nbsp;
           <span style={{ color: "#33b9c5" }}>Visualized.</span>
         </p>
 
-        <p style={{ fontSize: ".95rem", lineHeight: 1.9, color: "#555", marginBottom: "3rem" }}>
-          Ultra-high resolution, Realtime Lapse of Odor &ldquo;Fingerprint Image Pattern&rdquo;
-          <br />
-          upon pure chemicals gas exposure to sensor
+        <p
+          style={{
+            fontSize: ".95rem",
+            lineHeight: 1.9,
+            color: "#555",
+            marginBottom: "3rem",
+          }}
+        >
+          UUltra-high resolution, Realtime Lapse of Odor “Fingerprint Image
+          Pattern” upon pure chemicals gas exposure to sensor
         </p>
 
-        {/* Flow diagram */}
         <div
           style={{
             display: "flex",
@@ -171,42 +187,93 @@ const PlatformSection: FC = () => (
           }}
         >
           {[
-            { label: "Odor", sub: "[Chemical World]" },
+            {
+              label: "Odor",
+              sub: "[Ambient Chemical World]",
+              image: "./images/ais1.png",
+            },
             { label: "→" },
-            { label: "Odor Imaging Sensor", sub: "" },
+            {
+              label: "Odor Imaging Sensor",
+              sub: "",
+              image: "./images/ais2.png",
+            },
             { label: "→" },
-            { label: "Vision Data", sub: "[Image Pattern]" },
+            {
+              label: "Vision Data",
+              sub: "[Image Pattern]",
+              image: "./images/ais3.png",
+            },
             { label: "+" },
-            { label: "AI / ML", sub: "" },
+            { label: "AI / ML", sub: "", image: "./images/ais4.png" },
+            { label: "→" },
+            { label: "Action / Reaction", sub: "" },
           ].map((item, i) =>
-            item.label === "→" || item.label === "+" ? (
-              <span key={i} style={{ fontSize: "1.25rem", color: "#33b9c5", fontWeight: 700 }}>
+            item.sub == undefined ? (
+              <span
+                key={i}
+                style={{
+                  fontSize: "1.25rem",
+                  color: "#33b9c5",
+                  fontWeight: 700,
+                }}
+              >
                 {item.label}
               </span>
             ) : (
               <div key={i} style={{ textAlign: "center" }}>
-                <div style={{ fontSize: ".9rem", fontWeight: 600, color: "#111" }}>
+                {item.image && !item.sub && (
+                  <img
+                    src={item.image}
+                    alt={item.label}
+                    style={{ padding: "1rem", width: "6rem" }}
+                  />
+                )}
+                <div
+                  style={{ fontSize: ".9rem", fontWeight: 600, color: "#111" }}
+                >
                   {item.label}
                 </div>
                 {item.sub && (
-                  <div style={{ fontSize: ".75rem", color: "#888" }}>{item.sub}</div>
+                  <div style={{ fontSize: ".75rem", color: "#888" }}>
+                    {item.sub}
+                  </div>
+                )}
+                {item.image && item.sub && (
+                  <img
+                    src={item.image}
+                    alt={item.label}
+                    style={{ padding: "1rem", width: "8rem" }}
+                  />
                 )}
               </div>
             )
           )}
         </div>
 
-        <p style={{ fontSize: ".95rem", lineHeight: 1.9, color: "#555", marginBottom: "3rem" }}>
-          Aroma Imaging Sensor converts analogue Smell/Odor Input as digital Video/Vision image
-          pattern, similar to conventional vision image sensors or cameras on smartphone.
-          <br /><br />
-          Aroma Imaging Sensor is the advanced e-nose sensor system platform, designed with
-          standardized, compatible data format and architecture for scalable, standardized
-          Olfaction machine learning for the first-time, optimized to work with ScentifAI
-          olfaction AI Platform.
+        <p
+          style={{
+            fontSize: ".95rem",
+            lineHeight: 1.9,
+            color: "#555",
+            marginBottom: "3rem",
+          }}
+        >
+          Aroma Imaging Sensor converts analogue Smell/Odor Input as digital
+          Video/Vision image pattern, similar to conventional vision image
+          sensors or cameras on smartphone.
+          <br />
+          <br />
+          Aroma Imaging Sensor is the advanced e-nose sensor system platform,
+          designed with standardized, compatible data format and architecture
+          for scalable, standardized Olfaction machine learning for the
+          first-time. Optimized to work with &nbsp;
+          <a href="#scentifai" style={{ color: "#33b9c5" }}>
+            ScentifAI
+          </a>
+          &nbsp; Olfaction AI Platform.
         </p>
 
-        {/* Key Specifications */}
         <p
           style={{
             fontSize: ".8rem",
@@ -234,8 +301,6 @@ const PlatformSection: FC = () => (
             <CheckItem key={s} text={s} />
           ))}
         </ul>
-
-        {/* POC */}
         <div
           style={{
             backgroundColor: "#fff",
@@ -260,21 +325,28 @@ const PlatformSection: FC = () => (
           >
             AVAILABLE FOR POC
           </span>
-          <p style={{ fontSize: ".95rem", fontWeight: 600, color: "#111", marginBottom: ".75rem" }}>
-            [For POC] 5C-SSM / SDK — IN PRODUCTION
+          <p
+            style={{
+              fontSize: ".95rem",
+              fontWeight: 600,
+              color: "#111",
+              marginBottom: ".75rem",
+            }}
+          >
+            [For POC] 5C-SSM / SDK
           </p>
           <p style={{ fontSize: ".9rem", lineHeight: 1.8, color: "#555" }}>
-            5C-SSM is an in-production POC kit for customers who wish to try our CMOS e-nose
-            systems for their applications.
+            5C-SSM is easy-to-measure POC kit for customers who wish to try our
+            CMOS e-nose systems to embed in their devices &amp; systems.
           </p>
         </div>
 
         <p style={{ fontSize: ".9rem", color: "#555" }}>
-          Contact{" "}
+          Contact &nbsp;
           <a href="mailto:info@scentif.ai" style={{ color: "#33b9c5" }}>
             info@scentif.ai
-          </a>{" "}
-          for early access and detail.
+          </a>
+          &nbsp; for early access and detail.
         </p>
         <p style={{ fontSize: ".85rem", color: "#888", marginTop: ".5rem" }}>
           Currently Only Available for selected corporate customers only.
