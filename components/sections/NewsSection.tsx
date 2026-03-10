@@ -7,9 +7,12 @@ type NewsPost = {
 
 async function fetchNews(): Promise<NewsPost[]> {
   try {
-    const res = await fetch("https://aromabit.com/wp-json/wp/v2/news?per_page=10&_fields=id,date,title,link", {
-      next: { revalidate: 3600 },
-    })
+    const res = await fetch(
+      "https://aromabit.com/wp-json/wp/v2/news?news_cat=23,32,35,129&per_page=10&_fields=id,date,title,link",
+      {
+        next: { revalidate: 3600 },
+      }
+    )
     if (!res.ok) return []
     return res.json()
   } catch {
