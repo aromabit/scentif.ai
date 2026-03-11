@@ -1,8 +1,10 @@
 "use client"
 
 import { FC } from "react"
+import { useForm, ValidationError } from "@formspree/react"
 
 const ContactSection: FC = () => {
+  const [state, handleSubmit] = useForm("xjgawvge")
   const inputStyle = {
     backgroundColor: "#fff",
     border: "1px solid #ddd",
@@ -47,91 +49,120 @@ const ContactSection: FC = () => {
             info@scentif.ai
           </a>
         </p>
-        <form
-          action="https://formspree.io/f/xjgawvge"
-          method="POST"
-          style={{ display: "flex", flexDirection: "column", gap: "1.25rem" }}
-        >
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              gap: ".375rem",
-            }}
+        {state.succeeded ? (
+          <>
+            <p>Thanks for Contact</p>
+          </>
+        ) : (
+          <form
+            onSubmit={handleSubmit}
+            style={{ display: "flex", flexDirection: "column", gap: "1.25rem" }}
           >
-            <label style={{ color: "#555", fontSize: ".85rem" }} htmlFor="name">
-              Name
-            </label>
-            <input type="text" required id="name" style={inputStyle} />
-          </div>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              gap: ".375rem",
-            }}
-          >
-            <label
-              style={{ color: "#555", fontSize: ".85rem" }}
-              htmlFor="email"
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                gap: ".375rem",
+              }}
             >
-              Email
-            </label>
-            <input type="email" required id="email" style={inputStyle} />
-          </div>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              gap: ".375rem",
-            }}
-          >
-            <label
-              style={{ color: "#555", fontSize: ".85rem" }}
-              htmlFor="company"
+              <label
+                style={{ color: "#555", fontSize: ".85rem" }}
+                htmlFor="name"
+              >
+                Name
+              </label>
+              <input type="text" required id="name" style={inputStyle} />
+              <ValidationError
+                prefix="Name"
+                field="name"
+                errors={state.errors}
+              />
+            </div>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                gap: ".375rem",
+              }}
             >
-              Company
-            </label>
-            <input type="text" id="company" style={inputStyle} />
-          </div>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              gap: ".375rem",
-            }}
-          >
-            <label
-              style={{ color: "#555", fontSize: ".85rem" }}
-              htmlFor="message"
+              <label
+                style={{ color: "#555", fontSize: ".85rem" }}
+                htmlFor="email"
+              >
+                Email
+              </label>
+              <input type="email" required id="email" style={inputStyle} />
+              <ValidationError
+                prefix="Email"
+                field="email"
+                errors={state.errors}
+              />
+            </div>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                gap: ".375rem",
+              }}
             >
-              Message
-            </label>
-            <textarea
-              required
-              rows={5}
-              id="message"
-              style={{ ...inputStyle, resize: "vertical" }}
-            />
-          </div>
-          <button
-            type="submit"
-            style={{
-              alignSelf: "flex-start",
-              backgroundColor: "#33b9c5",
-              border: "none",
-              borderRadius: "4px",
-              color: "#fff",
-              cursor: "pointer",
-              fontSize: ".9rem",
-              fontWeight: 600,
-              minWidth: "160px",
-              padding: ".875rem",
-            }}
-          >
-            Send Message
-          </button>
-        </form>
+              <label
+                style={{ color: "#555", fontSize: ".85rem" }}
+                htmlFor="company"
+              >
+                Company
+              </label>
+              <input type="text" id="company" style={inputStyle} />
+              <ValidationError
+                prefix="Company"
+                field="company"
+                errors={state.errors}
+              />
+            </div>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                gap: ".375rem",
+              }}
+            >
+              <label
+                style={{ color: "#555", fontSize: ".85rem" }}
+                htmlFor="message"
+              >
+                Message
+              </label>
+              <textarea
+                required
+                rows={5}
+                id="message"
+                style={{ ...inputStyle, resize: "vertical" }}
+              />
+              <ValidationError
+                prefix="Message"
+                field="message"
+                errors={state.errors}
+              />
+            </div>
+            <button
+              type="submit"
+              disabled={state.submitting}
+              style={{
+                alignSelf: "flex-start",
+                backgroundColor: "#33b9c5",
+                border: "none",
+                borderRadius: "4px",
+                color: "#fff",
+                cursor: "pointer",
+                fontSize: ".9rem",
+                fontWeight: 600,
+                minWidth: "160px",
+                padding: ".875rem",
+              }}
+            >
+              Send Message
+            </button>
+          </form>
+        )}
       </div>
     </section>
   )
