@@ -16,54 +16,54 @@ const partners = [
 ]
 
 const management = [
-  { role: "Founder & CEO", name: "Shunichiro Kuroki" },
+  { name: "Shunichiro Kuroki", role: "Founder & CEO" },
   {
-    role: "CTO",
     name: "Kazuaki Sawada, Ph.D. — Toyohashi University of Technology",
+    role: "CTO",
   },
-  { role: "Technology Advisor & ex-CTO", name: "Kenichi Hashizume" },
+  { name: "Kenichi Hashizume", role: "Technology Advisor & ex-CTO" },
 ]
 
 const CompanySection: FC = () => (
   <section id="company">
     <div
       style={{
-        maxWidth: "720px",
         margin: "0 auto",
+        maxWidth: "720px",
         padding: "5rem 1rem",
         textAlign: "center",
       }}
     >
       <h2
         style={{
+          color: "#33b9c5",
           fontSize: "1.5rem",
           fontWeight: 700,
-          color: "#33b9c5",
           marginBottom: "2.5rem",
         }}
       >
         Mission
       </h2>
-      <p style={{ fontWeight: 700, color: "#111", marginBottom: "1rem" }}>
+      <p style={{ color: "#111", fontWeight: 700, marginBottom: "1rem" }}>
         ScentifAI is on a mission to Naturalize AI thru Digital Olfaction
         innovation.
       </p>
       <div
         style={{
+          color: "#444",
           display: "flex",
           flexDirection: "column",
-          gap: "1.75rem",
           fontSize: "1rem",
+          gap: "1.75rem",
           lineHeight: 1.9,
-          color: "#444",
           textAlign: "left",
         }}
       >
         <div>
           <p
             style={{
-              fontWeight: 600,
               color: "#111",
+              fontWeight: 600,
               marginBottom: ".25rem",
             }}
           >
@@ -72,7 +72,7 @@ const CompanySection: FC = () => (
           <p>&ldquo;Why Nature created Nose?&rdquo;</p>
         </div>
         <div>
-          <p style={{ fontWeight: 600, color: "#111", marginBottom: ".25rem" }}>
+          <p style={{ color: "#111", fontWeight: 600, marginBottom: ".25rem" }}>
             Our Belief:
           </p>
           <p>
@@ -81,13 +81,13 @@ const CompanySection: FC = () => (
           </p>
         </div>
         <div>
-          <p style={{ fontWeight: 600, color: "#111", marginBottom: ".25rem" }}>
+          <p style={{ color: "#111", fontWeight: 600, marginBottom: ".25rem" }}>
             Our Conclusion:
           </p>
           <p>Let us give the same sensory to AI.</p>
         </div>
         <div>
-          <p style={{ fontWeight: 600, color: "#111", marginBottom: ".25rem" }}>
+          <p style={{ color: "#111", fontWeight: 600, marginBottom: ".25rem" }}>
             Imagine:
           </p>
           <p>
@@ -101,16 +101,16 @@ const CompanySection: FC = () => (
     <div style={{ backgroundColor: "#f5f5f5" }}>
       <div
         style={{
-          maxWidth: "1000px",
           margin: "0 auto",
+          maxWidth: "1000px",
           padding: "5rem 1rem",
         }}
       >
         <h2
           style={{
+            color: "#33b9c5",
             fontSize: "2rem",
             fontWeight: 700,
-            color: "#33b9c5",
             marginBottom: "2rem",
           }}
         >
@@ -119,9 +119,9 @@ const CompanySection: FC = () => (
 
         <p
           style={{
+            color: "#111",
             fontSize: "1.25rem",
             fontWeight: 700,
-            color: "#111",
             marginBottom: ".75rem",
           }}
         >
@@ -129,16 +129,16 @@ const CompanySection: FC = () => (
         </p>
         <a
           href="//aromabit.com"
-          style={{ fontSize: ".9rem", color: "#888", marginBottom: "2rem" }}
+          style={{ color: "#888", fontSize: ".9rem", marginBottom: "2rem" }}
         >
           formerly known as Aroma Bit, Inc.
         </a>
 
         <p
           style={{
+            color: "#555",
             fontSize: ".95rem",
             lineHeight: 1.9,
-            color: "#555",
             marginBottom: "1.5rem",
           }}
         >
@@ -154,23 +154,23 @@ const CompanySection: FC = () => (
         <div
           style={{
             borderLeft: "3px solid #33b9c5",
-            paddingLeft: "1.5rem",
             marginBottom: "2rem",
+            paddingLeft: "1.5rem",
           }}
         >
-          <p style={{ fontWeight: 700, color: "#111", marginBottom: ".5rem" }}>
+          <p style={{ color: "#111", fontWeight: 700, marginBottom: ".5rem" }}>
             Digitization of Scent / Olfaction
           </p>
-          <p style={{ fontWeight: 700, color: "#111" }}>
+          <p style={{ color: "#111", fontWeight: 700 }}>
             The Last Missing Sense in the Physical AI era
           </p>
         </div>
 
         <p
           style={{
+            color: "#555",
             fontSize: ".95rem",
             lineHeight: 1.9,
-            color: "#555",
             marginBottom: "3rem",
           }}
         >
@@ -183,9 +183,9 @@ const CompanySection: FC = () => (
         </p>
         <h3
           style={{
+            color: "#111",
             fontSize: "1rem",
             fontWeight: 700,
-            color: "#111",
             marginBottom: "1.25rem",
           }}
         >
@@ -193,16 +193,16 @@ const CompanySection: FC = () => (
         </h3>
         <ul
           style={{
-            listStyle: "none",
-            margin: "0 0 3rem",
-            padding: 0,
             display: "flex",
             flexDirection: "column",
             gap: ".75rem",
+            listStyle: "none",
+            margin: "0 0 3rem",
+            padding: 0,
           }}
         >
           {management.map((m) => (
-            <li key={m.role} style={{ fontSize: ".9rem", color: "#333" }}>
+            <li key={m.role} style={{ color: "#333", fontSize: ".9rem" }}>
               <span style={{ fontWeight: 600 }}>{m.role}</span> — {m.name}
             </li>
           ))}
@@ -210,9 +210,9 @@ const CompanySection: FC = () => (
 
         <h3
           style={{
+            color: "#111",
             fontSize: "1rem",
             fontWeight: 700,
-            color: "#111",
             marginBottom: "1.25rem",
           }}
         >
@@ -220,10 +220,10 @@ const CompanySection: FC = () => (
         </h3>
         <table
           style={{
-            width: "100%",
             borderCollapse: "collapse",
             fontSize: ".9rem",
             marginBottom: "2rem",
+            width: "100%",
           }}
         >
           <tbody>
@@ -242,19 +242,19 @@ const CompanySection: FC = () => (
               <tr key={label} style={{ borderBottom: "1px solid #e8e8e8" }}>
                 <th
                   style={{
+                    color: "#111",
+                    fontWeight: 600,
                     padding: "1rem 1rem 1rem 0",
                     textAlign: "left",
-                    fontWeight: 600,
-                    width: "220px",
-                    color: "#111",
                     verticalAlign: "top",
                     whiteSpace: "nowrap",
+                    width: "220px",
                   }}
                 >
                   {label}
                 </th>
                 <td
-                  style={{ padding: "1rem 0", color: "#555", lineHeight: 1.7 }}
+                  style={{ color: "#555", lineHeight: 1.7, padding: "1rem 0" }}
                 >
                   {value}
                 </td>
@@ -263,18 +263,18 @@ const CompanySection: FC = () => (
             <tr style={{ borderBottom: "1px solid #e8e8e8" }}>
               <th
                 style={{
+                  color: "#111",
+                  fontWeight: 600,
                   padding: "1rem 1rem 1rem 0",
                   textAlign: "left",
-                  fontWeight: 600,
-                  width: "220px",
-                  color: "#111",
                   verticalAlign: "top",
                   whiteSpace: "nowrap",
+                  width: "220px",
                 }}
               >
                 Access
               </th>
-              <td style={{ padding: "1rem 0", color: "#555", lineHeight: 1.7 }}>
+              <td style={{ color: "#555", lineHeight: 1.7, padding: "1rem 0" }}>
                 <p>■Headquarter</p>
                 <p>Sagami Bldg. 2F, 7-13-6 Ginza, Chuo-ku, Tokyo</p>
                 <p>TEL. +81-3-4455-4609</p>
@@ -287,9 +287,9 @@ const CompanySection: FC = () => (
 
         <h3
           style={{
+            color: "#111",
             fontSize: "1rem",
             fontWeight: 700,
-            color: "#111",
             marginBottom: "1rem",
           }}
         >
@@ -309,9 +309,9 @@ const CompanySection: FC = () => (
                 backgroundColor: "#fff",
                 border: "1px solid #e0e0e0",
                 borderRadius: "4px",
-                padding: ".3rem .75rem",
-                fontSize: ".8rem",
                 color: "#555",
+                fontSize: ".8rem",
+                padding: ".3rem .75rem",
               }}
             >
               {p}
@@ -322,10 +322,10 @@ const CompanySection: FC = () => (
               backgroundColor: "#fff",
               border: "1px solid #e0e0e0",
               borderRadius: "4px",
-              padding: ".3rem .75rem",
-              fontSize: ".8rem",
               color: "#888",
+              fontSize: ".8rem",
               fontStyle: "italic",
+              padding: ".3rem .75rem",
             }}
           >
             and more…

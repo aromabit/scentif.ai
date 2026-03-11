@@ -11,40 +11,40 @@ const ContactSection: FC = () => {
   }
 
   const inputStyle = {
-    width: "100%",
-    padding: ".75rem 1rem",
+    backgroundColor: "#fff",
     border: "1px solid #ddd",
     borderRadius: "4px",
-    fontSize: ".9rem",
-    color: "#333",
-    backgroundColor: "#fff",
     boxSizing: "border-box" as const,
+    color: "#333",
+    fontSize: ".9rem",
+    padding: ".75rem 1rem",
+    width: "100%",
   }
 
   return (
     <section id="contact" style={{ backgroundColor: "#f5f5f5" }}>
       <div
         style={{
-          maxWidth: "640px",
           margin: "0 auto",
+          maxWidth: "640px",
           padding: "5rem 1rem",
         }}
       >
         <h2
           style={{
+            color: "#111",
             fontSize: "2rem",
             fontWeight: 700,
             marginBottom: ".75rem",
-            color: "#111",
           }}
         >
           Contact
         </h2>
         <p
           style={{
+            color: "#555",
             fontSize: ".9rem",
             lineHeight: 1.8,
-            color: "#555",
             marginBottom: "2.5rem",
           }}
         >
@@ -74,7 +74,7 @@ const ContactSection: FC = () => {
               }}
             >
               <label
-                style={{ fontSize: ".85rem", color: "#555" }}
+                style={{ color: "#555", fontSize: ".85rem" }}
                 htmlFor="name"
               >
                 Name
@@ -89,7 +89,7 @@ const ContactSection: FC = () => {
               }}
             >
               <label
-                style={{ fontSize: ".85rem", color: "#555" }}
+                style={{ color: "#555", fontSize: ".85rem" }}
                 htmlFor="email"
               >
                 Email
@@ -104,7 +104,7 @@ const ContactSection: FC = () => {
               }}
             >
               <label
-                style={{ fontSize: ".85rem", color: "#555" }}
+                style={{ color: "#555", fontSize: ".85rem" }}
                 htmlFor="company"
               >
                 Company
@@ -119,7 +119,7 @@ const ContactSection: FC = () => {
               }}
             >
               <label
-                style={{ fontSize: ".85rem", color: "#555" }}
+                style={{ color: "#555", fontSize: ".85rem" }}
                 htmlFor="message"
               >
                 Message
@@ -134,16 +134,16 @@ const ContactSection: FC = () => {
             <button
               type="submit"
               style={{
+                alignSelf: "flex-start",
                 backgroundColor: "#33b9c5",
-                color: "#fff",
                 border: "none",
                 borderRadius: "4px",
-                padding: ".875rem",
+                color: "#fff",
+                cursor: "pointer",
                 fontSize: ".9rem",
                 fontWeight: 600,
-                cursor: "pointer",
-                alignSelf: "flex-start",
                 minWidth: "160px",
+                padding: ".875rem",
               }}
             >
               Send Message

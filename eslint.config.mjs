@@ -24,6 +24,7 @@ export default [
         },
       ],
       "react/react-in-jsx-scope": "off",
+      "sort-keys": ["error", "asc", { caseSensitive: true }],
       ...pluginReactHooks.configs.recommended.rules,
     },
     settings: {

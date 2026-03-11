@@ -6,16 +6,16 @@ const HeroSection: FC = () => (
       alignItems: "center",
       backgroundColor: "#fcfcfc",
       backgroundImage: "url('./images/bg.png')",
-      backgroundSize: "cover",
       backgroundPosition: "center",
+      backgroundSize: "cover",
       display: "flex",
+      flexDirection: "column",
+      flexWrap: "wrap",
+      gap: "1.5rem",
       justifyContent: "center",
       minHeight: "66dvh",
-      textAlign: "center",
-      flexWrap: "wrap",
-      flexDirection: "column",
-      gap: "1.5rem",
       padding: "2rem 1rem",
+      textAlign: "center",
     }}
   >
     <img
@@ -28,9 +28,9 @@ const HeroSection: FC = () => (
     />
     <p
       style={{
+        color: "rgba(255,255,255,0.6)",
         fontSize: "clamp(2rem, 5vw, 2.5rem)",
         fontWeight: 700,
-        color: "rgba(255,255,255,0.6)",
         letterSpacing: "-.01em",
         lineHeight: 1.25,
         maxWidth: "80%",

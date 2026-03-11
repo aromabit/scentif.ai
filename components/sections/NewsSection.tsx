@@ -35,36 +35,36 @@ const NewsSection = async () => {
     <section id="news">
       <div
         style={{
-          maxWidth: "960px",
           margin: "0 auto",
+          maxWidth: "960px",
           padding: "5rem 1rem",
         }}
       >
         <h2
           style={{
+            color: "#111",
             fontSize: "2rem",
             fontWeight: 700,
             marginBottom: "3rem",
-            color: "#111",
           }}
         >
           News
         </h2>
 
         {news.length === 0 ? (
-          <p style={{ fontSize: ".9rem", color: "#888" }}>No news available.</p>
+          <p style={{ color: "#888", fontSize: ".9rem" }}>No news available.</p>
         ) : (
           <ul style={{ listStyle: "none", margin: 0, padding: 0 }}>
             {news.map((item) => (
               <li
                 key={item.id}
                 style={{
-                  display: "flex",
                   alignItems: "baseline",
+                  borderBottom: "1px solid #e8e8e8",
+                  display: "flex",
+                  fontSize: ".9rem",
                   gap: "1.5rem",
                   padding: "1.25rem 0",
-                  borderBottom: "1px solid #e8e8e8",
-                  fontSize: ".9rem",
                 }}
               >
                 <span style={{ color: "#888", whiteSpace: "nowrap" }}>

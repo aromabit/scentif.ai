@@ -24,19 +24,19 @@ const HeaderNav: FC = () => (
     <ul
       style={{
         display: "flex",
+        fontSize: ".875rem",
         gap: "2rem",
         listStyle: "none",
         margin: 0,
         padding: 0,
-        fontSize: ".875rem",
       }}
     >
       <NavDropdown
         label="Olfaction AI Platform"
         href="#platform"
         items={[
-          { label: "ScentifAI", href: "#scentifai" },
-          { label: "Aroma Imaging Sensor", href: "#aroma-imaging-sensor" },
+          { href: "#scentifai", label: "ScentifAI" },
+          { href: "#aroma-imaging-sensor", label: "Aroma Imaging Sensor" },
         ]}
       />
       <NavItem label="Company" href="#company" />

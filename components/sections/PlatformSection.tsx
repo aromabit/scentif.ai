@@ -19,22 +19,22 @@ const features = [
 const CheckItem: FC<{ text: string }> = ({ text }) => (
   <li
     style={{
-      display: "flex",
       alignItems: "flex-start",
-      gap: ".75rem",
-      fontSize: ".95rem",
       color: "#333",
+      display: "flex",
+      fontSize: ".95rem",
+      gap: ".75rem",
       lineHeight: 1.6,
     }}
   >
     <span
       style={{
-        width: "1.1rem",
-        height: "1.1rem",
-        borderRadius: "3px",
         border: "2px solid #33b9c5",
+        borderRadius: "3px",
         flexShrink: 0,
+        height: "1.1rem",
         marginTop: ".2rem",
+        width: "1.1rem",
       }}
     />
     {text}
@@ -46,18 +46,18 @@ const PlatformSection: FC = () => (
     <div
       id="scentifai"
       style={{
-        maxWidth: "1000px",
         margin: "0 auto",
+        maxWidth: "1000px",
         padding: "5rem 1rem",
         textAlign: "center",
       }}
     >
       <h2
         style={{
+          color: "#111",
           fontSize: "2.5rem",
           fontWeight: 700,
           marginBottom: "2rem",
-          color: "#111",
         }}
       >
         ScentifAI<sup style={{ fontSize: "1rem" }}>®</sup>
@@ -65,9 +65,9 @@ const PlatformSection: FC = () => (
 
       <p
         style={{
+          color: "#444",
           fontSize: "1rem",
           lineHeight: 1.9,
-          color: "#444",
           marginBottom: "2.5rem",
         }}
       >
@@ -80,12 +80,12 @@ const PlatformSection: FC = () => (
 
       <ul
         style={{
-          listStyle: "none",
-          margin: "0 auto 2.5rem",
-          padding: 0,
           display: "inline-flex",
           flexDirection: "column",
           gap: ".75rem",
+          listStyle: "none",
+          margin: "0 auto 2.5rem",
+          padding: 0,
           textAlign: "left",
         }}
       >
@@ -96,8 +96,8 @@ const PlatformSection: FC = () => (
 
       <p
         style={{
-          fontSize: ".95rem",
           color: "#888",
+          fontSize: ".95rem",
           fontStyle: "italic",
           marginBottom: "3rem",
         }}
@@ -107,9 +107,9 @@ const PlatformSection: FC = () => (
 
       <p
         style={{
+          color: "#555",
           fontSize: ".95rem",
           lineHeight: 1.9,
-          color: "#555",
           marginBottom: "2rem",
         }}
       >
@@ -119,14 +119,14 @@ const PlatformSection: FC = () => (
         contributing to differentiated and efficient intelligent systems.
       </p>
 
-      <p style={{ fontSize: ".9rem", color: "#555" }}>
+      <p style={{ color: "#555", fontSize: ".9rem" }}>
         Contact &nbsp;
         <a href="mailto:info@scentif.ai" style={{ color: "#33b9c5" }}>
           info@scentif.ai
         </a>
         &nbsp; for early access & detail.
       </p>
-      <p style={{ fontSize: ".85rem", color: "#888", marginTop: ".5rem" }}>
+      <p style={{ color: "#888", fontSize: ".85rem", marginTop: ".5rem" }}>
         Currently available for corporate customers only.
       </p>
     </div>
@@ -134,19 +134,19 @@ const PlatformSection: FC = () => (
     <div id="aroma-imaging-sensor" style={{ backgroundColor: "#f5f5f5" }}>
       <div
         style={{
-          maxWidth: "1000px",
           margin: "0 auto",
+          maxWidth: "1000px",
           padding: "5rem 1rem",
           textAlign: "center",
         }}
       >
         <p
           style={{
+            color: "#111",
             fontSize: "1.75rem",
             fontWeight: 700,
             lineHeight: 1.4,
             marginBottom: "2rem",
-            color: "#111",
           }}
         >
           Invisible World of Aroma. &nbsp;
@@ -155,14 +155,14 @@ const PlatformSection: FC = () => (
 
         <p
           style={{
+            color: "#555",
             fontSize: ".95rem",
             lineHeight: 1.9,
-            color: "#555",
             marginBottom: "3rem",
           }}
         >
-          UUltra-high resolution, Realtime Lapse of Odor “Fingerprint Image
-          Pattern” upon pure chemicals gas exposure to sensor
+          UUltra-high resolution, Realtime Lapse of Odor &ldquo;Fingerprint Image
+          Pattern&rdquo; upon pure chemicals gas exposure to sensor
         </p>
 
         <img
@@ -201,19 +201,19 @@ const PlatformSection: FC = () => (
         </div>
         <h3
           style={{
+            color: "#111",
             fontSize: "1.75rem",
             fontWeight: 700,
             marginBottom: "1.5rem",
-            color: "#111",
           }}
         >
           Aroma Imaging Sensor [AIS]
         </h3>
         <p
           style={{
+            color: "#555",
             fontSize: ".95rem",
             lineHeight: 1.9,
-            color: "#555",
             marginBottom: "3rem",
           }}
         >
@@ -223,34 +223,34 @@ const PlatformSection: FC = () => (
         </p>
         <div
           style={{
-            display: "flex",
             alignItems: "center",
-            justifyContent: "center",
-            gap: "1rem",
-            marginBottom: "3rem",
+            display: "flex",
             flexWrap: "wrap",
+            gap: "1rem",
+            justifyContent: "center",
+            marginBottom: "3rem",
           }}
         >
           {[
             {
+              image: "./images/ais1.png",
               label: "Odor",
               sub: "[Ambient Chemical World]",
-              image: "./images/ais1.png",
             },
             { label: "→" },
             {
+              image: "./images/ais2.png",
               label: "Odor Imaging Sensor",
               sub: "",
-              image: "./images/ais2.png",
             },
             { label: "→" },
             {
+              image: "./images/ais3.png",
               label: "Vision Data",
               sub: "[Image Pattern]",
-              image: "./images/ais3.png",
             },
             { label: "+" },
-            { label: "AI / ML", sub: "", image: "./images/ais4.png" },
+            { image: "./images/ais4.png", label: "AI / ML", sub: "" },
             { label: "→" },
             { label: "Action / Reaction", sub: "" },
           ].map((item, i) =>
@@ -258,8 +258,8 @@ const PlatformSection: FC = () => (
               <span
                 key={i}
                 style={{
-                  fontSize: "1.25rem",
                   color: "#33b9c5",
+                  fontSize: "1.25rem",
                   fontWeight: 700,
                 }}
               >
@@ -275,12 +275,12 @@ const PlatformSection: FC = () => (
                   />
                 )}
                 <div
-                  style={{ fontSize: ".9rem", fontWeight: 600, color: "#111" }}
+                  style={{ color: "#111", fontSize: ".9rem", fontWeight: 600 }}
                 >
                   {item.label}
                 </div>
                 {item.sub && (
-                  <div style={{ fontSize: ".75rem", color: "#888" }}>
+                  <div style={{ color: "#888", fontSize: ".75rem" }}>
                     {item.sub}
                   </div>
                 )}
@@ -297,9 +297,9 @@ const PlatformSection: FC = () => (
         </div>
         <p
           style={{
+            color: "#555",
             fontSize: ".95rem",
             lineHeight: 1.9,
-            color: "#555",
             marginBottom: "3rem",
           }}
         >
@@ -316,24 +316,24 @@ const PlatformSection: FC = () => (
         <div style={{ padding: "1rem" }}>
           <p
             style={{
+              color: "#888",
               fontSize: ".8rem",
               fontWeight: 600,
-              textTransform: "uppercase",
               letterSpacing: ".08em",
-              color: "#888",
               marginBottom: "1rem",
+              textTransform: "uppercase",
             }}
           >
             Key Specifications
           </p>
           <ul
             style={{
-              listStyle: "none",
-              margin: "0 auto 3rem",
-              padding: 0,
               display: "inline-flex",
               flexDirection: "column",
               gap: ".75rem",
+              listStyle: "none",
+              margin: "0 auto 3rem",
+              padding: 0,
               textAlign: "left",
             }}
           >
@@ -354,49 +354,49 @@ const PlatformSection: FC = () => (
             backgroundColor: "#fff",
             border: "1px solid #e8e8e8",
             borderRadius: "8px",
-            padding: "2rem",
             marginBottom: "2rem",
+            padding: "2rem",
           }}
         >
           <span
             style={{
-              display: "inline-block",
               backgroundColor: "#f5c518",
+              borderRadius: "4px",
               color: "#111",
+              display: "inline-block",
               fontSize: ".75rem",
               fontWeight: 700,
               letterSpacing: ".08em",
-              padding: ".35rem .9rem",
-              borderRadius: "4px",
               marginBottom: "1.25rem",
+              padding: ".35rem .9rem",
             }}
           >
             AVAILABLE FOR POC
           </span>
           <p
             style={{
+              color: "#111",
               fontSize: ".95rem",
               fontWeight: 600,
-              color: "#111",
               marginBottom: ".75rem",
             }}
           >
             [For POC] 5C-SSM / SDK
           </p>
-          <p style={{ fontSize: ".9rem", lineHeight: 1.8, color: "#555" }}>
+          <p style={{ color: "#555", fontSize: ".9rem", lineHeight: 1.8 }}>
             5C-SSM is easy-to-measure POC kit for customers who wish to try our
             CMOS e-nose systems to embed in their devices &amp; systems.
           </p>
         </div>
 
-        <p style={{ fontSize: ".9rem", color: "#555" }}>
+        <p style={{ color: "#555", fontSize: ".9rem" }}>
           Contact &nbsp;
           <a href="mailto:info@scentif.ai" style={{ color: "#33b9c5" }}>
             info@scentif.ai
           </a>
           &nbsp; for early access and detail.
         </p>
-        <p style={{ fontSize: ".85rem", color: "#888", marginTop: ".5rem" }}>
+        <p style={{ color: "#888", fontSize: ".85rem", marginTop: ".5rem" }}>
           Currently Only Available for selected corporate customers only.
         </p>
       </div>

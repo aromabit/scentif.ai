@@ -3,8 +3,8 @@ import HeaderNav from "components/elements/HeaderNav"
 import "./reset.css"
 
 export const metadata = {
-  title: "Scentif.ai",
   description: "ScentifAI® is the Digital Olfaction AI Platform.",
+  title: "Scentif.ai",
 }
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
@@ -13,15 +13,15 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
       <body>
         <header
           style={{
+            alignItems: "center",
             backgroundColor: "#fcfcfc",
+            display: "flex",
+            flexWrap: "wrap",
+            justifyContent: "space-between",
             padding: "0 1rem",
             position: "sticky",
             top: 0,
             zIndex: 100,
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "space-between",
-            flexWrap: "wrap",
           }}
         >
           <Title>
