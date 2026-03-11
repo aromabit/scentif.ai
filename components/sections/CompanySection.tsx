@@ -45,7 +45,7 @@ const CompanySection: FC = () => (
         Mission
       </h2>
       <p style={{ color: "#111", fontWeight: 700, marginBottom: "1rem" }}>
-        ScentifAI is on a mission to Naturalize AI thru Digital Olfaction
+        ScentifAI is on a mission to Naturalize AI through Digital Olfaction
         innovation.
       </p>
       <div
@@ -60,7 +60,7 @@ const CompanySection: FC = () => (
         }}
       >
         <div>
-          <p
+          <span
             style={{
               color: "#111",
               fontWeight: 600,
@@ -68,32 +68,39 @@ const CompanySection: FC = () => (
             }}
           >
             Ask:
-          </p>
-          <p>&ldquo;Why Nature created Nose?&rdquo;</p>
+          </span>
+          &nbsp; &ldquo;Why Nature created Nose?&rdquo;
         </div>
         <div>
-          <p style={{ color: "#111", fontWeight: 600, marginBottom: ".25rem" }}>
+          <span
+            style={{
+              color: "#111",
+              display: "inline",
+              fontWeight: 600,
+              marginBottom: ".25rem",
+            }}
+          >
             Our Belief:
-          </p>
-          <p>
-            b/c Nose is Efficient & Critical-for-life & Valuable & Emotional!
-            learning organ to understand ambient world.
-          </p>
+          </span>
+          &nbsp; Because Nose is Efficient & Critical-for-life & Valuable &
+          Emotional! learning organ to understand ambient physical world.
         </div>
         <div>
-          <p style={{ color: "#111", fontWeight: 600, marginBottom: ".25rem" }}>
+          <span
+            style={{ color: "#111", fontWeight: 600, marginBottom: ".25rem" }}
+          >
             Our Conclusion:
-          </p>
-          <p>Let us give the same sensory to AI.</p>
+          </span>
+          &nbsp; Let us give the same sensory to AI.
         </div>
         <div>
-          <p style={{ color: "#111", fontWeight: 600, marginBottom: ".25rem" }}>
+          <span
+            style={{ color: "#111", fontWeight: 600, marginBottom: ".25rem" }}
+          >
             Imagine:
-          </p>
-          <p>
-            &ldquo;Behavior &amp; reactions of humanoids: one with Nose vs.
-            those without.&rdquo;
-          </p>
+          </span>
+          &nbsp; &ldquo;Behavior &amp; reactions of humanoids: one with Nose vs.
+          those without.&rdquo;
         </div>
       </div>
     </div>

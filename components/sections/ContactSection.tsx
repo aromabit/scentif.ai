@@ -42,11 +42,10 @@ const ContactSection: FC = () => {
           }}
         >
           For inquiries about our products and services, please reach out using
-          the form below, or email us directly at{" "}
+          the form below, or email us directly at &nbsp;
           <a href="mailto:info@scentif.ai" style={{ color: "#33b9c5" }}>
             info@scentif.ai
           </a>
-          .
         </p>
         <form
           action="https://formspree.io/f/xjgawvge"

@@ -127,7 +127,7 @@ const PlatformSection: FC = () => (
         &nbsp; for early access & detail.
       </p>
       <p style={{ color: "#888", fontSize: ".85rem", marginTop: ".5rem" }}>
-        Currently available for corporate customers only.
+        Currently available for corporate customers.
       </p>
     </div>
 
@@ -161,7 +161,7 @@ const PlatformSection: FC = () => (
             marginBottom: "3rem",
           }}
         >
-          UUltra-high resolution, Realtime Lapse of Odor &ldquo;Fingerprint Image
+          Ultra-high resolution, Realtime Lapse of Odor &ldquo;Fingerprint Image
           Pattern&rdquo; upon pure chemicals gas exposure to sensor
         </p>
 
@@ -314,18 +314,16 @@ const PlatformSection: FC = () => (
         </p>
 
         <div style={{ padding: "1rem" }}>
-          <p
+          <h3
             style={{
-              color: "#888",
-              fontSize: ".8rem",
-              fontWeight: 600,
-              letterSpacing: ".08em",
-              marginBottom: "1rem",
-              textTransform: "uppercase",
+              color: "#111",
+              fontSize: "1.75rem",
+              fontWeight: 700,
+              marginBottom: "1.5rem",
             }}
           >
             Key Specifications
-          </p>
+          </h3>
           <ul
             style={{
               display: "inline-flex",
@@ -397,7 +395,7 @@ const PlatformSection: FC = () => (
           &nbsp; for early access and detail.
         </p>
         <p style={{ color: "#888", fontSize: ".85rem", marginTop: ".5rem" }}>
-          Currently Only Available for selected corporate customers only.
+          Currently Only Available for selected corporate customers.
         </p>
       </div>
     </div>
