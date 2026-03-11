@@ -22,10 +22,7 @@ const ContactSection: FC = () => {
   }
 
   return (
-    <section
-      id="contact"
-      style={{ backgroundColor: "#f5f5f5" }}
-    >
+    <section id="contact" style={{ backgroundColor: "#f5f5f5" }}>
       <div
         style={{
           maxWidth: "640px",
@@ -51,8 +48,8 @@ const ContactSection: FC = () => {
             marginBottom: "2.5rem",
           }}
         >
-          For inquiries about our products and services, please reach out using the form below,
-          or email us directly at{" "}
+          For inquiries about our products and services, please reach out using
+          the form below, or email us directly at{" "}
           <a href="mailto:info@scentif.ai" style={{ color: "#33b9c5" }}>
             info@scentif.ai
           </a>
@@ -61,30 +58,76 @@ const ContactSection: FC = () => {
 
         {submitted ? (
           <p style={{ color: "#33b9c5", fontSize: ".95rem" }}>
-            Thank you for your message. A member of our team will be in touch shortly.
+            Thank you for your message. A member of our team will be in touch
+            shortly.
           </p>
         ) : (
           <form
             onSubmit={handleSubmit}
             style={{ display: "flex", flexDirection: "column", gap: "1.25rem" }}
           >
-            <div style={{ display: "flex", flexDirection: "column", gap: ".375rem" }}>
-              <label style={{ fontSize: ".85rem", color: "#555" }}>Name</label>
-              <input type="text" required style={inputStyle} />
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                gap: ".375rem",
+              }}
+            >
+              <label
+                style={{ fontSize: ".85rem", color: "#555" }}
+                htmlFor="name"
+              >
+                Name
+              </label>
+              <input type="text" required id="name" style={inputStyle} />
             </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: ".375rem" }}>
-              <label style={{ fontSize: ".85rem", color: "#555" }}>Email</label>
-              <input type="email" required style={inputStyle} />
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                gap: ".375rem",
+              }}
+            >
+              <label
+                style={{ fontSize: ".85rem", color: "#555" }}
+                htmlFor="email"
+              >
+                Email
+              </label>
+              <input type="email" required id="email" style={inputStyle} />
             </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: ".375rem" }}>
-              <label style={{ fontSize: ".85rem", color: "#555" }}>Company</label>
-              <input type="text" style={inputStyle} />
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                gap: ".375rem",
+              }}
+            >
+              <label
+                style={{ fontSize: ".85rem", color: "#555" }}
+                htmlFor="company"
+              >
+                Company
+              </label>
+              <input type="text" id="company" style={inputStyle} />
             </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: ".375rem" }}>
-              <label style={{ fontSize: ".85rem", color: "#555" }}>Message</label>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                gap: ".375rem",
+              }}
+            >
+              <label
+                style={{ fontSize: ".85rem", color: "#555" }}
+                htmlFor="message"
+              >
+                Message
+              </label>
               <textarea
                 required
                 rows={5}
+                id="message"
                 style={{ ...inputStyle, resize: "vertical" }}
               />
             </div>
