@@ -1,15 +1,8 @@
 "use client"
 
-import { FC, FormEvent, useState } from "react"
+import { FC } from "react"
 
 const ContactSection: FC = () => {
-  const [submitted, setSubmitted] = useState(false)
-
-  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
-    e.preventDefault()
-    setSubmitted(true)
-  }
-
   const inputStyle = {
     backgroundColor: "#fff",
     border: "1px solid #ddd",
@@ -55,101 +48,91 @@ const ContactSection: FC = () => {
           </a>
           .
         </p>
-
-        {submitted ? (
-          <p style={{ color: "#33b9c5", fontSize: ".95rem" }}>
-            Thank you for your message. A member of our team will be in touch
-            shortly.
-          </p>
-        ) : (
-          <form
-            onSubmit={handleSubmit}
-            style={{ display: "flex", flexDirection: "column", gap: "1.25rem" }}
+        <form
+          action="https://formspree.io/f/xjgawvge"
+          method="POST"
+          style={{ display: "flex", flexDirection: "column", gap: "1.25rem" }}
+        >
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              gap: ".375rem",
+            }}
           >
-            <div
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                gap: ".375rem",
-              }}
+            <label style={{ color: "#555", fontSize: ".85rem" }} htmlFor="name">
+              Name
+            </label>
+            <input type="text" required id="name" style={inputStyle} />
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              gap: ".375rem",
+            }}
+          >
+            <label
+              style={{ color: "#555", fontSize: ".85rem" }}
+              htmlFor="email"
             >
-              <label
-                style={{ color: "#555", fontSize: ".85rem" }}
-                htmlFor="name"
-              >
-                Name
-              </label>
-              <input type="text" required id="name" style={inputStyle} />
-            </div>
-            <div
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                gap: ".375rem",
-              }}
+              Email
+            </label>
+            <input type="email" required id="email" style={inputStyle} />
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              gap: ".375rem",
+            }}
+          >
+            <label
+              style={{ color: "#555", fontSize: ".85rem" }}
+              htmlFor="company"
             >
-              <label
-                style={{ color: "#555", fontSize: ".85rem" }}
-                htmlFor="email"
-              >
-                Email
-              </label>
-              <input type="email" required id="email" style={inputStyle} />
-            </div>
-            <div
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                gap: ".375rem",
-              }}
+              Company
+            </label>
+            <input type="text" id="company" style={inputStyle} />
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              gap: ".375rem",
+            }}
+          >
+            <label
+              style={{ color: "#555", fontSize: ".85rem" }}
+              htmlFor="message"
             >
-              <label
-                style={{ color: "#555", fontSize: ".85rem" }}
-                htmlFor="company"
-              >
-                Company
-              </label>
-              <input type="text" id="company" style={inputStyle} />
-            </div>
-            <div
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                gap: ".375rem",
-              }}
-            >
-              <label
-                style={{ color: "#555", fontSize: ".85rem" }}
-                htmlFor="message"
-              >
-                Message
-              </label>
-              <textarea
-                required
-                rows={5}
-                id="message"
-                style={{ ...inputStyle, resize: "vertical" }}
-              />
-            </div>
-            <button
-              type="submit"
-              style={{
-                alignSelf: "flex-start",
-                backgroundColor: "#33b9c5",
-                border: "none",
-                borderRadius: "4px",
-                color: "#fff",
-                cursor: "pointer",
-                fontSize: ".9rem",
-                fontWeight: 600,
-                minWidth: "160px",
-                padding: ".875rem",
-              }}
-            >
-              Send Message
-            </button>
-          </form>
-        )}
+              Message
+            </label>
+            <textarea
+              required
+              rows={5}
+              id="message"
+              style={{ ...inputStyle, resize: "vertical" }}
+            />
+          </div>
+          <button
+            type="submit"
+            style={{
+              alignSelf: "flex-start",
+              backgroundColor: "#33b9c5",
+              border: "none",
+              borderRadius: "4px",
+              color: "#fff",
+              cursor: "pointer",
+              fontSize: ".9rem",
+              fontWeight: 600,
+              minWidth: "160px",
+              padding: ".875rem",
+            }}
+          >
+            Send Message
+          </button>
+        </form>
       </div>
     </section>
   )
