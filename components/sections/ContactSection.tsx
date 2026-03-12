@@ -1,20 +1,44 @@
 "use client"
 
-import { FC } from "react"
+import { ComponentProps, FC } from "react"
 import { useForm, ValidationError } from "@formspree/react"
+
+const Input: FC<ComponentProps<"input">> = ({ style, ...props }) => (
+  <input
+    style={{
+      backgroundColor: "#fff",
+      border: "1px solid #ddd",
+      borderRadius: "4px",
+      boxSizing: "border-box" as const,
+      color: "#333",
+      fontSize: ".9rem",
+      padding: ".75rem 1rem",
+      width: "100%",
+      ...style,
+    }}
+    {...props}
+  />
+)
+
+const Textarea: FC<ComponentProps<"textarea">> = ({ style, ...props }) => (
+  <textarea
+    style={{
+      backgroundColor: "#fff",
+      border: "1px solid #ddd",
+      borderRadius: "4px",
+      boxSizing: "border-box" as const,
+      color: "#333",
+      fontSize: ".9rem",
+      padding: ".75rem 1rem",
+      width: "100%",
+      ...style,
+    }}
+    {...props}
+  />
+)
 
 const ContactSection: FC = () => {
   const [state, handleSubmit] = useForm("xjgawvge")
-  const inputStyle = {
-    backgroundColor: "#fff",
-    border: "1px solid #ddd",
-    borderRadius: "4px",
-    boxSizing: "border-box" as const,
-    color: "#333",
-    fontSize: ".9rem",
-    padding: ".75rem 1rem",
-    width: "100%",
-  }
 
   return (
     <section id="contact" style={{ backgroundColor: "#f5f5f5" }}>
@@ -51,7 +75,11 @@ const ContactSection: FC = () => {
         </p>
         {state.succeeded ? (
           <>
-            <p>Thanks for Contact</p>
+            <h3>Thank you for your inquiry.</h3>
+            <p>
+              We have received your message and will get back to you as soon as
+              possible.
+            </p>
           </>
         ) : (
           <form
@@ -71,7 +99,7 @@ const ContactSection: FC = () => {
               >
                 Name
               </label>
-              <input type="text" required id="name" style={inputStyle} />
+              <Input type="text" required name="name" id="name" />
               <ValidationError
                 prefix="Name"
                 field="name"
@@ -91,7 +119,7 @@ const ContactSection: FC = () => {
               >
                 Email
               </label>
-              <input type="email" required id="email" style={inputStyle} />
+              <Input type="email" name="email" required id="email" />
               <ValidationError
                 prefix="Email"
                 field="email"
@@ -111,7 +139,7 @@ const ContactSection: FC = () => {
               >
                 Company
               </label>
-              <input type="text" id="company" style={inputStyle} />
+              <Input type="text" name="company" id="company" />
               <ValidationError
                 prefix="Company"
                 field="company"
@@ -131,11 +159,12 @@ const ContactSection: FC = () => {
               >
                 Message
               </label>
-              <textarea
+              <Textarea
+                name="message"
                 required
                 rows={5}
                 id="message"
-                style={{ ...inputStyle, resize: "vertical" }}
+                style={{ resize: "vertical" }}
               />
               <ValidationError
                 prefix="Message"
