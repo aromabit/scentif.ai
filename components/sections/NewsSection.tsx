@@ -1,6 +1,7 @@
 "use client"
 
 import { FC, useEffect, useState } from "react"
+import { Locale, translations } from "lib/translations"
 
 type NewsPost = {
   id: number
@@ -17,7 +18,8 @@ const formatDate = (dateStr: string): string => {
   return `${y}.${m}.${day}`
 }
 
-const NewsSection: FC = () => {
+const NewsSection: FC<{ locale?: Locale }> = ({ locale = "en" }) => {
+  const t = translations[locale].news
   const [news, setNews] = useState<NewsPost[]>([])
 
   useEffect(() => {
@@ -46,11 +48,11 @@ const NewsSection: FC = () => {
             marginBottom: "3rem",
           }}
         >
-          News
+          {t.title}
         </h2>
 
         {news.length === 0 ? (
-          <p style={{ color: "#888", fontSize: ".9rem" }}>No news available.</p>
+          <p style={{ color: "#888", fontSize: ".9rem" }}>{t.noNews}</p>
         ) : (
           <ul style={{ listStyle: "none", margin: 0, padding: 0 }}>
             {news.map((item) => (

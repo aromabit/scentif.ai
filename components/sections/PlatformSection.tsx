@@ -1,20 +1,5 @@
 import { FC } from "react"
-
-const specs = [
-  "Ultra-compact [1.2mm x 1.2mm sensor array area]",
-  "Ultra-high resolution [57,000 px]",
-  "High gas sensitivity [100ppb NH3 / 10 ppt Ethanol]",
-  "High-performance, proprietary receptor membrane material portfolio",
-  "Low-cost, silicon CMOS based chip [under $10/chip upon mass production]",
-  "On-die ADC Circuitry & SPI Interface",
-  "chip PKG w/ 20-pin Connector / LGA for CHIP PKG to Board connection",
-]
-
-const features = [
-  "Sensor Dataset | Database Analysis",
-  "Olfaction Classification Training /  Learning",
-  "Customizable Ambient Sensing Applications/APIs",
-]
+import { Locale, translations } from "lib/translations"
 
 const CheckItem: FC<{ text: string }> = ({ text }) => (
   <li
@@ -41,97 +26,13 @@ const CheckItem: FC<{ text: string }> = ({ text }) => (
   </li>
 )
 
-const PlatformSection: FC = () => (
-  <section id="platform">
-    <div
-      id="scentifai"
-      style={{
-        margin: "0 auto",
-        maxWidth: "1000px",
-        padding: "5rem 1rem",
-        textAlign: "center",
-      }}
-    >
-      <h2
-        style={{
-          color: "#111",
-          fontSize: "2.5rem",
-          fontWeight: 700,
-          marginBottom: "2rem",
-        }}
-      >
-        ScentifAI<sup style={{ fontSize: "1rem" }}>®</sup>
-      </h2>
+const PlatformSection: FC<{ locale?: Locale }> = ({ locale = "en" }) => {
+  const t = translations[locale].platform
 
-      <p
-        style={{
-          color: "#444",
-          fontSize: "1rem",
-          lineHeight: 1.9,
-          marginBottom: "2.5rem",
-        }}
-      >
-        ScentifAI® is the Digital Olfaction AI Platform, enabling Cross &amp;
-        Multi-modal Machine Learnings capabilities,
-        <br />
-        including:
-      </p>
-
-      <ul
-        style={{
-          display: "inline-flex",
-          flexDirection: "column",
-          gap: ".75rem",
-          listStyle: "none",
-          margin: "0 auto 2.5rem",
-          padding: 0,
-          textAlign: "left",
-        }}
-      >
-        {features.map((f) => (
-          <CheckItem key={f} text={f} />
-        ))}
-      </ul>
-
-      <p
-        style={{
-          color: "#888",
-          fontSize: ".95rem",
-          fontStyle: "italic",
-          marginBottom: "3rem",
-        }}
-      >
-        ... &amp; much more to come!
-      </p>
-
-      <p
-        style={{
-          color: "#555",
-          fontSize: ".95rem",
-          lineHeight: 1.9,
-          marginBottom: "2rem",
-        }}
-      >
-        Suitable for various applications such as physical AI, robotics,
-        autonomous driving &amp; navigations, mobile &amp; wearables, industrial
-        IoTs, where augmenting unique ambient / olfaction perception data stack
-        contributing to differentiated and efficient intelligent systems.
-      </p>
-
-      <p style={{ color: "#555", fontSize: ".9rem" }}>
-        Contact &nbsp;
-        <a href="mailto:info@scentif.ai" style={{ color: "#33b9c5" }}>
-          info@scentif.ai
-        </a>
-        &nbsp; for detail.
-      </p>
-      <p style={{ color: "#888", fontSize: ".85rem", marginTop: ".5rem" }}>
-        Currently available for corporate customers.
-      </p>
-    </div>
-
-    <div id="aroma-imaging-sensor" style={{ backgroundColor: "#f5f5f5" }}>
+  return (
+    <section id="platform">
       <div
+        id="scentifai"
         style={{
           margin: "0 auto",
           maxWidth: "1000px",
@@ -139,180 +40,150 @@ const PlatformSection: FC = () => (
           textAlign: "center",
         }}
       >
-        <p
+        <h2
           style={{
             color: "#111",
-            fontSize: "1.75rem",
+            fontSize: "2.5rem",
             fontWeight: 700,
-            lineHeight: 1.4,
             marginBottom: "2rem",
           }}
         >
-          Invisible World of Aroma. &nbsp;
-          <span style={{ color: "#33b9c5" }}>Visualized.</span>
-        </p>
+          ScentifAI<sup style={{ fontSize: "1rem" }}>®</sup>
+        </h2>
 
         <p
           style={{
-            color: "#555",
-            fontSize: ".95rem",
+            color: "#444",
+            fontSize: "1rem",
             lineHeight: 1.9,
-            marginBottom: "3rem",
+            marginBottom: "2.5rem",
           }}
         >
-          Ultra-high resolution, Realtime Lapse of Odor &ldquo;Fingerprint Image
-          Pattern&rdquo; upon pure chemicals gas exposure to sensor
-        </p>
-
-        <img
-          src="./images/visialize.png"
-          style={{ width: "100%" }}
-          alt="visialize"
-        />
-        <div
-          style={{
-            display: "flex",
-            flexWrap: "wrap",
-            justifyContent: "center",
-            marginBottom: "3rem",
-          }}
-        >
-          {[
-            "Benzene",
-            "Ethyl Propionate​",
-            "Ethanol",
-            "Acetone",
-            "Ammonia",
-          ].map((name, i) => (
-            <div
-              key={i}
-              style={{
-                width: "20%",
-              }}
-            >
-              <img
-                src={`./images/visialize${i + 1}.gif`}
-                alt={name}
-                style={{ width: "100%" }}
-              />
-            </div>
+          {t.description.split("\n").map((line, i) => (
+            <span key={i}>
+              {line}
+              {i < t.description.split("\n").length - 1 && <br />}
+            </span>
           ))}
-        </div>
-        <h3
+        </p>
+
+        <ul
           style={{
-            color: "#111",
-            fontSize: "1.75rem",
-            fontWeight: 700,
-            marginBottom: "1.5rem",
+            display: "inline-flex",
+            flexDirection: "column",
+            gap: ".75rem",
+            listStyle: "none",
+            margin: "0 auto 2.5rem",
+            padding: 0,
+            textAlign: "left",
           }}
         >
-          Aroma Imaging Sensor [AIS]
-        </h3>
+          {t.features.map((f) => (
+            <CheckItem key={f} text={f} />
+          ))}
+        </ul>
+
+        <p
+          style={{
+            color: "#888",
+            fontSize: ".95rem",
+            fontStyle: "italic",
+            marginBottom: "3rem",
+          }}
+        >
+          {t.moreComing}
+        </p>
+
         <p
           style={{
             color: "#555",
             fontSize: ".95rem",
             lineHeight: 1.9,
-            marginBottom: "3rem",
+            marginBottom: "2rem",
           }}
         >
-          Aroma Imaging Sensor converts analogue Smell/Odor Input as digital
-          Video/Vision image pattern, similar to conventional vision image
-          sensors or cameras on smartphone.
+          {t.appDescription}
         </p>
+
+        <p style={{ color: "#555", fontSize: ".9rem" }}>
+          Contact &nbsp;
+          <a href="mailto:info@scentif.ai" style={{ color: "#33b9c5" }}>
+            info@scentif.ai
+          </a>
+          &nbsp; {t.contactDetail}
+        </p>
+        <p style={{ color: "#888", fontSize: ".85rem", marginTop: ".5rem" }}>
+          {t.corporateOnly}
+        </p>
+      </div>
+
+      <div id="aroma-imaging-sensor" style={{ backgroundColor: "#f5f5f5" }}>
         <div
           style={{
-            alignItems: "center",
-            display: "flex",
-            flexWrap: "wrap",
-            gap: "1rem",
-            justifyContent: "center",
-            marginBottom: "3rem",
+            margin: "0 auto",
+            maxWidth: "1000px",
+            padding: "5rem 1rem",
+            textAlign: "center",
           }}
         >
-          {[
-            {
-              image: "./images/ais1.png",
-              label: "Odor",
-              sub: "[Ambient Chemical World]",
-            },
-            { label: "→" },
-            {
-              image: "./images/ais2.png",
-              label: "Odor Imaging Sensor",
-              sub: "",
-            },
-            { label: "→" },
-            {
-              image: "./images/ais3.png",
-              label: "Vision Data",
-              sub: "[Image Pattern]",
-            },
-            { label: "+" },
-            { image: "./images/ais4.png", label: "AI / ML", sub: "" },
-            { label: "→" },
-            { label: "Action / Reaction", sub: "" },
-          ].map((item, i) =>
-            item.sub == undefined ? (
-              <span
+          <p
+            style={{
+              color: "#111",
+              fontSize: "1.75rem",
+              fontWeight: 700,
+              lineHeight: 1.4,
+              marginBottom: "2rem",
+            }}
+          >
+            {t.aromaSubheading} &nbsp;
+            <span style={{ color: "#33b9c5" }}>{t.aromaVisualized}</span>
+          </p>
+
+          <p
+            style={{
+              color: "#555",
+              fontSize: ".95rem",
+              lineHeight: 1.9,
+              marginBottom: "3rem",
+            }}
+          >
+            {t.aromaDescription}
+          </p>
+
+          <img
+            src="/images/visialize.png"
+            style={{ width: "100%" }}
+            alt="visialize"
+          />
+          <div
+            style={{
+              display: "flex",
+              flexWrap: "wrap",
+              justifyContent: "center",
+              marginBottom: "3rem",
+            }}
+          >
+            {[
+              "Benzene",
+              "Ethyl Propionate\u200b",
+              "Ethanol",
+              "Acetone",
+              "Ammonia",
+            ].map((name, i) => (
+              <div
                 key={i}
                 style={{
-                  color: "#33b9c5",
-                  fontSize: "1.25rem",
-                  fontWeight: 700,
+                  width: "20%",
                 }}
               >
-                {item.label}
-              </span>
-            ) : (
-              <div key={i} style={{ textAlign: "center" }}>
-                {item.image && !item.sub && (
-                  <img
-                    src={item.image}
-                    alt={item.label}
-                    style={{ padding: "1rem", width: "6rem" }}
-                  />
-                )}
-                <div
-                  style={{ color: "#111", fontSize: ".9rem", fontWeight: 600 }}
-                >
-                  {item.label}
-                </div>
-                {item.sub && (
-                  <div style={{ color: "#888", fontSize: ".75rem" }}>
-                    {item.sub}
-                  </div>
-                )}
-                {item.image && item.sub && (
-                  <img
-                    src={item.image}
-                    alt={item.label}
-                    style={{ padding: "1rem", width: "8rem" }}
-                  />
-                )}
+                <img
+                  src={`/images/visialize${i + 1}.gif`}
+                  alt={name}
+                  style={{ width: "100%" }}
+                />
               </div>
-            )
-          )}
-        </div>
-        <p
-          style={{
-            color: "#555",
-            fontSize: ".95rem",
-            lineHeight: 1.9,
-            marginBottom: "3rem",
-          }}
-        >
-          Aroma Imaging Sensor is the advanced e-nose sensor system platform,
-          designed with standardized, compatible data format and architecture
-          for scalable, standardized Olfaction machine learning for the
-          first-time. Optimized to work with &nbsp;
-          <a href="#scentifai" style={{ color: "#33b9c5" }}>
-            ScentifAI
-          </a>
-          &nbsp; Olfaction AI Platform.
-        </p>
-
-        <div style={{ padding: "1rem" }}>
+            ))}
+          </div>
           <h3
             style={{
               color: "#111",
@@ -321,91 +192,218 @@ const PlatformSection: FC = () => (
               marginBottom: "1.5rem",
             }}
           >
-            Key Specifications
+            {t.aisTitle}
           </h3>
-          <ul
-            style={{
-              display: "inline-flex",
-              flexDirection: "column",
-              gap: ".75rem",
-              listStyle: "none",
-              margin: "0 auto 3rem",
-              padding: 0,
-              textAlign: "left",
-            }}
-          >
-            {specs.map((s) => (
-              <CheckItem key={s} text={s} />
-            ))}
-          </ul>
-          <div>
-            <img
-              src="./images/spec1.png"
-              alt="5C-SSM"
-              style={{ maxWidth: "16rem", width: "100%" }}
-            />
-          </div>
-        </div>
-        <div
-          style={{
-            backgroundColor: "#fff",
-            border: "1px solid #e8e8e8",
-            borderRadius: "8px",
-            marginBottom: "2rem",
-            padding: "2rem",
-          }}
-        >
-          <span
-            style={{
-              backgroundColor: "#f5c518",
-              borderRadius: "4px",
-              color: "#111",
-              display: "inline-block",
-              fontSize: ".75rem",
-              fontWeight: 700,
-              letterSpacing: ".08em",
-              marginBottom: "1.25rem",
-              padding: ".35rem .9rem",
-            }}
-          >
-            AVAILABLE FOR POC
-          </span>
           <p
             style={{
-              color: "#111",
+              color: "#555",
               fontSize: ".95rem",
-              fontWeight: 600,
-              marginBottom: ".75rem",
+              lineHeight: 1.9,
+              marginBottom: "3rem",
             }}
           >
-            [For POC] &nbsp;
-            <a
-              href="https://aromabit.com/en/products_datasolution-en/5c-ssm-cmos-en/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              5C-SSM / SDK
-            </a>
+            {t.aisDescription}
           </p>
-          <p style={{ color: "#555", fontSize: ".9rem", lineHeight: 1.8 }}>
-            5C-SSM is easy-to-measure POC kit for customers who wish to try our
-            CMOS e-nose systems to embed in their devices &amp; systems.
+          <div
+            style={{
+              alignItems: "center",
+              display: "flex",
+              flexWrap: "wrap",
+              gap: "1rem",
+              justifyContent: "center",
+              marginBottom: "3rem",
+            }}
+          >
+            {[
+              {
+                image: "/images/ais1.png",
+                label: t.odorItems[0].label,
+                sub: t.odorItems[0].sub,
+              },
+              { label: t.odorItems[1].label },
+              {
+                image: "/images/ais2.png",
+                label: t.odorItems[2].label,
+                sub: t.odorItems[2].sub,
+              },
+              { label: t.odorItems[3].label },
+              {
+                image: "/images/ais3.png",
+                label: t.odorItems[4].label,
+                sub: t.odorItems[4].sub,
+              },
+              { label: t.odorItems[5].label },
+              {
+                image: "/images/ais4.png",
+                label: t.odorItems[6].label,
+                sub: t.odorItems[6].sub,
+              },
+              { label: t.odorItems[7].label },
+              { label: t.odorItems[8].label, sub: "" },
+            ].map((item, i) =>
+              item.sub == undefined ? (
+                <span
+                  key={i}
+                  style={{
+                    color: "#33b9c5",
+                    fontSize: "1.25rem",
+                    fontWeight: 700,
+                  }}
+                >
+                  {item.label}
+                </span>
+              ) : (
+                <div key={i} style={{ textAlign: "center" }}>
+                  {item.image && !item.sub && (
+                    <img
+                      src={item.image}
+                      alt={item.label}
+                      style={{ padding: "1rem", width: "6rem" }}
+                    />
+                  )}
+                  <div
+                    style={{
+                      color: "#111",
+                      fontSize: ".9rem",
+                      fontWeight: 600,
+                    }}
+                  >
+                    {item.label}
+                  </div>
+                  {item.sub && (
+                    <div style={{ color: "#888", fontSize: ".75rem" }}>
+                      {item.sub}
+                    </div>
+                  )}
+                  {item.image && item.sub && (
+                    <img
+                      src={item.image}
+                      alt={item.label}
+                      style={{ padding: "1rem", width: "8rem" }}
+                    />
+                  )}
+                </div>
+              )
+            )}
+          </div>
+          <p
+            style={{
+              color: "#555",
+              fontSize: ".95rem",
+              lineHeight: 1.9,
+              marginBottom: "3rem",
+            }}
+          >
+            {t.aisDescription2.split("\u00a0ScentifAI\u00a0").map((part, i) =>
+              i === 0 ? (
+                part
+              ) : (
+                <span key={i}>
+                  &nbsp;
+                  <a href="#scentifai" style={{ color: "#33b9c5" }}>
+                    ScentifAI
+                  </a>
+                  &nbsp;
+                  {part}
+                </span>
+              )
+            )}
+          </p>
+
+          <div style={{ padding: "1rem" }}>
+            <h3
+              style={{
+                color: "#111",
+                fontSize: "1.75rem",
+                fontWeight: 700,
+                marginBottom: "1.5rem",
+              }}
+            >
+              {t.keySpecs}
+            </h3>
+            <ul
+              style={{
+                display: "inline-flex",
+                flexDirection: "column",
+                gap: ".75rem",
+                listStyle: "none",
+                margin: "0 auto 3rem",
+                padding: 0,
+                textAlign: "left",
+              }}
+            >
+              {t.specs.map((s) => (
+                <CheckItem key={s} text={s} />
+              ))}
+            </ul>
+            <div>
+              <img
+                src="/images/spec1.png"
+                alt="5C-SSM"
+                style={{ maxWidth: "16rem", width: "100%" }}
+              />
+            </div>
+          </div>
+          <div
+            style={{
+              backgroundColor: "#fff",
+              border: "1px solid #e8e8e8",
+              borderRadius: "8px",
+              marginBottom: "2rem",
+              padding: "2rem",
+            }}
+          >
+            <span
+              style={{
+                backgroundColor: "#f5c518",
+                borderRadius: "4px",
+                color: "#111",
+                display: "inline-block",
+                fontSize: ".75rem",
+                fontWeight: 700,
+                letterSpacing: ".08em",
+                marginBottom: "1.25rem",
+                padding: ".35rem .9rem",
+              }}
+            >
+              {t.pocBadge}
+            </span>
+            <p
+              style={{
+                color: "#111",
+                fontSize: ".95rem",
+                fontWeight: 600,
+                marginBottom: ".75rem",
+              }}
+            >
+              {t.pocTitle} &nbsp;
+              <a
+                href="https://aromabit.com/en/products_datasolution-en/5c-ssm-cmos-en/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                5C-SSM / SDK
+              </a>
+            </p>
+            <p style={{ color: "#555", fontSize: ".9rem", lineHeight: 1.8 }}>
+              {t.pocDescription}
+            </p>
+          </div>
+
+          <p style={{ color: "#555", fontSize: ".9rem" }}>
+            Contact &nbsp;
+            <a href="mailto:info@scentif.ai" style={{ color: "#33b9c5" }}>
+              info@scentif.ai
+            </a>
+            &nbsp; {t.contactEarlyAccess}
+          </p>
+          <p style={{ color: "#888", fontSize: ".85rem", marginTop: ".5rem" }}>
+            {t.selectedOnly}
           </p>
         </div>
-
-        <p style={{ color: "#555", fontSize: ".9rem" }}>
-          Contact &nbsp;
-          <a href="mailto:info@scentif.ai" style={{ color: "#33b9c5" }}>
-            info@scentif.ai
-          </a>
-          &nbsp; for early access and detail.
-        </p>
-        <p style={{ color: "#888", fontSize: ".85rem", marginTop: ".5rem" }}>
-          Currently Only Available for selected corporate customers.
-        </p>
       </div>
-    </div>
-  </section>
-)
+    </section>
+  )
+}
 
 export default PlatformSection

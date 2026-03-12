@@ -5,7 +5,6 @@ import "./reset.css"
 
 export const metadata = {
   description: "ScentifAI® is the Digital Olfaction AI Platform.",
-  title: "Scentif.ai",
   openGraph: {
     description: "ScentifAI® is the Digital Olfaction AI Platform.",
     images: [
@@ -18,6 +17,7 @@ export const metadata = {
     type: "website",
     url: "https://scentif.ai",
   },
+  title: "Scentif.ai",
   twitter: {
     card: "summary_large_image",
     description: "ScentifAI® is the Digital Olfaction AI Platform.",
@@ -45,7 +45,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
         >
           <Title>
             <img
-              src="./images/logo_2.png"
+              src="/images/logo_2.png"
               alt="Logo"
               style={{ height: "3rem", marginRight: "0.5rem" }}
             />
