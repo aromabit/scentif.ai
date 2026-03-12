@@ -71,11 +71,10 @@ const PlatformSection: FC = () => (
           marginBottom: "2.5rem",
         }}
       >
-        ScentifAI® is the Digital Olfaction AI Platform,
+        ScentifAI® is the Digital Olfaction AI Platform, enabling Cross &amp;
+        Multi-modal Machine Learnings capabilities,
         <br />
-        enabling Cross &amp;
-        <br />
-        Multi-modal Machine Learnings capabilities, including:
+        including:
       </p>
 
       <ul
@@ -102,7 +101,7 @@ const PlatformSection: FC = () => (
           marginBottom: "3rem",
         }}
       >
-        ….much more to come!
+        ... &amp; much more to come!
       </p>
 
       <p
@@ -124,7 +123,7 @@ const PlatformSection: FC = () => (
         <a href="mailto:info@scentif.ai" style={{ color: "#33b9c5" }}>
           info@scentif.ai
         </a>
-        &nbsp; for early access & detail.
+        &nbsp; for detail.
       </p>
       <p style={{ color: "#888", fontSize: ".85rem", marginTop: ".5rem" }}>
         Currently available for corporate customers.
@@ -379,7 +378,14 @@ const PlatformSection: FC = () => (
               marginBottom: ".75rem",
             }}
           >
-            [For POC] 5C-SSM / SDK
+            [For POC] &nbsp;
+            <a
+              href="https://aromabit.com/en/products_datasolution-en/5c-ssm-cmos-en/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              5C-SSM / SDK
+            </a>
           </p>
           <p style={{ color: "#555", fontSize: ".9rem", lineHeight: 1.8 }}>
             5C-SSM is easy-to-measure POC kit for customers who wish to try our

@@ -123,7 +123,6 @@ const CompanySection: FC = () => (
         >
           Company
         </h2>
-
         <p
           style={{
             color: "#111",
@@ -134,13 +133,20 @@ const CompanySection: FC = () => (
         >
           ScentifAI is Olfaction AI startup.
         </p>
-        <a
-          href="//aromabit.com"
-          style={{ color: "#888", fontSize: ".9rem", marginBottom: "2rem" }}
-        >
-          formerly known as Aroma Bit, Inc.
-        </a>
-
+        <p>
+          formerly known as
+          <a
+            href="//aromabit.com"
+            style={{
+              color: "#888",
+              fontSize: ".9rem",
+              marginBottom: "2rem",
+              textDecoration: "underline",
+            }}
+          >
+            Aroma Bit, Inc.
+          </a>
+        </p>
         <p
           style={{
             color: "#555",
@@ -157,7 +163,6 @@ const CompanySection: FC = () => (
           relentlessly to solve one of the biggest remaining technological
           challenge in the advent of Physical AI era:
         </p>
-
         <div
           style={{
             borderLeft: "3px solid #33b9c5",
@@ -172,7 +177,6 @@ const CompanySection: FC = () => (
             The Last Missing Sense in the Physical AI era
           </p>
         </div>
-
         <p
           style={{
             color: "#555",
@@ -214,7 +218,6 @@ const CompanySection: FC = () => (
             </li>
           ))}
         </ul>
-
         <h3
           style={{
             color: "#111",
@@ -291,7 +294,6 @@ const CompanySection: FC = () => (
             </tr>
           </tbody>
         </table>
-
         <h3
           style={{
             color: "#111",
