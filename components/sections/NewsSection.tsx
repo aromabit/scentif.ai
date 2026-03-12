@@ -1,3 +1,5 @@
+import { FC } from "react"
+
 type NewsPost = {
   id: number
   date: string
@@ -5,12 +7,12 @@ type NewsPost = {
   link: string
 }
 
-async function fetchNews(): Promise<NewsPost[]> {
+const fetchNews = async (): Promise<NewsPost[]> => {
   try {
     const res = await fetch(
       "https://aromabit.com/wp-json/wp/v2/news?news_cat=23,32,35,129&per_page=10&_fields=id,date,title,link",
       {
-        next: { revalidate: 3600 },
+        next: { revalidate: 60 },
       }
     )
     if (!res.ok) return []
@@ -20,7 +22,7 @@ async function fetchNews(): Promise<NewsPost[]> {
   }
 }
 
-function formatDate(dateStr: string): string {
+const formatDate = (dateStr: string): string => {
   const d = new Date(dateStr)
   const y = d.getFullYear()
   const m = String(d.getMonth() + 1).padStart(2, "0")
@@ -28,7 +30,7 @@ function formatDate(dateStr: string): string {
   return `${y}.${m}.${day}`
 }
 
-const NewsSection = async () => {
+const NewsSection: FC = async () => {
   const news = await fetchNews()
 
   return (
