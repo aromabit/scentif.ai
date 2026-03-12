@@ -1,3 +1,4 @@
+import { GoogleAnalytics } from "@next/third-parties/google"
 import { Title } from "components/elements/layout"
 import HeaderNav from "components/elements/HeaderNav"
 import "./reset.css"
@@ -51,6 +52,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
           <p>&copy; scentifai</p>
         </footer>
       </body>
+      <GoogleAnalytics gaId="G-DGFG6T25WJ" />
     </html>
   )
 }
