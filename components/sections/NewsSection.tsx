@@ -1,25 +1,12 @@
-import { FC } from "react"
+"use client"
+
+import { FC, useEffect, useState } from "react"
 
 type NewsPost = {
   id: number
   date: string
   title: { rendered: string }
   link: string
-}
-
-const fetchNews = async (): Promise<NewsPost[]> => {
-  try {
-    const res = await fetch(
-      "https://aromabit.com/wp-json/wp/v2/news?news_cat=23,32,35,129&per_page=10&_fields=id,date,title,link",
-      {
-        next: { revalidate: 60 },
-      }
-    )
-    if (!res.ok) return []
-    return res.json()
-  } catch {
-    return []
-  }
 }
 
 const formatDate = (dateStr: string): string => {
@@ -30,8 +17,17 @@ const formatDate = (dateStr: string): string => {
   return `${y}.${m}.${day}`
 }
 
-const NewsSection: FC = async () => {
-  const news = await fetchNews()
+const NewsSection: FC = () => {
+  const [news, setNews] = useState<NewsPost[]>([])
+
+  useEffect(() => {
+    fetch(
+      "https://aromabit.com/wp-json/wp/v2/news?news_cat=23,32,35,129&per_page=10&_fields=id,date,title,link"
+    )
+      .then((res) => (res.ok ? res.json() : []))
+      .then(setNews)
+      .catch(() => {})
+  }, [])
 
   return (
     <section id="news">
