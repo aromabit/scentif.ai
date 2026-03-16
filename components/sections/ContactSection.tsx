@@ -2,6 +2,7 @@
 
 import { ComponentProps, FC } from "react"
 import { useForm, ValidationError } from "@formspree/react"
+import { Locale, translations } from "lib/translations"
 
 const Input: FC<ComponentProps<"input">> = ({ style, ...props }) => (
   <input
@@ -37,7 +38,8 @@ const Textarea: FC<ComponentProps<"textarea">> = ({ style, ...props }) => (
   />
 )
 
-const ContactSection: FC = () => {
+const ContactSection: FC<{ locale?: Locale }> = ({ locale = "en" }) => {
+  const t = translations[locale].contact
   const [state, handleSubmit] = useForm("xjgawvge")
 
   return (
@@ -57,7 +59,7 @@ const ContactSection: FC = () => {
             marginBottom: ".75rem",
           }}
         >
-          Contact
+          {t.title}
         </h2>
         <p
           style={{
@@ -67,19 +69,15 @@ const ContactSection: FC = () => {
             marginBottom: "2.5rem",
           }}
         >
-          For inquiries about our products and services, please reach out using
-          the form below, or email us directly at &nbsp;
+          {t.description}
           <a href="mailto:info@scentif.ai" style={{ color: "#33b9c5" }}>
             info@scentif.ai
           </a>
         </p>
         {state.succeeded ? (
           <>
-            <h3>Thank you for your inquiry.</h3>
-            <p>
-              We have received your message and will get back to you as soon as
-              possible.
-            </p>
+            <h3>{t.thankYou}</h3>
+            <p>{t.received}</p>
           </>
         ) : (
           <form
@@ -97,7 +95,7 @@ const ContactSection: FC = () => {
                 style={{ color: "#555", fontSize: ".85rem" }}
                 htmlFor="name"
               >
-                Name
+                {t.name}
               </label>
               <Input type="text" required name="name" id="name" />
               <ValidationError
@@ -117,7 +115,7 @@ const ContactSection: FC = () => {
                 style={{ color: "#555", fontSize: ".85rem" }}
                 htmlFor="email"
               >
-                Email
+                {t.email}
               </label>
               <Input type="email" name="email" required id="email" />
               <ValidationError
@@ -137,7 +135,7 @@ const ContactSection: FC = () => {
                 style={{ color: "#555", fontSize: ".85rem" }}
                 htmlFor="company"
               >
-                Company
+                {t.company}
               </label>
               <Input type="text" name="company" id="company" />
               <ValidationError
@@ -157,7 +155,7 @@ const ContactSection: FC = () => {
                 style={{ color: "#555", fontSize: ".85rem" }}
                 htmlFor="message"
               >
-                Message
+                {t.message}
               </label>
               <Textarea
                 name="message"
@@ -188,7 +186,7 @@ const ContactSection: FC = () => {
                 padding: ".875rem",
               }}
             >
-              Send Message
+              {t.submit}
             </button>
           </form>
         )}

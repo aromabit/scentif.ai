@@ -45,7 +45,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
         >
           <Title>
             <img
-              src="./images/logo_2.png"
+              src="/images/logo_2.png"
               alt="Logo"
               style={{ height: "3rem", marginRight: "0.5rem" }}
             />
