@@ -5,7 +5,6 @@ import "./reset.css"
 
 export const metadata = {
   description: "ScentifAI® is the Digital Olfaction AI Platform.",
-  title: "Scentif.ai",
   openGraph: {
     description: "ScentifAI® is the Digital Olfaction AI Platform.",
     images: [
@@ -18,6 +17,7 @@ export const metadata = {
     type: "website",
     url: "https://scentif.ai",
   },
+  title: "Scentif.ai",
   twitter: {
     card: "summary_large_image",
     description: "ScentifAI® is the Digital Olfaction AI Platform.",
