@@ -22,7 +22,11 @@ const CheckItem: FC<{ text: string }> = ({ text }) => (
         width: "1.1rem",
       }}
     />
-    {text}
+    <div>
+      {text.split("\n").map((line, i) => (
+        <div key={i}>{line}</div>
+      ))}
+    </div>
   </li>
 )
 

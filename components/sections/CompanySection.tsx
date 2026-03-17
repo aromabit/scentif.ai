@@ -62,47 +62,20 @@ const CompanySection: FC<{ locale?: Locale }> = ({ locale = "en" }) => {
             textAlign: "left",
           }}
         >
-          <div>
-            <span
-              style={{
-                color: "#111",
-                fontWeight: 600,
-                marginBottom: ".25rem",
-              }}
-            >
-              {t.ask}
-            </span>
-            &nbsp; {t.askContent}
-          </div>
-          <div>
-            <span
-              style={{
-                color: "#111",
-                display: "inline",
-                fontWeight: 600,
-                marginBottom: ".25rem",
-              }}
-            >
-              {t.belief}
-            </span>
-            &nbsp; {t.beliefContent}
-          </div>
-          <div>
-            <span
-              style={{ color: "#111", fontWeight: 600, marginBottom: ".25rem" }}
-            >
-              {t.conclusion}
-            </span>
-            &nbsp; {t.conclusionContent}
-          </div>
-          <div>
-            <span
-              style={{ color: "#111", fontWeight: 600, marginBottom: ".25rem" }}
-            >
-              {t.imagine}
-            </span>
-            &nbsp; {t.imagineContent}
-          </div>
+          {t.missionBody.map(([caption, content]) => (
+            <div key={caption}>
+              <span
+                style={{
+                  color: "#111",
+                  fontWeight: 600,
+                  marginBottom: ".25rem",
+                }}
+              >
+                {caption}
+              </span>
+              &nbsp; {content}
+            </div>
+          ))}
         </div>
       </div>
 
@@ -165,12 +138,12 @@ const CompanySection: FC<{ locale?: Locale }> = ({ locale = "en" }) => {
               paddingLeft: "1.5rem",
             }}
           >
-            <p style={{ color: "#111", fontWeight: 700, marginBottom: ".5rem" }}>
+            <p
+              style={{ color: "#111", fontWeight: 700, marginBottom: ".5rem" }}
+            >
               {t.digitization}
             </p>
-            <p style={{ color: "#111", fontWeight: 700 }}>
-              {t.lastSense}
-            </p>
+            <p style={{ color: "#111", fontWeight: 700 }}>{t.lastSense}</p>
           </div>
           <p
             style={{
@@ -243,7 +216,11 @@ const CompanySection: FC<{ locale?: Locale }> = ({ locale = "en" }) => {
                     {label}
                   </th>
                   <td
-                    style={{ color: "#555", lineHeight: 1.7, padding: "1rem 0" }}
+                    style={{
+                      color: "#555",
+                      lineHeight: 1.7,
+                      padding: "1rem 0",
+                    }}
                   >
                     {value}
                   </td>
@@ -263,7 +240,9 @@ const CompanySection: FC<{ locale?: Locale }> = ({ locale = "en" }) => {
                 >
                   {t.access}
                 </th>
-                <td style={{ color: "#555", lineHeight: 1.7, padding: "1rem 0" }}>
+                <td
+                  style={{ color: "#555", lineHeight: 1.7, padding: "1rem 0" }}
+                >
                   <p>{t.headquarter}</p>
                   <p>{t.headquarterAddress}</p>
                   <p>{t.tel}</p>

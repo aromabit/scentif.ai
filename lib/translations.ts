@@ -1,17 +1,18 @@
+/* eslint-disable sort-keys */
 export type Locale = "en" | "ja"
 
 export const translations = {
   en: {
-    nav: {
-      platform: "Olfaction AI Platform",
-      scentifai: "ScentifAI",
-      ais: "Aroma Imaging Sensor",
-      company: "Company",
-      news: "News",
-      contact: "Contact",
-    },
     hero: {
       tagline: "Naturalizing AI through Digital Olfaction",
+    },
+    nav: {
+      ais: "Aroma Imaging Sensor",
+      company: "Company",
+      contact: "Contact",
+      news: "News",
+      platform: "Olfaction AI Platform",
+      scentifai: "ScentifAI",
     },
     platform: {
       description:
@@ -29,7 +30,7 @@ export const translations = {
       aromaSubheading: "Invisible World of Aroma.",
       aromaVisualized: "Visualized.",
       aromaDescription:
-        'Ultra-high resolution, Realtime Lapse of Odor \u201cFingerprint Image Pattern\u201d upon pure chemicals gas exposure to sensor',
+        "Ultra-high resolution, Realtime Lapse of Odor \u201cFingerprint Image Pattern\u201d upon pure chemicals gas exposure to sensor",
       aisTitle: "Aroma Imaging Sensor [AIS]",
       aisDescription:
         "Aroma Imaging Sensor converts analogue Smell/Odor Input as digital Video/Vision image pattern, similar to conventional vision image sensors or cameras on smartphone.",
@@ -50,7 +51,8 @@ export const translations = {
       pocDescription:
         "5C-SSM is easy-to-measure POC kit for customers who wish to try our CMOS e-nose systems to embed in their devices & systems.",
       contactEarlyAccess: "for early access and detail.",
-      selectedOnly: "Currently Only Available for selected corporate customers.",
+      selectedOnly:
+        "Currently Only Available for selected corporate customers.",
       odorItems: [
         { label: "Odor", sub: "[Ambient Chemical World]" },
         { label: "\u2192" },
@@ -67,16 +69,18 @@ export const translations = {
       missionTitle: "Mission",
       missionStatement:
         "ScentifAI is on a mission to Naturalize AI through Digital Olfaction innovation.",
-      ask: "Ask:",
-      askContent: "\u201cWhy Nature created Nose?\u201d",
-      belief: "Our Belief:",
-      beliefContent:
-        "Because Nose is Efficient & Critical-for-life & Valuable & Emotional! learning organ to understand ambient physical world.",
-      conclusion: "Our Conclusion:",
-      conclusionContent: "Let us give the same sensory to AI.",
-      imagine: "Imagine:",
-      imagineContent:
-        "\u201cBehavior & reactions of humanoids: one with Nose vs. those without.\u201d",
+      missionBody: [
+        ["Ask:", "\u201cWhy Nature created Nose?\u201d"],
+        [
+          "Our Belief:",
+          "Because Nose is Efficient & Critical-for-life & Valuable & Emotional! learning organ to understand ambient physical world.",
+        ],
+        ["Our Conclusion:", "Let us give the same sensory to AI."],
+        [
+          "Imagine:",
+          "\u201cBehavior & reactions of humanoids: one with Nose vs. those without.\u201d",
+        ],
+      ],
       companyTitle: "Company",
       companySubtitle: "ScentifAI is Olfaction AI startup.",
       formerlyKnown: "formerly known as",
@@ -138,77 +142,73 @@ export const translations = {
     },
     platform: {
       description:
-        "ScentifAI®はデジタル嗅覚AIプラットフォームです。クロス＆マルチモーダル機械学習機能を提供します。\n含む：",
+        "ScentifAI®は、クロス・マルチモーダルな機械学習を実現するデジタル嗅覚AIプラットフォームです。独自の環境や嗅覚データスタックを強化し、高度な知能システムの構築を支援します。​",
       features: [
-        "センサーデータセット | データベース分析",
-        "嗅覚分類トレーニング / 学習",
-        "カスタマイズ可能なアンビエントセンシングアプリケーション/API",
+        "データ管理：センサーデータセットの作成・データベース分析​",
+        "AI学習：ニオイデータの学習および分類トレーニング",
+        "柔軟な実装：カスタマイズ可能な環境管理アプリ / API連携​",
       ],
-      moreComing: "...さらに多くの機能が近日公開予定！",
+      moreComing: "・・・今後、さらに多彩な機能を順次追加予定です。",
       appDescription:
-        "フィジカルAI、ロボティクス、自動運転・ナビゲーション、モバイル・ウェアラブル、産業用IoTなど、ユニークなアンビエント/嗅覚知覚データスタックを付加し、差別化された効率的なインテリジェントシステムに貢献するさまざまなアプリケーションに適しています。",
-      contactDetail: "まで詳細をお問い合わせください。",
-      corporateOnly: "現在、法人のお客様向けにのみ提供しています。",
-      aromaSubheading: "見えない香りの世界。",
+        "産業用IoT、フィジカルAI、ロボティクス、自動運転・ナビゲーション、モバイル＆ウェアラブルなど、幅広いアプリケーションに最適化可能です。​",
+      contactDetail:
+        "​早期アクセスおよび詳細につきましては、下記までお問い合わせください。",
+      corporateOnly:
+        "誠に恐れ入りますが、現在ご利用いただけるのは法人のお客様のみです。​",
+      aromaSubheading: "見環境イメージングセンサーで​香りの見えない世界を",
       aromaVisualized: "可視化。",
       aromaDescription:
-        "純粋な化学ガスをセンサーに暴露した際の、超高解像度・リアルタイムの臭気「フィンガープリントイメージパターン」の経時変化",
+        "超高解像度なセンサーによる、ガス曝露時のニオイ指紋変化（タイムラプス）です。​",
       aisTitle: "Aroma Imaging Sensor [AIS]",
       aisDescription:
-        "Aroma Imaging Sensorは、スマートフォンの従来のビジョン画像センサーやカメラと同様に、アナログの臭い/香りの入力をデジタルビデオ/ビジョン画像パターンに変換します。",
+        "ニオイイメージングセンサーは、曖昧なニオイ（匂い/臭い）をカメラのようにデジタル画像パターンへと変換する技術です。​",
       aisDescription2:
-        "Aroma Imaging Sensorは高度な電子鼻センサーシステムプラットフォームです。スケーラブルで標準化された嗅覚機械学習のための、標準化・互換性のあるデータフォーマットとアーキテクチャで設計されています。\u00a0ScentifAI\u00a0嗅覚AIプラットフォームとの連携に最適化されています。",
+        "先進的なe-Nose（電子鼻）型センサーのプラットフォームとして、拡張性と標準化を両立。機械学習に最適なデータ構造で設計されており、嗅覚AIプラットフォーム「ScentifAI®」とのスムーズな連携が可能です。​",
       keySpecs: "主な仕様",
       specs: [
-        "超小型 [1.2mm x 1.2mm センサーアレイ面積]",
-        "超高解像度 [57,000 px]",
-        "高ガス感度 [100ppb NH3 / 10 ppt エタノール]",
-        "高性能・独自受容体膜材料ポートフォリオ",
-        "低コストシリコンCMOSベースチップ [量産時 $10/chip 以下]",
-        "オンダイADC回路 & SPIインターフェース",
-        "20ピンコネクタ付きチップPKG / ボード接続用LGA",
+        "【極小・超高解像度】​\n超コンパクト設計：1.2mm × 1.2mm の極小センサーアレイ​\n超高解像度：57,000ピクセル（高密度な検知ポイント）​",
+        "【圧倒的な感度と材料技術】​\n高いガス感度：アンモニア 100ppb / エタノール 10ppt の微量検知に対応​\n独自開発の受容体膜： 高性能な独自材料ポートフォリオによる幅広い検知能力​\n低コスト化を実現：シリコンCMOSベースのチップ（量産時10ドル以下を想定）​",
+        "【インターフェース・実装】​\n信号処理： A/D変換回路（ADC）およびSPIインターフェースをチップ内に搭載​\nパッケージ： 20ピンコネクタ付きパッケージ、および基板実装用LGAに対応​",
       ],
-      pocBadge: "POC受付中",
-      pocTitle: "[POC用]",
+      pocBadge: "ご利用いただけるPoCについて",
+      pocTitle: "（5C-SSM）",
       pocDescription:
-        "5C-SSMは、CMOSイーノーズシステムをデバイスやシステムに組み込みたいお客様向けの、簡単計測POCキットです。",
-      contactEarlyAccess: "まで早期アクセスや詳細についてお問い合わせください。",
-      selectedOnly: "現在、選定された法人のお客様のみへのご提供となっています。",
+        "当社のCMOS型ニオイセンサーを、自社製品やシステムへ組込検討されているお客様向けに、容易に測定可能な5C-SSM評価用キットを販売中です。​",
+      contactEarlyAccess:
+        "早期アクセスおよび詳細につきましては、下記までお問い合わせください。",
+      selectedOnly:
+        "誠に恐れ入りますが、現在ご利用いただけるのは法人のお客様のみです。​",
       odorItems: [
-        { label: "臭気", sub: "[アンビエント化学物質の世界]" },
+        { label: "ニオイ", sub: "[環境化学物質の世界]" },
         { label: "\u2192" },
-        { label: "臭気イメージングセンサー", sub: "" },
+        { label: "ニオイイメージングセンサー​", sub: "" },
         { label: "\u2192" },
-        { label: "ビジョンデータ", sub: "[画像パターン]" },
+        { label: "視覚データ​", sub: "[画像パターン]" },
         { label: "+" },
-        { label: "AI / ML", sub: "" },
+        { label: "AI / ML（機械学習）​", sub: "" },
         { label: "\u2192" },
-        { label: "アクション / リアクション", sub: "" },
+        { label: "行動 / 反応​", sub: "" },
       ],
     },
     company: {
-      missionTitle: "ミッション",
-      missionStatement:
-        "ScentifAIはデジタル嗅覚イノベーションでAIを自然化するミッションを持っています。",
-      ask: "問い：",
-      askContent: "「なぜ自然は鼻を創ったのか？」",
-      belief: "私たちの信念：",
-      beliefContent:
-        "鼻は効率的で・生命に不可欠で・価値があり・感情的な！周囲の物理世界を理解するための学習器官だからです。",
-      conclusion: "私たちの結論：",
-      conclusionContent: "同じ感覚をAIにも与えましょう。",
-      imagine: "想像してください：",
-      imagineContent:
-        "「ヒューマノイドの行動と反応：鼻がある場合とない場合。」",
+      missionTitle: "Mission",
+      missionStatement: "デジタル嗅覚で、AIに「生命の知能」を実装する。",
+      missionBody: [
+        [
+          "",
+          "鼻は単なる感覚器ではありません。周囲の世界を察知し、学習するための、極めて効率的でエモーショナルな生存戦略の要です。​私たちのミッションは、この「嗅覚」という知性をAIに授けること。鼻を持つロボットが、人間と同じように世界を感じ、反応する未来。​ScentifAIは、その未来を現実のものにします。",
+        ],
+      ],
       companyTitle: "会社概要",
-      companySubtitle: "ScentifAIは嗅覚AIスタートアップです。",
+      companySubtitle:
+        "ScentifAIは、嗅覚AI（Olfaction AI）のスタートアップです",
       formerlyKnown: "旧社名：",
       teamDesc:
-        "私たちは、五感コンピューティング＆認知科学、化学・材料科学、マルチモーダル固体半導体センサーシステム＆エレクトロニクス、フルスタックAIデータエンジニア、グローバル投資、事業開発など多様な分野の業界専門家チームです。フィジカルAI時代における最大の技術的課題の一つを解決すべく懸命に取り組んでいます：",
-      digitization: "スメル / 嗅覚のデジタル化",
-      lastSense: "フィジカルAI時代に欠けている最後の感覚",
+        "私たちは、サイエンス、テクノロジー、ビジネスの各分野で豊富な経験を持つエキスパート集団です。五感コンピューティングや認知科学、化学、材料科学、マルチモーダルな半導体センサーシステム、エレクトロニクス、そしてフルスタックのAIデータエンジニアから、グローバル投資や事業開発のプロフェッショナルまで、多様な才能が結集しています。\nフィジカルAI時代の到来に向け、人類に残された大きな技術的挑戦の一つである「嗅覚のデジタル化」の解決に、私たちは情熱を持って取り組んでいます。​",
+      digitization: "嗅覚のデジタル化​",
+      lastSense: "フィジカルAI時代における最後の感覚",
       beliefDetail:
-        "嗅覚AIはフィジカルAIの主要な課題に独自に対応すると考えています。貴重な計算リソースの最小化・効率化、物理世界基盤モデルの開発に要するトレーニングコストの削減、将来のデバイスやシステムへの追加「化学知覚」入力次元を通じたデータ品質と多様性の向上などです。",
+        "私たちは「嗅覚AI」が、フィジカルAIの抱える主要な課題を解決する独自の鍵になると信じています。希少な計算リソースの最小化と効率向上、そして物理世界の基盤モデル構築における学習コストの削減。これらを未来のデバイスやシステムへ「化学的知覚」という新たな入力次元を加えることで実現します。​嗅覚データの活用は、データの質と多様性を飛躍的に高め、より高度な知能システムの構築に寄与します。",
       management: "経営陣",
       companyInfo: "会社情報",
       companyInfoRows: [
@@ -217,13 +217,13 @@ export const translations = {
         ["主要銀行", "三井住友銀行 / りそな銀行"],
         [
           "事業内容",
-          "コンパクト臭気イメージングセンサーを含む電子機器・システムの開発、製造、販売。センサー製品を活用した革新的サービスの製造、開発、販売。",
+          "小型ニオイイメージングセンサーを含む電子機器・システムの開発、製造、販売。​\nセンサー製品を活用した革新的サービスの製造、開発、販売。",
         ],
       ] as [string, string][],
       access: "アクセス",
       headquarter: "■本社",
-      headquarterAddress: "東京都中央区銀座7-13-6 相模ビル2F",
-      tel: "TEL. +81-3-4455-4609",
+      headquarterAddress: "東京都中央区銀座7-13-6 サガミビル2階",
+      tel: "TEL. 03-4455-4609",
       numazuOffice: "■沼津オフィス",
       numazuAddress: "静岡県沼津市市場町18-9",
       partnersTitle: "お客様・ビジネスパートナー",
@@ -235,7 +235,7 @@ export const translations = {
     },
     contact: {
       title: "お問い合わせ",
-      description: "製品・サービスに関するお問い合わせは、下記フォームまたは\u00a0",
+      description: "製品・サービスに関するお問い合わせは、下記フォームまたは",
       thankYou: "お問い合わせありがとうございます。",
       received: "メッセージを受信しました。できるだけ早くご連絡いたします。",
       name: "お名前",
