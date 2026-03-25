@@ -31,7 +31,7 @@ const NewsSection: FC<{ locale?: Locale }> = ({ locale = "en" }) => {
       .then((res) => (res.ok ? res.json() : []))
       .then(setNews)
       .catch(() => {})
-  }, [])
+  }, [locale])
 
   return (
     <section id="news">
