@@ -32,11 +32,12 @@ const HeaderNav: FC = () => {
       <ul
         style={{
           display: "flex",
+          flexWrap: "wrap",
           fontSize: ".875rem",
-          gap: "2rem",
+          gap: "0 1.5rem",
           listStyle: "none",
           margin: 0,
-          padding: 0,
+          padding: ".5rem",
         }}
       >
         <NavDropdown

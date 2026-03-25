@@ -15,7 +15,11 @@ const NavDropdown: FC<Props> = ({ label, href, items }) => {
 
   return (
     <li
-      style={{ height: "100%", padding: ".5rem 0", position: "relative" }}
+      style={{
+        height: "100%",
+        padding: ".5rem 0",
+        position: "relative",
+      }}
       onMouseEnter={() => setOpen(true)}
       onMouseLeave={() => setOpen(false)}
     >

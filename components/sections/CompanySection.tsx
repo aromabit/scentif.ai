@@ -185,8 +185,6 @@ const CompanySection: FC<{ locale?: Locale }> = ({ locale = "en" }) => {
                       padding: "1rem 1rem 1rem 0",
                       textAlign: "left",
                       verticalAlign: "top",
-                      whiteSpace: "nowrap",
-                      width: "220px",
                     }}
                   >
                     {label}
@@ -211,7 +209,6 @@ const CompanySection: FC<{ locale?: Locale }> = ({ locale = "en" }) => {
                     textAlign: "left",
                     verticalAlign: "top",
                     whiteSpace: "nowrap",
-                    width: "220px",
                   }}
                 >
                   {t.access}
