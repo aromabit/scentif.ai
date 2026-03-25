@@ -91,6 +91,14 @@ export const translations = {
       beliefDetail:
         "We believe Olfaction AI uniquely addresses major pain points of Physical AI, including minimizing and improving the efficiency of ever-scarce computational resources, reducing the physical training costs to develop physical world foundation models, while enhancing data quality and diversity through the additional \u201cchemical perception\u201d input dimension to future devices and systems.",
       management: "Management",
+      managements: [
+        { name: "Shunichiro Kuroki", role: "Founder & CEO" },
+        {
+          name: "Kazuaki Sawada, Ph.D. \u2014 Toyohashi University of Technology",
+          role: "CTO",
+        },
+        { name: "Kenichi Hashizume", role: "Technology Advisor & ex-CTO" },
+      ],
       companyInfo: "Company Information",
       companyInfoRows: [
         ["Company Name", "ScentifAI, Inc."],
@@ -108,7 +116,22 @@ export const translations = {
       numazuOffice: "\u25a0Numazu Office",
       numazuAddress: "18-9 Ichibacho, Numazu-shi, Shizuoka",
       partnersTitle: "Customers & Business Partners",
-      andMore: "and more\u2026",
+      partners: [
+        "Anritsu Corporation",
+        "Kyocera Corporation",
+        "Sanyo Chemical Industries, Ltd.",
+        "Sony Corporation",
+        "DENTSU Inc.",
+        "Toyota Boshoku Corporation",
+        "West Japan Railway Company",
+        "Japan Tobacco Inc.",
+        "Panasonic Electric Works",
+        "Meiji Holdings Co., Ltd",
+        "Japan Manned Space Systems Corporation (JAMSS)",
+        "LOTTE Co., Ltd",
+      ],
+      andMore:
+        "Food and Beverages, Cosmetics, Fragrances, Daily necessities, Electronics and Home appliances, IT services, Automotive parts, Gas, Chemicals, Electronic components, Industrial machinery, Medical equipment, Paper manufacturing, Research and Development, University research institutions, Space-related industries, Government agencies, etc.​ and more\u2026",
     },
     news: {
       title: "News",
@@ -210,6 +233,14 @@ export const translations = {
       beliefDetail:
         "私たちは「嗅覚AI」が、フィジカルAIの抱える主要な課題を解決する独自の鍵になると信じています。希少な計算リソースの最小化と効率向上、そして物理世界の基盤モデル構築における学習コストの削減。これらを未来のデバイスやシステムへ「化学的知覚」という新たな入力次元を加えることで実現します。​嗅覚データの活用は、データの質と多様性を飛躍的に高め、より高度な知能システムの構築に寄与します。",
       management: "経営陣",
+      managements: [
+        { name: "黒木 俊一郎", role: "代表取締役 & CEO" },
+        {
+          name: "澤田 和明, (Ph.D. \u2014 豊橋技術科学大学)",
+          role: "CTO",
+        },
+        { name: "橋詰 健一", role: "技術顧問 兼 元CTO" },
+      ],
       companyInfo: "会社情報",
       companyInfoRows: [
         ["会社名", "ScentifAI株式会社"],
@@ -227,7 +258,22 @@ export const translations = {
       numazuOffice: "■沼津オフィス",
       numazuAddress: "静岡県沼津市市場町18-9",
       partnersTitle: "お客様・ビジネスパートナー",
-      andMore: "他多数…",
+      partners: [
+        "アンリツ株式会社",
+        "京セラ株式会社",
+        "三洋化成工業株式会社",
+        "ソニーグループ株式会社",
+        "株式会社電通",
+        "トヨタ紡織株式会社",
+        "西日本旅客鉄道株式会社",
+        "日本たばこ産業株式会社",
+        "パナソニック株式会社 エレクトリックワークス社",
+        "明治ホールディングス株式会社",
+        "有人宇宙システム株式会社",
+        "株式会社ロッテ",
+      ],
+      andMore:
+        "食品飲料、コスメ、香料、日用品、エレクトロニクス・家電、ITサービス、自動車部品、ガス、化学品、電子部品、産業機器、医療機器、製紙、研究開発、大学研究機関、宇宙関連 他多数…",
     },
     news: {
       title: "ニュース",

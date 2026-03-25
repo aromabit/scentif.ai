@@ -1,30 +1,6 @@
 import { FC } from "react"
 import { Locale, translations } from "lib/translations"
 
-const partners = [
-  "Anritsu Corporation",
-  "Kyocera Corporation",
-  "Sanyo Chemical Industries, Ltd.",
-  "Sony Corporation",
-  "DENTSU Inc.",
-  "Toyota Boshoku Corporation",
-  "West Japan Railway Company",
-  "Japan Tobacco Inc.",
-  "Panasonic Electric Works",
-  "Meiji Holdings Co., Ltd",
-  "Japan Manned Space Systems Corporation (JAMSS)",
-  "LOTTE Co., Ltd",
-]
-
-const management = [
-  { name: "Shunichiro Kuroki", role: "Founder & CEO" },
-  {
-    name: "Kazuaki Sawada, Ph.D. \u2014 Toyohashi University of Technology",
-    role: "CTO",
-  },
-  { name: "Kenichi Hashizume", role: "Technology Advisor & ex-CTO" },
-]
-
 const CompanySection: FC<{ locale?: Locale }> = ({ locale = "en" }) => {
   const t = translations[locale].company
 
@@ -175,7 +151,7 @@ const CompanySection: FC<{ locale?: Locale }> = ({ locale = "en" }) => {
               padding: 0,
             }}
           >
-            {management.map((m) => (
+            {t.managements.map((m) => (
               <li key={m.role} style={{ color: "#333", fontSize: ".9rem" }}>
                 <span style={{ fontWeight: 600 }}>{m.role}</span> — {m.name}
               </li>
@@ -269,7 +245,7 @@ const CompanySection: FC<{ locale?: Locale }> = ({ locale = "en" }) => {
               gap: ".5rem",
             }}
           >
-            {partners.map((p) => (
+            {t.partners.map((p) => (
               <span
                 key={p}
                 style={{
@@ -286,10 +262,6 @@ const CompanySection: FC<{ locale?: Locale }> = ({ locale = "en" }) => {
             ))}
             <span
               style={{
-                backgroundColor: "#fff",
-                border: "1px solid #e0e0e0",
-                borderRadius: "4px",
-                color: "#888",
                 fontSize: ".8rem",
                 fontStyle: "italic",
                 padding: ".3rem .75rem",
