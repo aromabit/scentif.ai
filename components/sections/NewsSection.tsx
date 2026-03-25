@@ -23,8 +23,10 @@ const NewsSection: FC<{ locale?: Locale }> = ({ locale = "en" }) => {
   const [news, setNews] = useState<NewsPost[]>([])
 
   useEffect(() => {
+    const newsCategories =
+      locale == "en" ? "23,32,35,129" : "15,16,17,111,127,131"
     fetch(
-      "https://aromabit.com/wp-json/wp/v2/news?news_cat=23,32,35,129&per_page=10&_fields=id,date,title,link"
+      `https://aromabit.com/wp-json/wp/v2/news?news_cat=${newsCategories}&per_page=10&_fields=id,date,title,link`
     )
       .then((res) => (res.ok ? res.json() : []))
       .then(setNews)
