@@ -110,11 +110,11 @@ const PlatformSection: FC<{ locale?: Locale }> = ({ locale = "en" }) => {
         </p>
 
         <p style={{ color: "#555", fontSize: ".9rem" }}>
-          Contact &nbsp;
+          {t.contactTitle} &nbsp;
           <a href="mailto:info@scentif.ai" style={{ color: "#33b9c5" }}>
             info@scentif.ai
           </a>
-          &nbsp; {t.contactDetail}
+          &nbsp; {t.contactEarlyAccess}
         </p>
         <p style={{ color: "#888", fontSize: ".85rem", marginTop: ".5rem" }}>
           {t.corporateOnly}
@@ -385,6 +385,7 @@ const PlatformSection: FC<{ locale?: Locale }> = ({ locale = "en" }) => {
                 href="https://aromabit.com/en/products_datasolution-en/5c-ssm-cmos-en/"
                 target="_blank"
                 rel="noreferrer"
+                style={{ color: "#33b9c5" }}
               >
                 5C-SSM / SDK
               </a>
@@ -395,7 +396,7 @@ const PlatformSection: FC<{ locale?: Locale }> = ({ locale = "en" }) => {
           </div>
 
           <p style={{ color: "#555", fontSize: ".9rem" }}>
-            Contact &nbsp;
+            {t.contactTitle} &nbsp;
             <a href="mailto:info@scentif.ai" style={{ color: "#33b9c5" }}>
               info@scentif.ai
             </a>

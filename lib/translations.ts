@@ -25,7 +25,6 @@ export const translations = {
       moreComing: "... & much more to come!",
       appDescription:
         "Suitable for various applications such as physical AI, robotics, autonomous driving & navigations, mobile & wearables, industrial IoTs, where augmenting unique ambient / olfaction perception data stack contributing to differentiated and efficient intelligent systems.",
-      contactDetail: "for detail.",
       corporateOnly: "Currently available for corporate customers.",
       aromaSubheading: "Invisible World of Aroma.",
       aromaVisualized: "Visualized.",
@@ -50,6 +49,7 @@ export const translations = {
       pocTitle: "[For POC]",
       pocDescription:
         "5C-SSM is easy-to-measure POC kit for customers who wish to try our CMOS e-nose systems to embed in their devices & systems.",
+      contactTitle: "Contact",
       contactEarlyAccess: "for early access and detail.",
       selectedOnly:
         "Currently Only Available for selected corporate customers.",
@@ -165,7 +165,7 @@ export const translations = {
     },
     platform: {
       description:
-        "ScentifAI®は、クロス・マルチモーダルな機械学習を実現するデジタル嗅覚AIプラットフォームです。独自の環境や嗅覚データスタックを強化し、高度な知能システムの構築を支援します。​",
+        "ScentifAI®は、クロス・マルチモーダルな機械学習を実現するデジタル嗅覚AIプラットフォームです。\n独自の環境や嗅覚データスタックを強化し、高度な知能システムの構築を支援します。​",
       features: [
         "データ管理：センサーデータセットの作成・データベース分析​",
         "AI学習：ニオイデータの学習および分類トレーニング",
@@ -174,31 +174,30 @@ export const translations = {
       moreComing: "・・・今後、さらに多彩な機能を順次追加予定です。",
       appDescription:
         "産業用IoT、フィジカルAI、ロボティクス、自動運転・ナビゲーション、モバイル＆ウェアラブルなど、幅広いアプリケーションに最適化可能です。​",
-      contactDetail:
-        "​早期アクセスおよび詳細につきましては、下記までお問い合わせください。",
       corporateOnly:
         "誠に恐れ入りますが、現在ご利用いただけるのは法人のお客様のみです。​",
-      aromaSubheading: "見環境イメージングセンサーで​香りの見えない世界を",
+      aromaSubheading:
+        "アンビエント｜ニオイ・イメージングセンサーで、目に見えないニオイの世界を",
       aromaVisualized: "可視化。",
       aromaDescription:
         "超高解像度なセンサーによる、ガス曝露時のニオイ指紋変化（タイムラプス）です。​",
       aisTitle: "Aroma Imaging Sensor [AIS]",
       aisDescription:
-        "ニオイイメージングセンサーは、曖昧なニオイ（匂い/臭い）をカメラのようにデジタル画像パターンへと変換する技術です。​",
+        "ニオイイメージングセンサーは、曖昧なニオイ（匂い/臭い）をカメラのようにデジタル画像パターンへと変換するセンサーです。​",
       aisDescription2:
         "先進的なe-Nose（電子鼻）型センサーのプラットフォームとして、拡張性と標準化を両立。機械学習に最適なデータ構造で設計されており、嗅覚AIプラットフォーム「ScentifAI®」とのスムーズな連携が可能です。​",
-      keySpecs: "主な仕様",
+      keySpecs: "【圧倒的な感度と材料技術】",
       specs: [
-        "【極小・超高解像度】​\n超コンパクト設計：1.2mm × 1.2mm の極小センサーアレイ​\n超高解像度：57,000ピクセル（高密度な検知ポイント）​",
-        "【圧倒的な感度と材料技術】​\n高いガス感度：アンモニア 100ppb / エタノール 10ppt の微量検知に対応​\n独自開発の受容体膜： 高性能な独自材料ポートフォリオによる幅広い検知能力​\n低コスト化を実現：シリコンCMOSベースのチップ（量産時10ドル以下を想定）​",
-        "【インターフェース・実装】​\n信号処理： A/D変換回路（ADC）およびSPIインターフェースをチップ内に搭載​\nパッケージ： 20ピンコネクタ付きパッケージ、および基板実装用LGAに対応​",
+        "高感度:\nアンモニア 100ppb / エタノール 10ppm の微量検知に対応​",
+        "独自開発の受容体膜材料:\n独自材料ポートフォリオによる高性能、高耐性、超寿命で超高解像度能力を実現",
+        "低コスト化を実現:\nシリコンCMOSベースのチップ（量産時10ドル以下を想定）",
       ],
       pocBadge: "ご利用いただけるPoCについて",
       pocTitle: "（5C-SSM）",
       pocDescription:
         "当社のCMOS型ニオイセンサーを、自社製品やシステムへ組込検討されているお客様向けに、容易に測定可能な5C-SSM評価用キットを販売中です。​",
-      contactEarlyAccess:
-        "早期アクセスおよび詳細につきましては、下記までお問い合わせください。",
+      contactTitle: "早期アクセスおよび詳細につきましては、",
+      contactEarlyAccess: "もしくは、下記までお問い合わせください。",
       selectedOnly:
         "誠に恐れ入りますが、現在ご利用いただけるのは法人のお客様のみです。​",
       odorItems: [
@@ -215,7 +214,8 @@ export const translations = {
     },
     company: {
       missionTitle: "Mission",
-      missionStatement: "デジタル嗅覚で、AIに「生命の知能」を実装する。",
+      missionStatement:
+        "ScentifAIは、デジタル嗅覚イノベーションで、AIを「自然界」に解放する。",
       missionBody: [
         [
           "",
@@ -236,10 +236,10 @@ export const translations = {
       managements: [
         { name: "黒木 俊一郎", role: "代表取締役 & CEO" },
         {
-          name: "澤田 和明, (Ph.D. \u2014 豊橋技術科学大学)",
+          name: "澤田 和明 （豊橋技術科学大学　教授)",
           role: "CTO",
         },
-        { name: "橋詰 健一", role: "技術顧問 兼 元CTO" },
+        { name: "橋詰 健一", role: "技術顧問 (元CTO)" },
       ],
       companyInfo: "会社情報",
       companyInfoRows: [
