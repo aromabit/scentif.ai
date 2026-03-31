@@ -161,7 +161,7 @@ export const translations = {
       contact: "お問い合わせ",
     },
     hero: {
-      tagline: "デジタル嗅覚でAIを自然化する",
+      tagline: "デジタル嗅覚で、AIを「自然界」に解放する。",
     },
     platform: {
       description:
@@ -177,7 +177,7 @@ export const translations = {
       corporateOnly:
         "誠に恐れ入りますが、現在ご利用いただけるのは法人のお客様のみです。​",
       aromaSubheading:
-        "アンビエント｜ニオイ・イメージングセンサーで、目に見えないニオイの世界を",
+        "ニオイ・イメージングセンサーで、目に見えないニオイの世界を",
       aromaVisualized: "可視化。",
       aromaDescription:
         "超高解像度なセンサーによる、ガス曝露時のニオイ指紋変化（タイムラプス）です。​",
