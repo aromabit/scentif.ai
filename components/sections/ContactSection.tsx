@@ -1,7 +1,6 @@
 "use client"
 
-import { ComponentProps, FC } from "react"
-import { useForm, ValidationError } from "@formspree/react"
+import { ComponentProps, FC, FormEvent, useState } from "react"
 import { Locale, translations } from "lib/translations"
 
 const Input: FC<ComponentProps<"input">> = ({ style, ...props }) => (
@@ -40,7 +39,24 @@ const Textarea: FC<ComponentProps<"textarea">> = ({ style, ...props }) => (
 
 const ContactSection: FC<{ locale?: Locale }> = ({ locale = "en" }) => {
   const t = translations[locale].contact
-  const [state, handleSubmit] = useForm("xjgawvge")
+  const [submitting, setSubmitting] = useState(false)
+  const [succeeded, setSucceeded] = useState(false)
+
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault()
+    setSubmitting(true)
+    const data = Object.fromEntries(new FormData(e.currentTarget))
+    await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        access_key: "b5a38538-dc35-4ed2-bfaf-80de70caa8bb",
+        ...data,
+      }),
+    })
+    setSubmitting(false)
+    setSucceeded(true)
+  }
 
   return (
     <section id="contact" style={{ backgroundColor: "#f5f5f5" }}>
@@ -74,7 +90,7 @@ const ContactSection: FC<{ locale?: Locale }> = ({ locale = "en" }) => {
             info@scentif.ai
           </a>
         </p>
-        {state.succeeded ? (
+        {succeeded ? (
           <>
             <h3>{t.thankYou}</h3>
             <p>{t.received}</p>
@@ -98,11 +114,6 @@ const ContactSection: FC<{ locale?: Locale }> = ({ locale = "en" }) => {
                 {t.name}
               </label>
               <Input type="text" required name="name" id="name" />
-              <ValidationError
-                prefix="Name"
-                field="name"
-                errors={state.errors}
-              />
             </div>
             <div
               style={{
@@ -118,11 +129,6 @@ const ContactSection: FC<{ locale?: Locale }> = ({ locale = "en" }) => {
                 {t.email}
               </label>
               <Input type="email" name="email" required id="email" />
-              <ValidationError
-                prefix="Email"
-                field="email"
-                errors={state.errors}
-              />
             </div>
             <div
               style={{
@@ -138,11 +144,6 @@ const ContactSection: FC<{ locale?: Locale }> = ({ locale = "en" }) => {
                 {t.company}
               </label>
               <Input type="text" name="company" id="company" />
-              <ValidationError
-                prefix="Company"
-                field="company"
-                errors={state.errors}
-              />
             </div>
             <div
               style={{
@@ -164,15 +165,10 @@ const ContactSection: FC<{ locale?: Locale }> = ({ locale = "en" }) => {
                 id="message"
                 style={{ resize: "vertical" }}
               />
-              <ValidationError
-                prefix="Message"
-                field="message"
-                errors={state.errors}
-              />
             </div>
             <button
               type="submit"
-              disabled={state.submitting}
+              disabled={submitting}
               style={{
                 alignSelf: "flex-start",
                 backgroundColor: "#33b9c5",
