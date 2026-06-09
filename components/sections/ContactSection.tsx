@@ -47,12 +47,12 @@ const ContactSection: FC<{ locale?: Locale }> = ({ locale = "en" }) => {
     setSubmitting(true)
     const data = Object.fromEntries(new FormData(e.currentTarget))
     await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         access_key: "b5a38538-dc35-4ed2-bfaf-80de70caa8bb",
         ...data,
       }),
+      headers: { "Content-Type": "application/json" },
+      method: "POST",
     })
     setSubmitting(false)
     setSucceeded(true)
