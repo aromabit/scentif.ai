@@ -243,7 +243,7 @@ export const translations = {
       ],
       companyInfo: "会社情報",
       companyInfoRows: [
-        ["会社名", "ScentifAI株式会社"],
+        ["会社名", "株式会社ScentifAI"],
         ["代表取締役 & CEO", "黒木 俊一郎"],
         ["主要銀行", "三井住友銀行 / りそな銀行"],
         [
