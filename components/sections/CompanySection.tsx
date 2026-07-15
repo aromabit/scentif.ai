@@ -221,6 +221,9 @@ const CompanySection: FC<{ locale?: Locale }> = ({ locale = "en" }) => {
                   <p>{t.tel}</p>
                   <p>{t.numazuOffice}</p>
                   <p>{t.numazuAddress}</p>
+                  <p>
+                    <a href="//x.com/_ScentifAI_">X.com</a>
+                  </p>
                 </td>
               </tr>
             </tbody>
