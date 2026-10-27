@@ -39,7 +39,7 @@ export const translations = {
       specs: [
         "Ultra-compact [1.2mm x 1.2mm sensor array area]",
         "Ultra-high resolution [57,000 px]",
-        "High gas sensitivity [100ppb NH3 / 10 ppt Ethanol]",
+        "High gas sensitivity [1ppm NH3/ 100ppm Ethanol]",
         "High-performance, proprietary receptor membrane material portfolio",
         "Low-cost, silicon CMOS based chip [under $10/chip upon mass production]",
         "On-die ADC Circuitry & SPI Interface",
