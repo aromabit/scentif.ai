@@ -26,6 +26,7 @@ const HeaderNav: FC = () => {
   const pathname = usePathname()
   const detectedLocale: Locale = pathname.startsWith("/ja") ? "ja" : "en"
   const t = translations[detectedLocale].nav
+  const home = detectedLocale === "ja" ? "/ja/" : "/"
 
   return (
     <nav>
@@ -42,15 +43,15 @@ const HeaderNav: FC = () => {
       >
         <NavDropdown
           label={t.platform}
-          href="#platform"
+          href={`${home}#platform`}
           items={[
-            { href: "#scentifai", label: t.scentifai },
-            { href: "#aroma-imaging-sensor", label: t.ais },
+            { href: `${home}#scentifai`, label: t.scentifai },
+            { href: `${home}#aroma-imaging-sensor`, label: t.ais },
           ]}
         />
-        <NavItem label={t.company} href="#company" />
-        <NavItem label={t.news} href="#news" />
-        <NavItem label={t.contact} href="#contact" />
+        <NavItem label={t.company} href={`${home}#company`} />
+        <NavItem label={t.news} href={`${home}#news`} />
+        <NavItem label={t.contact} href={`${home}#contact`} />
         <li style={{ alignItems: "center", display: "flex" }}>
           <a
             href={detectedLocale === "en" ? "/ja/" : "/"}

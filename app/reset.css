@@ -40,3 +40,58 @@ select:focus,
 textarea:focus {
   outline: none;
 }
+
+.news-content {
+  color: #333;
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+}
+
+.news-content > * + * {
+  margin-top: 1.25rem;
+}
+
+.news-content h2,
+.news-content h3,
+.news-content h4 {
+  color: #111;
+  margin-top: 2.5rem;
+}
+
+.news-content a {
+  color: #06c;
+  text-decoration: underline;
+}
+
+.news-content img,
+.news-content iframe,
+.news-content object {
+  height: auto;
+  max-width: 100%;
+}
+
+.news-content .embed-pdf-viewer,
+.news-content .wp-block-file object {
+  aspect-ratio: 1 / 1.414;
+  width: 100%;
+}
+
+.news-content .wp-has-aspect-ratio iframe {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
+
+.news-content figcaption {
+  color: #888;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.news-content .aligncenter {
+  text-align: center;
+}
+
+.news-content blockquote {
+  border-left: 3px solid #ddd;
+  padding-left: 1rem;
+}

@@ -1,37 +1,15 @@
-"use client"
-
-import { FC, useEffect, useState } from "react"
+import { FC } from "react"
 import { Locale, translations } from "lib/translations"
-
-type NewsPost = {
-  id: number
-  date: string
-  title: { rendered: string }
-  link: string
-}
-
-const formatDate = (dateStr: string): string => {
-  const d = new Date(dateStr)
-  const y = d.getFullYear()
-  const m = String(d.getMonth() + 1).padStart(2, "0")
-  const day = String(d.getDate()).padStart(2, "0")
-  return `${y}.${m}.${day}`
-}
+import newsData from "lib/news.json"
+import NewsList from "components/elements/NewsList"
 
 const NewsSection: FC<{ locale?: Locale }> = ({ locale = "en" }) => {
   const t = translations[locale].news
-  const [news, setNews] = useState<NewsPost[]>([])
-
-  useEffect(() => {
-    const newsCategories =
-      locale == "en" ? "23,32,35,129" : "15,16,17,111,127,131"
-    fetch(
-      `https://aromabit.com/wp-json/wp/v2/news?news_cat=${newsCategories}&per_page=10&_fields=id,date,title,link`
-    )
-      .then((res) => (res.ok ? res.json() : []))
-      .then(setNews)
-      .catch(() => {})
-  }, [locale])
+  const news = newsData[locale].map(({ date, id, title }) => ({
+    date,
+    id,
+    title,
+  }))
 
   return (
     <section id="news">
@@ -53,36 +31,11 @@ const NewsSection: FC<{ locale?: Locale }> = ({ locale = "en" }) => {
           {t.title}
         </h2>
 
-        {news.length === 0 ? (
-          <p style={{ color: "#888", fontSize: ".9rem" }}>{t.noNews}</p>
-        ) : (
-          <ul style={{ listStyle: "none", margin: 0, padding: 0 }}>
-            {news.map((item) => (
-              <li
-                key={item.id}
-                style={{
-                  alignItems: "baseline",
-                  borderBottom: "1px solid #e8e8e8",
-                  display: "flex",
-                  fontSize: ".9rem",
-                  gap: "1.5rem",
-                  padding: "1.25rem 0",
-                }}
-              >
-                <span style={{ color: "#888", whiteSpace: "nowrap" }}>
-                  {formatDate(item.date)}
-                </span>
-                <a
-                  href={item.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{ color: "#333", textDecoration: "none" }}
-                  dangerouslySetInnerHTML={{ __html: item.title.rendered }}
-                />
-              </li>
-            ))}
-          </ul>
-        )}
+        <NewsList
+          items={news}
+          basePath={locale === "ja" ? "/ja" : ""}
+          moreLabel={t.more}
+        />
       </div>
     </section>
   )

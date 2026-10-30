@@ -135,7 +135,8 @@ export const translations = {
     },
     news: {
       title: "News",
-      noNews: "No news available.",
+      back: "Back to News",
+      more: "Load more",
     },
     contact: {
       title: "Contact",
@@ -277,7 +278,8 @@ export const translations = {
     },
     news: {
       title: "ニュース",
-      noNews: "現在ニュースはありません。",
+      back: "ニュース一覧へ戻る",
+      more: "もっと見る",
     },
     contact: {
       title: "お問い合わせ",
