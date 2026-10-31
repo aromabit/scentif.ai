@@ -22,6 +22,38 @@
       "content": "<p class=\"wp-block-paragraph\">Aroma Bit Inc. announces that, as of March 12, 2026, the company has changed its corporate name from <strong>Aroma Bit Inc.</strong> to <strong>ScentifAI, Inc.</strong> (Japanese name: <strong>Kabushiki Kaisha ScentifAI</strong>).</p>\n\n\n\n<p class=\"wp-block-paragraph\">Over the past decade, we have expanded our business in the field of digital olfaction, centered on compact odor sensors and digital odor data. As the <strong>Physical AI</strong> market grows rapidly, we are accelerating global expansion and further business development. Accordingly, we have unified our brand under <strong>“ScentifAI,”</strong> our AI platform for olfactory assessment that we have long offered to the market.</p>\n\n\n\n<p class=\"wp-block-paragraph\">With this corporate name change, we will continue striving to meet and exceed your expectations. We sincerely appreciate your continued support.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Contact (Inquiries Regarding This Announcement)</strong><br>PR Department, ScentifAI, Inc. (formerly Aroma Bit Inc.)<br>Email: info@scentif.ai<br>Address: Sagami Bldg. 2F, 7-13-6 Ginza, Chuo-ku, Tokyo 104-0061, Japan (Tokyo HQ)<br>Web: <a href=\"https://scentif.ai\">https://scentif.ai</a></p>"
     },
     {
+      "id": 8211,
+      "date": "2026.03.12",
+      "title": "【Measurement data】Skin gas",
+      "category": "blog",
+      "image": "/uploads/2026/03/251016_blog2.jpg",
+      "content": "\n<p class=\"wp-block-paragraph\">We present an example of skin gas measurement using the CMOS sensor “5C-SSM”.</p>\n\n\n<iframe loading=\"lazy\" class=\"embed-pdf-viewer\" src=\"/uploads/2026/03/251016_5C-SSM_SkinGas.pdf\" height=\"600\" width=\"600\" title=\"Array\"></iframe>"
+    },
+    {
+      "id": 8208,
+      "date": "2026.03.12",
+      "title": "【Measurement data】Smells burnt",
+      "category": "blog",
+      "image": "/uploads/2026/03/251016_blog1.jpg",
+      "content": "\n<p class=\"wp-block-paragraph\">We present an example of smells burnt measurement using the CMOS sensor “5C-SSM”.</p>\n\n\n<iframe loading=\"lazy\" class=\"embed-pdf-viewer\" src=\"/uploads/2026/03/251016_5C-SSM_Smells-burnt.pdf\" height=\"600\" width=\"600\" title=\"Array\"></iframe>"
+    },
+    {
+      "id": 8202,
+      "date": "2026.03.12",
+      "title": "【Measurement data】Essential oil",
+      "category": "blog",
+      "image": "/uploads/2026/03/250516_blog.jpg",
+      "content": "\n<p class=\"wp-block-paragraph\">We present an example of Essential oil measurement using the CMOS sensor “5C-SSM”.</p>\n\n\n<iframe loading=\"lazy\" class=\"embed-pdf-viewer\" src=\"/uploads/2026/03/250516_5C-SSM_Essential-Oil.pdf\" height=\"600\" width=\"600\" title=\"250516_5C-SSM_Essential-Oil\"></iframe>"
+    },
+    {
+      "id": 6995,
+      "date": "2026.03.12",
+      "title": "【Measurement data】Body odor",
+      "category": "blog",
+      "image": "/uploads/2026/03/250501_blog.jpg",
+      "content": "\n<p class=\"wp-block-paragraph\">We present an example of body odor measurement using the CMOS sensor “5C-SSM”.</p>\n\n\n<iframe loading=\"lazy\" class=\"embed-pdf-viewer\" src=\"/uploads/2025/05/250501_5C-SSM_Bodyodor.pdf\" height=\"600\" width=\"600\" title=\"Array\"></iframe>"
+    },
+    {
       "id": 6985,
       "date": "2025.04.30",
       "title": "【Media】Featured on the Tokyo University of Science website.",
@@ -94,11 +126,42 @@
       "content": "<p class=\"wp-block-paragraph\">Courtesy of JAMSS</p>\n\n\n\n<p class=\"wp-block-paragraph\">　</p>\n\n\n\n<p class=\"wp-block-paragraph\">A case in which we are cooperating in the technical demonstration of &#8220;Odor Visualization&#8221; was introduced on the website of Japan Manned Space Systems Corporation (JAMSS).<br><a href=\"https://www.jamss.co.jp/en/news/detail.php?id=51up00xyw7\">https://www.jamss.co.jp/en/news/detail.php?id=51up00xyw7</a></p>\n\n\n\n<p class=\"wp-block-paragraph\">【Updated：2023.05.22】<br>Ax-2 Research Announcement Part.2<br><a href=\"https://www.axiomspace.com/news/ax2-tech-demo\" target=\"_blank\" rel=\"noopener\" title=\"\">https://www.axiomspace.com/news/ax2-tech-demo</a></p>"
     },
     {
+      "id": 2294,
+      "date": "2023.03.27",
+      "title": "5C-SSM（CMOS type Sensor）：Measurement Dada Samples [Food and Beverage]",
+      "category": "blog",
+      "image": "/uploads/2023/03/230327_sample_en.jpg",
+      "content": "\n<p class=\"wp-block-paragraph\">5C-SSM（CMOS type Sensor）Measurement Data Samples are presented.</p>\n\n\n<iframe loading=\"lazy\" class=\"embed-pdf-viewer\" src=\"/uploads/2023/03/230327_MeasurementSampleData.pdf\" height=\"600\" width=\"600\" title=\"Array\"></iframe>"
+    },
+    {
       "id": 1923,
       "date": "2022.12.21",
       "title": "[Event] Aroma Bit to Exhibit at CES2023 Toyota Boshoku Booth",
       "image": "/uploads/2022/05/toyotaboshokulogo.png",
       "content": "<p class=\"wp-block-paragraph\">Aroma Bit will be exhibiting its digital olfaction technology demonstration inside Toyota Boshoku Corporation Booth at upcoming CES2023&nbsp;to be held in Las Vegas, Nevada, USA from January 5th (Thursday) to January 8th (Sunday), 2023.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Toyota Boshoku Release:<br><a href=\"https://www.toyota-boshoku.com/global/news/221216e.html\">https://www.toyota-boshoku.com/global/news/221216e.html</a></p>"
+    },
+    {
+      "id": 1809,
+      "date": "2022.11.29",
+      "title": "[Collaborative Research]  Collaborative Research paper is published on sensory evaluation, chemical identification and e-nose sensor on microalga Scenedesmus sp.",
+      "category": "blog",
+      "content": "\n<p class=\"wp-block-paragraph\">Collaborative research paper is now published, titled “Sensory evaluation, chemical identification, and QCM-type e-nose analysis of odor compounds from a microalga Scenedesmus sp. (Chlorophyta) for development of odor sensing culture method” from Journal of Japan Association on Odor Environment.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.jstage.jst.go.jp/article/jao/53/6/53_345/_article/-char/en\">https://www.jstage.jst.go.jp/article/jao/53/6/53_345/_article/-char/en</a></p>\n\n\n<iframe loading=\"lazy\" class=\"embed-pdf-viewer\" src=\"/uploads/2022/11/2022_論文_イカダモ物質同定.pdf\" height=\"600\" width=\"600\" title=\"2022_論文_イカダモ物質同定\"></iframe>"
+    },
+    {
+      "id": 1715,
+      "date": "2022.11.15",
+      "title": "Aroma Coder®V2 Set：Measurement Dada Samples [Orange juice by Manufacturer]",
+      "category": "blog",
+      "image": "/uploads/2022/11/221115_サンプル測定_EN.jpg",
+      "content": "\n<p class=\"wp-block-paragraph\">Aroma Coder®V2 Set Measurement Data Samples are presented.</p>\n\n\n<iframe loading=\"lazy\" class=\"embed-pdf-viewer\" src=\"/uploads/2022/11/221115_MeasurementSampleData_Orange.pdf\" height=\"600\" width=\"600\" title=\"Array\"></iframe>"
+    },
+    {
+      "id": 1545,
+      "date": "2022.10.21",
+      "title": "Aroma Coder®V2 Set：Measurement Dada Samples [Objective Coffee Quality Analysis]",
+      "category": "blog",
+      "image": "/uploads/2022/10/221021_sample_en.jpg",
+      "content": "\n<p class=\"wp-block-paragraph\">Aroma Coder®V2 Set Measurement Data Samples are presented.</p>\n\n\n<iframe loading=\"lazy\" class=\"embed-pdf-viewer\" src=\"/uploads/2022/10/221021_MeasurementSampleData_Coffee.pdf\" height=\"600\" width=\"600\" title=\"Array\"></iframe>"
     },
     {
       "id": 1120,
@@ -121,10 +184,33 @@
       "content": "<p class=\"wp-block-paragraph\">Aroma Bit received additional capital investment funding from Anritsu Corporation.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.anritsu.com/ja-JP/about-anritsu/news/news-releases/2022/2022-06-01-jp01\">https://www.anritsu.com/ja-JP/about-anritsu/news/news-releases/2022/2022-06-01-jp01</a></p>"
     },
     {
+      "id": 945,
+      "date": "2022.05.20",
+      "title": "Aroma Coder®V2 Set：Measurement Dada Samples [Bad Odor/Unpleasant Odor]",
+      "category": "blog",
+      "image": "/uploads/2022/08/220520_sample_en..jpg",
+      "content": "\n<p class=\"wp-block-paragraph\">Aroma Coder®V2 Set Measurement Data Samples are presented.</p>\n\n\n<iframe loading=\"lazy\" class=\"embed-pdf-viewer\" src=\"/uploads/2022/08/220520_MeasurementSampleData.pdf\" height=\"600\" width=\"600\" title=\"220520_MeasurementSampleData\"></iframe>"
+    },
+    {
       "id": 948,
       "date": "2022.05.16",
       "title": "Aroma Bit Receives Additional Capital Investment Funding From Toyota Boshoku",
       "content": "<p class=\"wp-block-paragraph\">Aroma Bit has received additional capital investment funding From Toyota Boshoku.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.toyota-boshoku.com/jp/news/220516.html\">https://www.toyota-boshoku.com/jp/news/220516.html</a><a href=\"/wp-content/uploads/2022/05/toyotaboshokulogo.png\"></a></p>"
+    },
+    {
+      "id": 952,
+      "date": "2022.04.25",
+      "title": "Aroma Coder®V2 Set：Measurement Dada Samples [Juice/Coffee/Tea Leaf]",
+      "category": "blog",
+      "image": "/uploads/2022/04/220425_sample_en..jpg",
+      "content": "\n<p class=\"wp-block-paragraph\">Aroma Coder®V2 Set Measurement Data Samples are presented.</p>\n\n\n<iframe loading=\"lazy\" class=\"embed-pdf-viewer\" src=\"/uploads/2022/08/220425_MeasurementSampleData.pdf\" height=\"600\" width=\"600\" title=\"220425_MeasurementSampleData\"></iframe>"
+    },
+    {
+      "id": 956,
+      "date": "2022.04.18",
+      "title": "[Collaborative Research Case Study] Food Product Mal-Odor Detection with Saga University Ueno Laboratory",
+      "category": "blog",
+      "content": "\n<p class=\"wp-block-paragraph\">Aroma Bit is currently conducting collaborative research with Saga University&#8217;s Associate Professor Daisuke Ueno, specializing in the odor of agriculture, forestry and fishery products.</p>\n\n\n\n<p class=\"wp-block-paragraph\">In this research, Aroma Bit&#8217;s new desktop-type high odor resolution measurement equipment <a href=\"https://www.aromabit.com/en/products_datasolution-en/aroma-coderv2-en/\" title=\"\">Aroma Coder V2 Set</a> is employed to detect odor changes of orange fruits during its storage.<br>For quotations and inquiries, please contact us from <a href=\"https://www.aromabit.com/en/contact-en/\">here</a>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The following video (only available in Japanese) introduces live measurements of mal-odor of orange fruit samples.</p>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\nhttps://www.youtube.com/watch?v=yYXcwl_BRUQ\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\">■Saga University, Graduate School of Agriculture and Faculty of Agriculture Resources &amp; Environment Chemistry, Food Resource and Environmental Science Ueno Laboratory Webpage<br><a href=\"http://environbio.ag.saga-u.ac.jp/ueno/index.html\">http://environbio.ag.saga-u.ac.jp/ueno</a></p>\n\n\n\n<p class=\"wp-block-paragraph\">■Assistant Professor Daisuke Ueno&#8217;s Researcher Database<br><a href=\"https://researchmap.jp/uenodaisuke_sagauniv/\">https://researchmap.jp/uenodaisuke_sagauniv/</a></p>\n"
     },
     {
       "id": 958,
@@ -334,10 +420,57 @@
       "content": "<p class=\"wp-block-paragraph\">株式会社アロマビットは、2026年3月12日付で、社名を「株式会社アロマビット」から「株式会社ScentifAI（英名：ScentifAI, Inc. / 日本語読み：センティファイ）」へ変更いたしました。</p>\n\n\n\n<p class=\"wp-block-paragraph\">当社はこれまで１２年間、小型ニオイセンサーおよびニオイのデジタルデータを中核とする、デジタル嗅覚領域の世界リーディング企業として事業を展開してまいりました。昨今、Physical AI市場が急速に拡大する中、さらなる事業拡大とグローバル展開の加速を見据え、かねてより展開してまいりました嗅覚判定AIプラットフォーム「ScentifAI」にブランドを統一いたしました。</p>\n\n\n\n<p class=\"wp-block-paragraph\">今回の社名変更を機に、社員一同新たな気持ちで、より一層皆様のご期待に沿えるよう邁進してまいります。今後とも変わらぬご愛顧を賜りますようお願い申し上げます。</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>【本件に関するお問い合わせ先】</strong><br>株式会社ScentifAI（旧：株式会社アロマビット） 営業部<br>Email：info@scentif.ai<br>所在地：〒104-0061 東京都中央区銀座7-13-6 サガミビル2F（東京銀座本社）<br>Web：<a href=\"https://scentif.ai/ja\" title=\"\">https://scentif.ai/ja/</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>"
     },
     {
+      "id": 7673,
+      "date": "2025.10.28",
+      "title": "【5C-SSM】測定例：焦げ臭",
+      "category": "blog",
+      "image": "/uploads/2025/10/251028_blog.jpg",
+      "content": "\n<p class=\"wp-block-paragraph\">CMOS型センサー「5C-SSM」で測定した、焦げ臭の測定例をご紹介いたします。<br>本資料は、膜セット：FS0101、FS0200、FS0300（全15膜）で測定・分析した結果です。</p>\n\n\n\n<div data-wp-interactive=\"core/file\" class=\"wp-block-file\"><object data-wp-bind--hidden=\"!state.hasPdfPreview\" hidden class=\"wp-block-file__embed\" data=\"/uploads/2025/10/251028_5C-SSM測定例_焦げ臭.pdf\" type=\"application/pdf\" style=\"width:100%;height:600px\" aria-label=\"251028_5C-SSM測定例_焦げ臭の埋め込み。\"></object><a id=\"wp-block-file--media-e8131849-eea3-4423-a1ad-89b66f7e1f2c\" href=\"/uploads/2025/10/251028_5C-SSM測定例_焦げ臭.pdf\">251028_5C-SSM測定例_焦げ臭</a><a href=\"/uploads/2025/10/251028_5C-SSM測定例_焦げ臭.pdf\" class=\"wp-block-file__button wp-element-button\" download aria-describedby=\"wp-block-file--media-e8131849-eea3-4423-a1ad-89b66f7e1f2c\">ダウンロード</a></div>\n"
+    },
+    {
+      "id": 7580,
+      "date": "2025.10.16",
+      "title": "【5C-SSM】測定例：皮膚ガス",
+      "category": "blog",
+      "image": "/uploads/2025/09/250929.png",
+      "content": "\n<p class=\"wp-block-paragraph\">CMOS型センサー「5C-SSM」で測定した、皮膚ガスの測定例をご紹介いたします。<br>本資料は、アルコールを含む飲料のセンサー出力変化を測定・分析した結果です。</p>\n\n\n\n<div data-wp-interactive=\"core/file\" class=\"wp-block-file\"><object data-wp-bind--hidden=\"!state.hasPdfPreview\" hidden class=\"wp-block-file__embed\" data=\"/uploads/2025/09/251016_5C-SSM測定例_飲酒.pdf\" type=\"application/pdf\" style=\"width:100%;height:600px\" aria-label=\"251016_5C-SSM測定例_飲酒の埋め込み。\"></object><a id=\"wp-block-file--media-9464e0d8-27e8-47a4-9d1b-df49b4e63f57\" href=\"/uploads/2025/09/251016_5C-SSM測定例_飲酒.pdf\">251016_5C-SSM測定例_飲酒</a><a href=\"/uploads/2025/09/251016_5C-SSM測定例_飲酒.pdf\" class=\"wp-block-file__button wp-element-button\" download aria-describedby=\"wp-block-file--media-9464e0d8-27e8-47a4-9d1b-df49b4e63f57\">ダウンロード</a></div>\n"
+    },
+    {
+      "id": 7576,
+      "date": "2025.09.29",
+      "title": "【イベント報告】SCAJ 2025 研究開発発表",
+      "category": "blog",
+      "image": "/uploads/2025/09/IMG_5010-scaled.jpg",
+      "content": "\n<p class=\"wp-block-paragraph\">2025年9月26日（金）東京ビッグサイト開催「SCAJ 2025」京セラ社ブースにて、弊社代表黒木が研究開発発表に登壇いたしました。<br>ご来場・ご清聴いただいた皆様ありがとうございました。</p>\n\n\n\n<figure class=\"wp-block-image size-large is-resized\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"683\" src=\"/uploads/2025/09/kyocera_4-1024x683.jpg\" alt=\"\" class=\"wp-image-7579\" style=\"width:640px;height:auto\" /></figure>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n"
+    },
+    {
       "id": 7553,
       "date": "2025.09.22",
       "title": "【イベント】スペシャルティコーヒーイベント「SCAJ 2025」代表黒木登壇のお知らせ",
       "content": "<p class=\"wp-block-paragraph\">アジア最大のスペシャルティコーヒーイベント「SCAJ 2025」会期3日目に、京セラ社×アロマビットの研究開発発表を行います。9/26（金）12:30～、14:30～の2回、京セラ社ブースでの発表に、弊社代表黒木が登壇いたします。<br>ブースでは弊社カタログもお配りしておりますので、お近くへお越しの方は是非お立ち寄りください。</p>\n\n\n\n<h3 class=\"wp-block-heading\">SCAJ 2025</h3>\n\n\n\n<p class=\"wp-block-paragraph\">会期：2025年9月24日（水）～27日（土）10:00～17:00<br>　　　※ 南1・2ホールは9月26日（金）まで開催<br>　　　※ 南3・4ホールは9月27日（土）まで開催<br>会場：東京ビッグサイト（南展示棟）1～4ホール<br>　　　（東京都江東区有明3丁目11−1）<br>場所：南3・4ホール＿3205<br>　　　（京セラ株式会社ブース）</p>\n\n\n\n<p class=\"wp-block-paragraph\">費用：入場には事前登録が必要です。<br>事前登録2,000円(税込) / 当日3,000円(税込)<br>チケット詳細は、SCAJ公式HPをご確認ください。<br><a href=\"https://scajconference.jp\">https://scajconference.jp</a></p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"819\" height=\"1024\" src=\"/uploads/2025/09/250922_NEWS_1-819x1024.jpg\" alt=\"\" class=\"wp-image-7554\" /></figure>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"819\" height=\"1024\" src=\"/uploads/2025/09/250922_NEWS_2-819x1024.jpg\" alt=\"\" class=\"wp-image-7556\" /></figure>"
+    },
+    {
+      "id": 7502,
+      "date": "2025.09.04",
+      "title": "【イベント報告】第38回におい・かおり環境学会（ポスター掲載）",
+      "category": "blog",
+      "content": "\n<p class=\"wp-block-paragraph\">2025年8月28日（木）に福岡女子大学にて開催された第38回におい・かおり環境学会にて、弊社開発部がポスター発表を行いました。当日の発表資料を掲載いたしますので、ぜひご覧ください。</p>\n\n\n\n<figure class=\"wp-block-embed is-type-rich\"><div class=\"wp-block-embed__wrapper\">\n<div><iframe loading=\"lazy\" class=\"embed-pdf-viewer\" src=\"/uploads/2025/09/2508_においかおり環境学会ポスター.pdf\" height=\"750\" width=\"100%\" title=\"2508 においかおり環境学会ポスター\"></iframe>\n<p><a href=\"/uploads/2025/09/2508_においかおり環境学会ポスター.pdf\" title=\"2508 においかおり環境学会ポスター\">2508 においかおり環境学会ポスター</a></p></div>\n</div></figure>\n"
+    },
+    {
+      "id": 7048,
+      "date": "2025.05.16",
+      "title": "【5C-SSM】測定例：精油",
+      "category": "blog",
+      "image": "/uploads/2025/05/250516_blog_JP.png",
+      "content": "\n<p class=\"wp-block-paragraph\">CMOS型センサー「5C-SSM」で測定した、精油の測定例をご紹介いたします。<br>本資料は、膜セット：FS0101で測定・分析した結果です。</p>\n\n\n\n<div data-wp-interactive=\"core/file\" class=\"wp-block-file\"><object data-wp-bind--hidden=\"!state.hasPdfPreview\" hidden class=\"wp-block-file__embed\" data=\"/uploads/2025/05/250516_5C-SSM測定例_精油-2.pdf\" type=\"application/pdf\" style=\"width:100%;height:600px\" aria-label=\"250516_5C-SSM測定例_精油の埋め込み。\"></object><a id=\"wp-block-file--media-d219b1fa-cf68-48e2-a889-af73504d827b\" href=\"/uploads/2025/05/250516_5C-SSM測定例_精油-2.pdf\">250516_5C-SSM測定例_精油</a><a href=\"/uploads/2025/05/250516_5C-SSM測定例_精油-2.pdf\" class=\"wp-block-file__button wp-element-button\" download aria-describedby=\"wp-block-file--media-d219b1fa-cf68-48e2-a889-af73504d827b\">ダウンロード</a></div>\n"
+    },
+    {
+      "id": 6988,
+      "date": "2025.05.01",
+      "title": "【5C-SSM】測定例：体臭",
+      "category": "blog",
+      "image": "/uploads/2025/05/250501_blog_JP.png",
+      "content": "\n<p class=\"wp-block-paragraph\">CMOS型センサー「5C-SSM」で測定した、体臭の測定例をご紹介いたします。<br>本資料は、膜セット３種すべて（全15膜）で測定・分析した結果です。</p>\n\n\n\n<div data-wp-interactive=\"core/file\" class=\"wp-block-file\"><object data-wp-bind--hidden=\"!state.hasPdfPreview\" hidden class=\"wp-block-file__embed\" data=\"/uploads/2025/05/250501_5C-SSM測定例_体臭-2.pdf\" type=\"application/pdf\" style=\"width:100%;height:600px\" aria-label=\"250501_5C-SSM測定例_体臭の埋め込み。\"></object><a id=\"wp-block-file--media-04e1a34e-fade-4ae5-b8f3-1fbacb5fa19b\" href=\"/uploads/2025/05/250501_5C-SSM測定例_体臭-2.pdf\">250501_5C-SSM測定例_体臭</a><a href=\"/uploads/2025/05/250501_5C-SSM測定例_体臭-2.pdf\" class=\"wp-block-file__button wp-element-button\" download aria-describedby=\"wp-block-file--media-04e1a34e-fade-4ae5-b8f3-1fbacb5fa19b\">ダウンロード</a></div>\n"
     },
     {
       "id": 6984,
@@ -386,6 +519,14 @@
       "content": "<p class=\"wp-block-paragraph\">弊社のCEATEC出展時の記事が、「CEATEC 2024 Show Daily」および「日経クロステック」に掲載されました。</p>\n\n\n\n<h3 class=\"wp-block-heading\">CEATEC 2024 Show Daily</h3>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://dempa-digital.com/ceatec2024sd\" title=\"\">Show Daily DAY 4 (10/18)</a><br>※記事内で、超小型CMOSの発売は来年予定と記載されておりますが、実際は時期未定となっておりますのでご了承ください。</p>\n\n\n\n<h3 class=\"wp-block-heading\">日経クロステック</h3>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://xtech.nikkei.com/atcl/nxt/column/18/02974/101500006\" title=\"\">太陽誘電や京セラなど「におい」に商機の香り、AIや半導体技術で</a></p>"
     },
     {
+      "id": 4427,
+      "date": "2024.10.22",
+      "title": "【イベント報告】CEATEC 2024",
+      "category": "blog",
+      "image": "/uploads/2024/10/PXC_2.png",
+      "content": "\n<p class=\"wp-block-paragraph\">2024年10月15～18日、幕張メッセにて開催されたCEATEC 2024に出展いたしました。連日、大変多くのお客様にご来場いただきまして誠にありがとうございました。<br>混雑でブース見学ができなかった方、スタッフと話ができなかった方などいらっしゃいましたら、お気軽に<a href=\"https://aromabit.com/contact/\" title=\"\">お問い合わせ</a>いただけますと幸いです。</p>\n\n\n"
+    },
+    {
       "id": 4262,
       "date": "2024.09.03",
       "title": "【イベント】2024年10月15日～18日 CEATEC 2024 出展のお知らせ",
@@ -393,11 +534,34 @@
       "content": "<p class=\"wp-block-paragraph\">2024年10月15日(火)～18日(金) 幕張メッセ開催「CEATEC 2024」において、アロマビットのブースを出展いたします。<br>ニオイセンサーの展示やデモを予定しておりますので、お近くへお越しの方は是非お立ち寄りください。</p>\n\n\n\n<p class=\"wp-block-paragraph\">ブース番号：7H497<br>公式サイト：<a href=\"https://www.ceatec.com/ja/application/\">https://www.ceatec.com/ja/application/</a></p>"
     },
     {
+      "id": 4260,
+      "date": "2024.09.03",
+      "title": "【イベント報告】第37回におい・かおり環境学会（ポスター掲載）",
+      "category": "blog",
+      "content": "\n<p class=\"wp-block-paragraph\">2024年8月30日(金)文京学院大学にて開催された第37回におい・かおり環境学会にて、弊社開発部がポスター発表を行いました。当日の発表資料を掲載いたしますので、ぜひご覧ください。</p>\n\n\n<iframe loading=\"lazy\" class=\"embed-pdf-viewer\" src=\"/uploads/2024/09/240830_発表ポスター一般公開可.pdf\" height=\"600\" width=\"600\" title=\"240830_発表ポスター一般公開可\"></iframe>"
+    },
+    {
+      "id": 4240,
+      "date": "2024.09.02",
+      "title": "【イベント報告】e-Nose型ニオイセンサー講演会・無償測定会～ニオイは、見える～",
+      "category": "blog",
+      "image": "/uploads/2024/09/DSC_0108-scaled.jpg",
+      "content": "\n<p class=\"wp-block-paragraph\">2024年8月27日(火) 弊社主催の講演会にて、e-Nose型ニオイセンサーのご説明および弊社製品・サービスのご紹介を行いました。<br>お足元の悪い中、足をお運びいただきまして誠にありがとうございました。</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"766\" src=\"/uploads/2024/09/DSC_0096-1024x766.jpg\" alt=\"\" class=\"wp-image-4241\" /></figure>\n\n\n\n<figure class=\"wp-block-image size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"2560\" height=\"1920\" src=\"/uploads/2024/09/DSC_0098-scaled.jpg\" alt=\"\" class=\"wp-image-4242\" /></figure>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"768\" src=\"/uploads/2024/09/DSC_0100-1024x768.jpg\" alt=\"\" class=\"wp-image-4243\" /></figure>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"768\" src=\"/uploads/2024/09/DSC_0105-1024x768.jpg\" alt=\"\" class=\"wp-image-4244\" /></figure>\n"
+    },
+    {
       "id": 4062,
       "date": "2024.07.05",
       "title": "【イベント】8/27(火) アロマビット講演会・無償測定会（沼津開催）受付開始のお知らせ",
       "image": "/uploads/2024/07/240705_news.png",
       "content": "<p class=\"wp-block-paragraph\">2024年8月27日（火）静岡県沼津市プラザウェルデにて、アロマビット主催の講演会・無償測定会（※申込先着４組）を開催いたします。<br>【追記】※無償測定会は受付満了となりました。<br><br>参加ご希望の方は、こちらの <a href=\"https://docs.google.com/forms/d/1dgS7deP0xIo4G8pV9MvxEv6DID08Nfzm1NluCCTgMaw/\" title=\"\">Googleフォーム</a> よりお申込みください。<br>皆様のご参加をお待ちしております。</p>\n\n\n\n<h3 class=\"wp-block-heading\"> e-Nose型ニオイセンサー講演会・無償測定会<br> ～ニオイは、見える～</h3>\n\n\n\n<p class=\"wp-block-paragraph\">日程：2024年8月27日（火）<br>時間：講演会 13:00～15:00／個別相談会 15:00～<br>会場：プラザヴェルデふじのくに千本松フォーラム（静岡県沼津市大手町1丁目1&#8211;4）<br>定員：50名（先着順）</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n<iframe loading=\"lazy\" class=\"embed-pdf-viewer\" src=\"/uploads/2024/06/240827_セミナーチラシ.pdf\" height=\"600\" width=\"600\" title=\"240827_セミナーチラシ\"></iframe>"
+    },
+    {
+      "id": 4031,
+      "date": "2024.06.26",
+      "title": "【イベント報告】ものづくりワールド２０２４",
+      "category": "blog",
+      "image": "/uploads/2024/06/240625_blog.jpg",
+      "content": "\n<p class=\"wp-block-paragraph\">2024年6月19日(水)～21日(金) 東京ビッグサイト開催「第36回 ものづくりワールド2024」へ出展し、ニオイセンサーの展示やデモを行いました。弊社ブースに足をお運びいただきまして誠にありがとうございました。<br>次回は10月、同じく東京ビッグサイト開催「CEATEC 2024」への出展を予定しておりますので、続報をお待ちください。</p>\n\n\n\n<figure class=\"wp-block-image size-full is-resized\"><img loading=\"lazy\" decoding=\"async\" src=\"/uploads/2024/06/DSC_0083-3.jpg\" alt=\"\" class=\"wp-image-4048\" width=\"610\" height=\"457\" /></figure>\n\n\n\n<figure class=\"wp-block-image size-full is-resized\"><img loading=\"lazy\" decoding=\"async\" src=\"/uploads/2024/06/DSC_0084-1.jpg\" alt=\"\" class=\"wp-image-4050\" width=\"610\" height=\"458\" /></figure>\n\n\n\n<figure class=\"wp-block-image size-full is-resized\"><img loading=\"lazy\" decoding=\"async\" src=\"/uploads/2024/06/DSC_0085-1.jpg\" alt=\"\" class=\"wp-image-4049\" width=\"611\" height=\"458\" /></figure>\n\n\n\n<figure class=\"wp-block-image size-full is-resized\"><img loading=\"lazy\" decoding=\"async\" src=\"/uploads/2024/06/DSC_0087.jpg\" alt=\"\" class=\"wp-image-4052\" width=\"611\" height=\"458\" /></figure>\n\n\n\n<figure class=\"wp-block-image size-full is-resized\"><img loading=\"lazy\" decoding=\"async\" src=\"/uploads/2024/06/DSC_0070.jpg\" alt=\"\" class=\"wp-image-4051\" width=\"611\" height=\"458\" /></figure>\n"
     },
     {
       "id": 4006,
@@ -454,6 +618,14 @@
       "content": "<p class=\"wp-block-paragraph\">従来の受託測定サービスはAroma Coder®V2 Plus 一式（QCM型40膜）での測定でしたが、この度、5C-SSM（CMOS型5膜）での受託分析を開始いたしました。測定に用いる膜セットは［FS0100-T］で、基本サービスであるサンプル測定（CSVデータ、棒グラフ提供）の他、オプションの類似度分析・主成分分析をご選択いただけます。<br>5C-SSM（CMOS型）センサーの導入をご検討中のお客様は、この機会にぜひご活用ください。</p>"
     },
     {
+      "id": 3611,
+      "date": "2024.03.14",
+      "title": "5C-SSM（CMOS型）：サンプル測定データ例 [FS0100-T/002-T]",
+      "category": "blog",
+      "image": "/uploads/2024/03/240314_blog_1.jpg",
+      "content": "\n<p class=\"wp-block-paragraph\">5C-SSM（CMOS型）で測定したサンプル測定データ例をご紹介いたします。<br>左側が[FS0100-T]、右側が[002-T]です。<br>＊製品化の膜セットは[FS0100-T]であり、[002-T]は試作品扱いですのでご了承ください。 </p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"314\" src=\"/uploads/2024/03/240314_blog_2-1024x314.png\" alt=\"\" class=\"wp-image-3614\" /></figure>\n"
+    },
+    {
       "id": 3561,
       "date": "2024.03.07",
       "title": "【メディア掲載】ケマテルズ：「ニオイの可視化」で品質管理や防災をサポート【Zoom up! 企業ニュース】",
@@ -488,6 +660,13 @@
       "content": "<p class=\"wp-block-paragraph\">試作品としてご提供しておりましたCMOS型ニオイセンサー「5C-SSM」につきまして、疎水性～親水性の幅広い有機ガスに応答を示す膜セット「FS0100」の製品化が決定いたしました（試作品時：FS0100-T）。来年度のリリースを予定しております。詳細をご希望の方はお問合せください。</p>\n\n\n\n<p class=\"wp-block-paragraph\">従来の膜セット「002-T」も継続してご依頼いただけますが、こちらは現在も試作品となりますので、あらかじめご了承願います。</p>"
     },
     {
+      "id": 3167,
+      "date": "2023.10.19",
+      "title": "【イベント報告】第36回におい・かおり環境学会に参加いたしました（ポスター掲載）",
+      "category": "blog",
+      "content": "\n<p class=\"wp-block-paragraph\">2023年8月31日(木)～9月1日(金) 富士市交流プラザで開催された「第36回におい・かおり環境学会」にて、弊社社員によるポスター発表が行われました。当日の資料を掲載いたしますので是非ご覧ください。</p>\n\n\n\n<h3 class=\"wp-block-heading\">ニオイセンサをもちいた清酒用官能評価試薬のニオイ可視化</h3>\n\n\n<iframe loading=\"lazy\" class=\"embed-pdf-viewer\" src=\"/uploads/2023/10/2310_におい・かおり環境学会ポスター.pdf\" height=\"600\" width=\"600\" title=\"Array\"></iframe>\n\n\n<p class=\"wp-block-paragraph\"></p>\n"
+    },
+    {
       "id": 3057,
       "date": "2023.09.20",
       "title": "【イベント】フードファクトリー２０２３",
@@ -499,6 +678,14 @@
       "date": "2023.09.07",
       "title": "【メディア掲載】センサイト・プロジェクト：水晶振動子をトランスデューサとするe-Nose型ニオイセンサ（1）",
       "content": "<p class=\"wp-block-paragraph\">センサイト・プロジェクトに、弊社CTO橋詰賢一の執筆記事が掲載されました。e-Nose型ニオイセンサの詳しい解説が掲載されておりますので是非ご覧ください。</p>\n\n\n\n<p class=\"wp-block-paragraph\">水晶振動子をトランスデューサとするe-Nose型ニオイセンサ（1）<br><a href=\"https://sensait.jp/25406/\">https://sensait.jp/25406/</a></p>"
+    },
+    {
+      "id": 2998,
+      "date": "2023.09.07",
+      "title": "測定機器「Aroma Coder V2 Plus 一式」レンタル内容改定のお知らせ",
+      "category": "blog",
+      "image": "/uploads/2022/08/set-01.jpg",
+      "content": "\n<p class=\"wp-block-paragraph\">弊社製品「<a href=\"https://aromabit.com/products_datasolution/aroma-coderv2/\" title=\"Aroma Coder V2 Plus 一式\">Aroma Coder V2 Plus 一式</a>」につきまして、レンタル価格及びサービス内容の改定を行いました。本製品１台のご購入検討につき、累計２ヶ月までご利用いただけます。<br>また、レンタル期間のみ、通常は年間契約となる「<a href=\"https://aromabit.com/products_datasolution/aromalyzer/\" title=\"Aromalyzer\">Aromalyzer</a>」及び弊社による「測定・分析フォロー」併用可となっておりますので、従来のレンタルサービスよりもご利用いただきやすくなりました。<br>価格等の詳細につきましては、「お問い合わせ」よりご相談ください。</p>\n"
     },
     {
       "id": 2904,
@@ -518,6 +705,14 @@
       "date": "2023.08.29",
       "title": "【メディア掲載】Public Library of Science：SONY AI様の論文が掲載されました（Aroma Coder V2）",
       "content": "<p class=\"wp-block-paragraph\">Public Library of Scienceに、弊社のAroma Coder V2（35膜版）をご利用いただいたSony AI様の論文が掲載されました。<br>下記リンクよりご覧ください。<br><a href=\"https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0289881\">https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0289881</a></p>"
+    },
+    {
+      "id": 2855,
+      "date": "2023.08.21",
+      "title": "ミライエ長岡にてコンセプトモデル「AROMAROID」展示中です",
+      "category": "blog",
+      "image": "/uploads/2021/10/Aromaroid1-3.jpg",
+      "content": "\n<p class=\"wp-block-paragraph\">2021年10月発表のコンセプトモデル「<a href=\"https://www.aromabit.com/news/969/\" target=\"_blank\" rel=\"noopener\" title=\"AROMAROID\">AROMAROID</a>」が、「イノベーション都市 長岡」の取組みの一つとして取り上げられました。同プロジェクトは、新潟県長岡市がNTT東日本を始め、大学や企業とも連携を図り、日本海側のデジタル拠点都市の実現を目指す試みです。</p>\n\n\n\n<p class=\"wp-block-paragraph\">今後、安全で快適な環境作りをサポートするプロトタイプとして、アロマビットのニオイ可視化センサー・長岡造形大学のプロダクトデザイン・山形大学の先端加工技術・NTT東日本のIoT技術を組み合わせる実証実験を予定しております。<br>AROMAROIDは現在、長岡市の米百俵プレイス西館「ミライエ長岡」（見学自由）で展示中です。</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n<iframe loading=\"lazy\" class=\"embed-pdf-viewer\" src=\"/uploads/2023/08/NTT_miraie_BLOG用.pdf\" height=\"600\" width=\"600\" title=\"Array\"></iframe>"
     },
     {
       "id": 2610,
@@ -545,11 +740,50 @@
       "content": "<p class=\"wp-block-paragraph\">提供：有人宇宙システム株式会社</p>\n\n\n\n<p class=\"wp-block-paragraph\">　</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\">有人宇宙システム株式会社様（JAMSS）のサイトにて、弊社が「ニオイ可視化」の技術実証に協力している事例が紹介されました。<br><a href=\"https://www.jamss.co.jp/news/detail.php?id=9vch3fbo6v\">https://www.jamss.co.jp/news/detail.php?id=9vch3fbo6v</a></p>\n\n\n\n<p class=\"wp-block-paragraph\">【更新：2023.05.22】<br>Ax-2利用ミッション紹介 Part.2 が公開されました<br><a href=\"https://www.axiomspace.com/news/ax2-tech-demo\" target=\"_blank\" rel=\"noopener\" title=\"\">https://www.axiomspace.com/news/ax2-tech-demo</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>"
     },
     {
+      "id": 2289,
+      "date": "2023.03.27",
+      "title": "5C-SSM（CMOS型センサ）：サンプル測定データ例 [食品・飲料]",
+      "category": "blog",
+      "image": "/uploads/2023/03/230327_sample_jp.jpg",
+      "content": "\n<p class=\"wp-block-paragraph\">5C-SSM（CMOS型センサ）で測定したサンプル測定データ例をご紹介します。</p>\n\n\n<iframe loading=\"lazy\" class=\"embed-pdf-viewer\" src=\"/uploads/2023/03/230327_サンプル測定例.pdf\" height=\"600\" width=\"600\" title=\"230327_サンプル測定例\"></iframe>"
+    },
+    {
       "id": 1920,
       "date": "2022.12.21",
       "title": "【イベント】トヨタ紡織株式会社、「CES2023」に出展",
       "image": "/uploads/2022/05/toyotaboshokulogo.png",
       "content": "<p class=\"wp-block-paragraph\">株式会社アロマビットは、２０２３年１月５日(木)から１月８日(日)に、米国ネバダ州ラスベガス市で開催される「ＣＥＳ２０２３」にて、トヨタ紡織株式会社（本社:愛知県刈谷市､取締役社長:白柳 正義）のブースで展示協力いたします。</p>\n\n\n\n<p class=\"wp-block-paragraph\">トヨタ紡織株式会社　リリースはこちら<br><a href=\"https://www.toyota-boshoku.com/jp/news/221226.html\">https://www.toyota-boshoku.com/jp/news/221226.html</a></p>"
+    },
+    {
+      "id": 1804,
+      "date": "2022.11.29",
+      "title": "[共同研究事例紹介] 藻類ニオイ分析の論文が発表されました",
+      "category": "blog",
+      "content": "\n<p class=\"wp-block-paragraph\">におい・かおり環境学会誌（2022年53巻6号）にて、弊社のニオイセンサー「Aroma Coder®V2 一式」をご利用いただいた、藻類ニオイ分析に関する論文が発表されました。</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.jstage.jst.go.jp/article/jao/53/6/53_345/_article/-char/ja/\">https://www.jstage.jst.go.jp/article/jao/53/6/53_345/_article/-char/ja/</a></p>\n\n\n\n<h3 class=\"wp-block-heading\">【研究論文】微細緑藻イカダモ（Scenedesmus sp.）のにおいセンシング培養法の開発に向けた嗅覚官能評価，におい物質の同定，およびQCM型e-noseニオイセンサーの基礎的検討</h3>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n<iframe loading=\"lazy\" class=\"embed-pdf-viewer\" src=\"/uploads/2022/11/2022_論文_イカダモ物質同定.pdf\" height=\"600\" width=\"600\" title=\"2022_論文_イカダモ物質同定\"></iframe>"
+    },
+    {
+      "id": 1718,
+      "date": "2022.11.15",
+      "title": "【イベント報告】豊橋技術科学大学 OPERAマルチモーダルセンシング共創コンソーシアム 2022年度 第2回全体会議（愛知県豊橋市）に参加いたしました",
+      "category": "blog",
+      "image": "/uploads/2022/11/①.jpg",
+      "content": "\n<p class=\"wp-block-paragraph\">　2022年11月7日（月）愛知県豊橋市にて、「豊橋技術科学大学 OPERAマルチモーダルセンシング共創コンソーシアム 2022年度 第2回全体会議」に参加いたしました。<br>　会場では、パネル展示および5Q-SSM（QCM型ニオイセンサー）のデモ展示を行いました。</p>\n\n\n\n<h4 class=\"wp-block-heading\">開催趣旨</h4>\n\n\n\n<p class=\"wp-block-paragraph\">　豊橋技術科学大学はJST産学共創プラットフォーム共同研究推進プログラム（OPERA）において、マルチモーダルセンシング共創コンソーシアムを組織し”物理・化学情報をミクロンレベルで可視化するマルチモーダルセンシング技術の創出”を推進しております。<br>　この度、マルチモーダルセンシング共創コンソーシアムに参画している全ての研究機関並びに企業が一堂に会し、オープンイノベーションを加速し、プラットフォーム成長に向けた討論や情報交換を目的として2022年度第2回全体会議を開催いたしました。</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"767\" src=\"/uploads/2022/11/③-1024x767.jpg\" alt=\"\" class=\"wp-image-1720\" /></figure>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"768\" src=\"/uploads/2022/11/④-1024x768.jpg\" alt=\"\" class=\"wp-image-1721\" /></figure>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"768\" src=\"/uploads/2022/11/⑤-1024x768.jpg\" alt=\"\" class=\"wp-image-1722\" /></figure>\n"
+    },
+    {
+      "id": 1712,
+      "date": "2022.11.15",
+      "title": "Aroma Coder®V2 一式：サンプル測定データ例 [メーカー別のオレンジジュース]",
+      "category": "blog",
+      "image": "/uploads/2022/11/221115_サンプル測定_JP.jpg",
+      "content": "\n<p class=\"wp-block-paragraph\">Aroma Coder®V2 一式 で測定したサンプル測定データ例をご紹介します。</p>\n\n\n<iframe loading=\"lazy\" class=\"embed-pdf-viewer\" src=\"/uploads/2022/11/221115_ACV2サンプル測定例_オレンジジュース.pdf\" height=\"600\" width=\"600\" title=\"Array\"></iframe>"
+    },
+    {
+      "id": 1542,
+      "date": "2022.10.21",
+      "title": "Aroma Coder®V2 一式：サンプル測定データ例 [品質が異なるコーヒーの臭気]",
+      "category": "blog",
+      "image": "/uploads/2022/10/221021_sample_jp.jpg",
+      "content": "\n<p class=\"wp-block-paragraph\">Aroma Coder®V2 一式 で測定したサンプル測定データ例をご紹介します。</p>\n\n\n<iframe loading=\"lazy\" class=\"embed-pdf-viewer\" src=\"/uploads/2022/10/221021_ACV2サンプル測定例_珈琲.pdf\" height=\"600\" width=\"600\" title=\"Array\"></iframe>"
     },
     {
       "id": 1119,
@@ -565,11 +799,26 @@
       "content": "<p class=\"wp-block-paragraph\">この度、株式会社アロマビットは、明治ホールディングス株式会社（本社：東京都中央区、代表取締役社長 CEO: 川村和夫）を引受先とした第三者割当増資を実施致しました。</p>\n\n\n\n<p class=\"wp-block-paragraph\">リリースは<a href=\"https://www.meiji.com/news/detail/pdf/2022/220916_01.pdf\">こちら</a>から。</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>"
     },
     {
+      "id": 1361,
+      "date": "2022.09.02",
+      "title": "【イベント報告】かおりが見える　かおりで見える～センシング技術でひらく”かおり”の可能性～（愛知県豊橋市）に参加いたしました",
+      "category": "blog",
+      "image": "/uploads/2022/09/220902_01-scaled.jpg",
+      "content": "\n<p class=\"wp-block-paragraph\">2022年9月2日（金）愛知県豊橋市にて、第二回開催となる emCAMPUS STUDIO 産学連携セミナー「かおりが見える　かおりで見える～センシング技術でひらく”かおり”の可能性～」に参加いたしました。<br><br>当日は豊橋技術科学大学の澤田和明教授と、弊社CTO橋詰賢一がセミナーに登壇し、会場ではアロマビットの製品・パネル展示および5Q-SSM（QCM型ニオイセンサー）のデモ展示を行いました。</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<h4 class=\"wp-block-heading\">セミナーの様子</h4>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"768\" src=\"/uploads/2022/09/220902_03b-1024x768.jpg\" alt=\"\" class=\"wp-image-1363\" /></figure>\n\n\n\n<h4 class=\"wp-block-heading\">展示の様子</h4>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"576\" src=\"/uploads/2022/09/220902_04-1024x576.jpg\" alt=\"\" class=\"wp-image-1365\" /></figure>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"768\" src=\"/uploads/2022/09/220902_05-1024x768.jpg\" alt=\"\" class=\"wp-image-1366\" /></figure>\n\n\n\n<figure class=\"wp-block-image size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"2560\" height=\"1920\" src=\"/uploads/2022/09/220902_08-scaled.jpg\" alt=\"\" class=\"wp-image-1367\" /></figure>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"768\" src=\"/uploads/2022/09/220902_06-1024x768.jpg\" alt=\"\" class=\"wp-image-1368\" /></figure>\n\n\n\n<p class=\"wp-block-paragraph\">会場・オンラインよりご参加いただいた皆様、誠にありがとうございました。</p>\n"
+    },
+    {
       "id": 924,
       "date": "2022.08.10",
       "title": "【イベント】弊社CTO登壇、エムキャンパス主催「センシング技術でひらく”かおり”の可能性」",
       "image": "/uploads/2022/08/220902_img.jpg",
       "content": "<p class=\"wp-block-paragraph\">弊社はこの度、サーラグループ株式会社エムキャンパス様主催の産学連携セミナーに参加いたします。<br>当日は「マルチモーダルセンサ」を開発された豊橋技術科学大学の澤田和明教授×株式会社アロマビット取締役 橋詰賢一の講演会を行います。講演会以外に、匂いセンサーの製品展示やデモもございます。<br>会場は事前申込制となりますが、オンライン配信もございますので是非ご覧ください。</p>\n\n\n\n<h3 class=\"wp-block-heading\">センシング技術でひらく”かおり”の可能性</h3>\n\n\n\n<p class=\"wp-block-paragraph\">講演者：澤田和明 教授＋株式会社アロマビット取締役 橋詰賢一<br>日　時：2022年9月2日（金）15:00～17:00（14:30より受付開始）<br>場　所：<a href=\"https://em-campus.jp/access/\">emCAMPUS EAST 5階</a>（豊橋駅前）<br>定　員：40名（要申込）<br>参加費：無料（懇親会参加の場合：2,000円）<br>備　考：オンライン配信あり<br><br>＜申込方法＞<br>WEB申込制となります。<br><a href=\"https://emcampus-seminar.peatix.com/\">こちら</a>のフォームよりご入力ください（外部サイト：Peatix）。</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n<iframe loading=\"lazy\" class=\"embed-pdf-viewer\" src=\"/uploads/2022/08/20220902_かおりが見える　かおりで見える.pdf\" height=\"600\" width=\"600\" title=\"20220902_かおりが見える　かおりで見える\"></iframe>"
+    },
+    {
+      "id": 925,
+      "date": "2022.07.05",
+      "title": "[ニオイ解析アプリケーションAromalyzer応用事例] ミカン貯蔵臭の主成分分析：佐賀大学 農学部 生産環境化学分野　上野研究室 様",
+      "category": "blog",
+      "content": "\n<p class=\"wp-block-paragraph\">当社の共同開発先である佐賀大学 農学部 生産環境化学分野 上野研究室様より「匂いセンサー（アロマコーダー）でミカン貯蔵臭を分析し、解析システム（アロマライザー）で主成分分析に供試した様子」のYouTube動画がアップされました。</p>\n\n\n\n<p class=\"wp-block-paragraph\">当社のデスクトップ型ニオイ測定分析装置 Aroma Coder V2 一式（※）とニオイデータ解析アプリケーション Aromalyzer を用いて、ミカン貯蔵臭を分析している様子が紹介されています。<br>※「Aroma Coder V2」及びニオイサンプル調整器である「Aroma Sampler」の総称<br><br>本製品サービスの詳細は <a href=\"https://www.aromabit.com/contact/\">こちら</a> よりお問い合わせください。<br></p>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\nhttps://youtu.be/37Nb-fr3g1M\n</div></figure>\n"
     },
     {
       "id": 943,
@@ -578,10 +827,40 @@
       "content": "<p class=\"wp-block-paragraph\">この度、株式会社アロマビットは、アンリツ株式会社（本社：神奈川県厚木市、代表取締役社長　グループCEO：濱田　宏一）を引受先とした第三者割当増資を実施致しました。</p>\n\n\n\n<p class=\"wp-block-paragraph\">リリースは<a href=\"https://www.anritsu.com/ja-JP/about-anritsu/news/news-releases/2022/2022-06-01-jp01\">こちら</a>から。<a href=\"/wp-content/uploads/2022/06/AnritsuLogo.jpg\"></a></p>"
     },
     {
+      "id": 939,
+      "date": "2022.05.20",
+      "title": "Aroma Coder®V2一式：サンプル測定データ例 [悪臭/不快臭]",
+      "category": "blog",
+      "image": "/uploads/2022/08/220520_sample_jp.jpg",
+      "content": "\n<p class=\"wp-block-paragraph\">Aroma Coder®V2 一式 で測定したサンプル測定データ例をご紹介します。</p>\n\n\n<iframe loading=\"lazy\" class=\"embed-pdf-viewer\" src=\"/uploads/2022/08/220520_ACV2サンプル測定例.pdf\" height=\"600\" width=\"600\" title=\"220520_ACV2サンプル測定例\"></iframe>\n\n\n<figure class=\"wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex\"></figure>\n"
+    },
+    {
       "id": 947,
       "date": "2022.05.16",
       "title": "アロマビットが、トヨタ紡織株式会社を引受先とした増資を実施",
       "content": "<p class=\"wp-block-paragraph\">この度、株式会社アロマビットは、トヨタ紡織株式会社（本社：愛知県刈谷市、取締役社長：沼 毅）を引受先とした第三者割当増資を実施致しました。</p>\n\n\n\n<p class=\"wp-block-paragraph\">リリースは<a href=\"https://www.toyota-boshoku.com/jp/news/220516.html\">こちら</a>から。</p>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"aligncenter size-large\"><img decoding=\"async\" src=\"/uploads/2022/05/toyotaboshokulogo-1024x1024.png\" alt=\"\"/></figure>\n</div>"
+    },
+    {
+      "id": 949,
+      "date": "2022.04.26",
+      "title": "[共同研究事例紹介] 藻類ニオイ分析〜佐賀大学 農学部 資源環境化学分野 上野研究所 様〜",
+      "category": "blog",
+      "content": "\n<p class=\"wp-block-paragraph\">株式会社アロマビットは、農林水産品のニオイの課題を研究している佐賀大学農学部資源環境化学分野上野大介准教授率いる上野研究所様と共同研究を実施しています。</p>\n\n\n\n<p class=\"wp-block-paragraph\">畜産用の新しい代替飼料として注目されている藻類に関する研究において、ニオイセンサー（アロマコーダー）による藻類（イカダモ）のニオイの分析に、弊社のデスクトップ型ニオイ測定分析装置 <a href=\"https://www.aromabit.com/products_datasolution/aroma-coderv2/\">Aroma Coder V2 一式</a>（※）を使用。<br>※「Aroma Coder V2」及びニオイサンプルの調整器である「Aroma Sampler」の総称</p>\n\n\n\n<p class=\"wp-block-paragraph\">藻類のニオイの測定の様子の動画をご紹介します。<br>ニオイが弱いとされるイカダモのニオイを検知できている様子が確認できています。</p>\n\n\n\n<p class=\"wp-block-paragraph\">本製品サービスの詳細は <a href=\"https://www.aromabit.com/contact/\">こちら</a> よりお問い合わせください。</p>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\nhttps://youtu.be/EMjFDPKxttE\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\">■佐賀大学農学部資源環境化学分野上野研究所ホームページ<br><a href=\"http://environbio.ag.saga-u.ac.jp/ueno/index.html\">http://environbio.ag.saga-u.ac.jp/ueno</a></p>\n\n\n\n<p class=\"wp-block-paragraph\">■上野大介　准教授　研究者紹介ページ<br><a href=\"https://researchmap.jp/uenodaisuke_sagauniv/\">https://researchmap.jp/uenodaisuke_sagauniv/</a></p>\n"
+    },
+    {
+      "id": 950,
+      "date": "2022.04.25",
+      "title": "Aroma Coder®V2一式：サンプル測定データ例 [ジュース/コーヒー/茶葉]",
+      "category": "blog",
+      "image": "/uploads/2022/08/220425_sample_jp.jpg",
+      "content": "\n<p class=\"wp-block-paragraph\">Aroma Coder®V2 一式 で測定したサンプル測定データ例をご紹介します。</p>\n\n\n<iframe loading=\"lazy\" class=\"embed-pdf-viewer\" src=\"/uploads/2022/08/220425_ACV2サンプル測定例.pdf\" height=\"600\" width=\"600\" title=\"220425_ACV2サンプル測定例\"></iframe>"
+    },
+    {
+      "id": 954,
+      "date": "2022.04.18",
+      "title": "[共同研究事例紹介] ミカン貯蔵臭の分析〜佐賀大学 農学部 資源環境化学分野 上野研究所 様〜",
+      "category": "blog",
+      "content": "\n<p class=\"wp-block-paragraph\">株式会社アロマビットは、農林水産品のニオイの課題を研究している佐賀大学 農学部 資源環境化学分野 上野大介准教授率いる上野研究所様と共同研究を実施しています。</p>\n\n\n\n<p class=\"wp-block-paragraph\">ミカンの貯蔵臭に関する研究において、当社のデスクトップ型ニオイ測定分析装置 <a href=\"https://www.aromabit.com/products_datasolution/aroma-coderv2/\">Aroma Coder V2 一式</a>（※）を使用。<br>※「Aroma Coder V2」及びニオイサンプルの調整器である「Aroma Sampler」の総称</p>\n\n\n\n<p class=\"wp-block-paragraph\">本製品サービスの詳細は <a href=\"https://www.aromabit.com/contact/\">こちら</a> よりお問い合わせください。</p>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\nhttps://www.youtube.com/watch?v=yYXcwl_BRUQ\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\">■佐賀大学農学部資源環境化学分野上野研究所ホームページ<br><a href=\"http://environbio.ag.saga-u.ac.jp/ueno/index.html\">http://environbio.ag.saga-u.ac.jp/ueno</a></p>\n\n\n\n<p class=\"wp-block-paragraph\">■上野大介　准教授　研究者紹介ページ<br><a href=\"https://researchmap.jp/uenodaisuke_sagauniv/\">https://researchmap.jp/uenodaisuke_sagauniv/</a></p>\n"
     },
     {
       "id": 957,
@@ -660,6 +939,13 @@
       "date": "2021.06.10",
       "title": "【メディア掲載】日本経済新聞：ニオイセンサー動向紹介記事",
       "content": "<p class=\"wp-block-paragraph\">2021年6月10日<br>日本経済新聞に弊社の取り組みが紹介されました。</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.nikkei.com/article/DGXZQOUC077WR0X00C21A5000000/\">https://www.nikkei.com/article/DGXZQOUC077WR0X00C21A5000000/</a></p>"
+    },
+    {
+      "id": 984,
+      "date": "2021.05.19",
+      "title": "[応用事例] 株式会社 明治様：新商品開発「スマートチーズ BEER PROJECT」",
+      "category": "blog",
+      "content": "\n<h2 class=\"wp-block-heading\">アロマビットのニオイ可視化技術応用事例：<br>株式会社 明治様の新商品開発<br>「スマートチーズ BEER PROJECT」</h2>\n\n\n\n<p class=\"wp-block-paragraph\">株式会社 アロマビットは、この度、株式会社 明治様のスマートチーズ BEER PROJECT (以下、「本プロジェクト」）に参加。アロマビットのニオイ可視化技術を応用し、本プロジェクトで開発された商品の科学的な裏付けを行いました。<br><br>本プロジェクトは、株式会社 明治で開発製造している明治北海道十勝スマートチーズを取り扱ったプロジェクトです。「家飲み」を豊かにし、スマートチーズを最高に楽しめる体験づくりを目的として『スマートチーズと最高に合うクラフトビールをつくる』をモットーにプロジェクトがスタートしました。</p>\n\n\n\n<figure class=\"wp-block-image size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"640\" height=\"297\" src=\"/uploads/2021/05/unnamed-file.jpeg\" alt=\"明治ロゴ\" class=\"wp-image-686\" /></figure>\n\n\n\n<figure class=\"wp-block-image size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"713\" height=\"418\" src=\"/uploads/2021/05/unnamed-file.png\" alt=\"\" class=\"wp-image-657\" /></figure>\n\n\n\n<p class=\"wp-block-paragraph\">本プロジェクトのミッションの一つとして掲げられたのが、大量生産大量消費社会に対する施策としての地方の小規模な企業や団体との連携。その一環で、島根県でご夫婦で経営されている「石見麦酒」さんにビール制作を依頼。<br>明治北海道十勝スマートチーズと最高に合うクラフトビール(以下、「SMACHEE BEER」)の開発が始まりました。<br><br>アロマビットは、アロマビットのデスクトップ型ニオイ測定装置 Aroma Coder V2 を用いて、株式会社 明治様の明治北海道十勝スマートチーズと石見麦酒様のSMACHEE BEERそれぞれのニオイを測定し解析しました。<br>その結果、両商品ともに、他社商品とは異なる個性的な香り（ニオイ）であることを突き止めました。</p>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"aligncenter size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"439\" height=\"325\" src=\"/uploads/2021/05/unnamed-file.jpg\" alt=\"\" class=\"wp-image-658\" /></figure>\n</div>\n\n<div class=\"wp-block-image\">\n<figure class=\"aligncenter size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"440\" height=\"324\" src=\"/uploads/2021/05/unnamed-file-1.jpg\" alt=\"\" class=\"wp-image-659\" /><figcaption>※図はアロマビットの解析結果をもとに<br>株式会社 明治様で結果の解釈をしたもの</figcaption></figure>\n</div>\n\n\n<p class=\"wp-block-paragraph\">スマートチーズ BEER PROJECTの詳細は <a href=\"https://www.meiji.co.jp/dairies/cheese/meijitokachi/products/smart_cheese/\">株式会社 明治様の特設サイト</a> にて随時更新しています。<br>アロマビットはニオイ可視化技術を通して、お客様にイノベーティブな新しい価値を提供して参ります。</p>\n"
     },
     {
       "id": 986,
