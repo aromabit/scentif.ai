@@ -73,7 +73,9 @@ textarea:focus {
 .news-content .embed-pdf-viewer,
 .news-content .wp-block-file object {
   aspect-ratio: 1 / 1.414;
-  width: 100%;
+  /* iOS Safari widens iframes to the PDF's native size; min-width trick keeps it in the column */
+  min-width: 100%;
+  width: 1px;
 }
 
 .news-content .wp-has-aspect-ratio iframe {
