@@ -1,6 +1,7 @@
 import { FC } from "react"
 import { Locale, translations } from "lib/translations"
 import newsData from "lib/news.json"
+import NewsContent from "components/elements/NewsContent"
 
 export const findNews = (locale: Locale, id: string) =>
   newsData[locale].find((item) => String(item.id) === id)
@@ -39,10 +40,7 @@ const NewsArticle: FC<{ locale: Locale; id: string }> = ({ locale, id }) => {
           style={{ display: "block", margin: "0 auto 2rem", maxWidth: "100%" }}
         />
       )}
-      <div
-        className="news-content"
-        dangerouslySetInnerHTML={{ __html: item.content }}
-      />
+      <NewsContent html={item.content} />
       <p style={{ marginTop: "4rem" }}>
         <a href={locale === "ja" ? "/ja/#news" : "/#news"}>← {t.back}</a>
       </p>

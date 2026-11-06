@@ -78,6 +78,12 @@ textarea:focus {
   width: 1px;
 }
 
+.news-content .pdf-pages canvas {
+  display: block;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
 .news-content .wp-has-aspect-ratio iframe {
   aspect-ratio: 16 / 9;
   width: 100%;
