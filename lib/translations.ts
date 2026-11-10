@@ -12,6 +12,7 @@ export const translations = {
       contact: "Contact",
       news: "News",
       platform: "Olfaction AI Platform",
+      products: "Products",
       scentifai: "ScentifAI",
     },
     platform: {
@@ -138,6 +139,22 @@ export const translations = {
       back: "Back to News",
       more: "Load more",
     },
+    products: {
+      title: "Olfaction AI Platform",
+      lead: "ScentifAI offers a unique, world-leading digital olfaction solution, comprised of its cutting-edge compact smell imaging sensors and digital smell data solutions.",
+      platform: "Olfaction AI Platform",
+      platformLead:
+        "Digital Smell Data Solution, using digital Smell Data acquired from Smell Imaging Sensor and Sensor Measurement Devices.",
+      sensor: "Aroma Imaging Sensor",
+      sensorSub: "Smell Imaging Sensor",
+      sensorLead:
+        "System development kit designed to add smell sensor feature your products & system",
+      corporateOnly: "*For corporate customers only.",
+      viewMore: "View more",
+      cases: (name: string) => `${name} example`,
+      inquire: (name: string) => `Inquire about ${name}`,
+      back: "Back to Products",
+    },
     contact: {
       title: "Contact",
       description:
@@ -159,6 +176,7 @@ export const translations = {
       ais: "Aroma Imaging Sensor",
       company: "会社概要",
       news: "ニュース",
+      products: "製品・サービス",
       contact: "お問い合わせ",
     },
     hero: {
@@ -280,6 +298,22 @@ export const translations = {
       title: "ニュース",
       back: "ニュース一覧へ戻る",
       more: "もっと見る",
+    },
+    products: {
+      title: "嗅覚AIプラットフォーム",
+      lead: "ScentifAIは小型ニオイイメージングセンサーとデータ・ソリューションからなる最先端のデジタル嗅覚ソリューションをご提供いたします。",
+      platform: "Olfaction AI Platform",
+      platformLead:
+        "センサーから取得したデジタルデータを用いた、ニオイデータソリューション。",
+      sensor: "Aroma Imaging Sensor",
+      sensorSub: "ニオイ可視化センサー",
+      sensorLead:
+        "お客様の製品にニオイセンサー機能を付与できる組込型センサーモジュール",
+      corporateOnly: "＊法人向け製品・サービス",
+      viewMore: "詳しく見る",
+      cases: (name: string) => `${name}の事例`,
+      inquire: (name: string) => `${name}について問い合わせる`,
+      back: "製品・サービス一覧へ戻る",
     },
     contact: {
       title: "お問い合わせ",

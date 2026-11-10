@@ -1,0 +1,78 @@
+{
+  "en": [
+    {
+      "id": "scentifai",
+      "category": "platform",
+      "title": "ScentifAI®",
+      "summary": "Olfaction AI Platform. Key features includes: sensor data acquisition & dataset collection, odor data labeling, teacher-data development, sensor data analysis, etc. Works with ScentifAI's e-nose sensors.",
+      "image": "/uploads/2026/02/scentif-ai.jpg",
+      "content": "<p>Smell classification model is generated using acquired multiple smell data points, cross-referenced with statistical analyzed data stored in the database.</p><p>This system consists of a database storing smell sensor measurement data and a trained smell classification model, enabling its use for smell data collection and classification proof-of-concept (PoC).</p><p>One-year license agreement is required.</p><p>*For corporate customers only.</p><h2>Reference</h2><video controls preload=\"metadata\" src=\"/uploads/2026/02/APP_ScentifAI_En1.mp4\"></video>",
+      "cases": []
+    },
+    {
+      "id": "aromalyzer",
+      "category": "platform",
+      "title": "Aromalyzer®",
+      "summary": "It supports analysis of data acquired from Smell Sensors, enabling customers to build their own unique digital Smell Databases.",
+      "image": "/uploads/2022/08/aromalyzer.jpg",
+      "content": "<p>Aromalyzer® is smell database building engine with built-in analysis functions. By using the software, it is possible to analyze data acquired from smell sensors and support sensor evaluation.</p><p>Additionally, the database building function enables customer’s own unique database development by upload the acquired smell data to the platform.</p><p>Functions:<br>Digital Smell Database Development and Analysis Application / Waveform data / Bar graph / Smell Similarity Analysis / Principal Component Analysis (PCA) / Linear Discriminant Analysis (LDA)</p><p>*For corporate customers only.</p>",
+      "cases": []
+    },
+    {
+      "id": "service",
+      "category": "platform",
+      "title": "Measurement & Analysis Service",
+      "summary": "Per-sample base measurement and analysis service, where ScentifAI measures smell samples provided by customers.",
+      "image": "/uploads/2022/08/service_list.jpg",
+      "content": "<p>5C-SSM (CMOS type sensor) is used for smell measurement and data acquisition.</p><p>Several types of data provided, including below. Please inquire for details.</p><p>1) Sample Measurement: Basic Service. Smell sample is measured and CSV data and Bar graph is delivered. Formats for waveform conversion are included.<br>2) Principal Component Analysis (PCA): PCA analysis (PCA graph) is delivered from the acquired measurement data.</p><p>*For corporate customers only.</p>",
+      "cases": []
+    },
+    {
+      "id": "5c-ssm-cmos",
+      "category": "sensor",
+      "title": "5C-SSM (CMOS)",
+      "summary": "CMOS type: Using the CMOS sensor's ability to store an electric charge on its surface, the sensor converts the data into numerical values by detecting the increase or decrease in the amount of electric charge that occurs when smell molecules are adsorbed/desorbed on the membrane.",
+      "image": "/uploads/2022/08/5cssm-02.jpg",
+      "content": "<p>Using the CMOS sensor's ability to store an electric charge on its surface, the sensor outputs digital data by detecting the change in the amount of electric charge that occurs when smell molecules are adsorbed/desorbed on the membrane.</p><p>16 sensor elements (4x4) are arranged per membrane, allowing simultaneous acquisition of output data for up to 80 elements for 5 different membranes.</p><p>This makes it possible to avoid the risk of sensor failure and reduce noise by integrating and averaging the output data.</p><p>*For corporate customers only.</p><p><img src=\"/uploads/2025/02/250227_news.jpg\" alt=\"\"></p><p><img src=\"/uploads/2025/02/evaset.jpg\" alt=\"\"></p>",
+      "cases": [8208, 8211, 6995, 8202]
+    }
+  ],
+  "ja": [
+    {
+      "id": "scentifai",
+      "category": "platform",
+      "title": "ScentifAI®",
+      "summary": "ニオイ判定ソフトウェア。センサーを用いたデータ収集・ニオイ判定のPoCにご活用いただけます。",
+      "image": "/uploads/2026/02/scentif-ai.jpg",
+      "content": "<p>ニオイデータを複数回取得し、統計データとの照合・解析を行ってニオイ判定モデルを作成。ニオイセンサーの測定データを格納するデータベースと、データ学習させたニオイ判定モデルから構成されており、ニオイデータの収集及び判定のPoCにご活用いただけます。</p><p>一年間のライセンス契約となります。</p><p>*法人向けサービスです。個人のお客様へのサービス提供は行っておりません。</p><h2>参考資料</h2><video controls preload=\"metadata\" src=\"/uploads/2026/03/APP_ScentifAI_Jp.mp4\"></video>",
+      "cases": []
+    },
+    {
+      "id": "aromalyzer",
+      "category": "platform",
+      "title": "Aromalyzer®",
+      "summary": "ニオイ分析ソフトウェア。センサーの取得データをクラウド上に保存し、手軽にニオイ分析が行えます。",
+      "image": "/uploads/2022/08/aromalyzer.jpg",
+      "content": "<p>分析機能を搭載したサブスク型ニオイデータベース構築エンジン。ニオイセンサーの取得データをクラウド上に保存し、ニオイ分析やお客様独自のデータベースを構築いただけます。</p><p>一年間のライセンス契約となります。</p><p>主な機能：<br>データベース構築機能 / 波形データ / 棒グラフ / 類似度分析 / 主成分分析（PCA）/ 線形判別分析（LDA）</p><p>*法人向けサービスです。個人のお客様へのサービス提供は行っておりません。</p><h2>参考資料</h2><video controls preload=\"metadata\" src=\"/uploads/2025/10/Movie_Alz-1.mp4\"></video>",
+      "cases": []
+    },
+    {
+      "id": "service",
+      "category": "platform",
+      "title": "受託測定・分析サービス",
+      "summary": "ニオイセンサーをご検討されているお客様のサンプルを、5C-SSM（CMOS型センサー）で測定いたします。",
+      "image": "/uploads/2022/08/service_list.jpg",
+      "content": "<p>ニオイセンサーの導入をご検討されているお客様のサンプルを、5C-SSM（CMOS型センサー）で測定いたします。</p><p>【基本サービス】<br>サンプル測定：CSVデータ、棒グラフをご提供</p><p>【オプション】<br>主成分分析（PCA）：サンプル測定で取得したCSVデータを使用。多数の数値を含むデータを要約し、少ない次元でデータ全体の特徴を抽出する手法です。全体の特徴を最も表現できる二軸にデータを要約することで、データ間の差異や関係性が視覚的に理解しやすくなります。</p><p>*法人顧客向けサービスです。個人のお客様のご依頼は承りかねます。</p>",
+      "cases": []
+    },
+    {
+      "id": "5c-ssm-cmos",
+      "category": "sensor",
+      "title": "5C-SSM (CMOS)",
+      "summary": "CMOSセンサー自体に備わっている表面に電荷を貯める機能を応用し、膜にニオイ分子が吸脱着することで起こる電荷量の増減を用いて、数値データへと変換します。",
+      "image": "/uploads/2022/08/5cssm-02.jpg",
+      "content": "<p>CMOS型半導体のシリコンCMOSセンサー自体に備わっている《表面に電荷を貯める機能》を応用し、膜にニオイ分子が吸脱着することで起こる電荷量の増減を用いて、数値データへと変換します。</p><p>ニオイ吸着膜1つあたり16個のセンサー素子（4×4）が配置されており、膜5つで最大80素子分の出力データを同時取得できます。これにより、センサー不良リスクの低減や平均化処理によるノイズ低減、また出力データの積算が可能となります。</p><p>非常に小型で、量産時のコストも抑えられるニオイセンサーです。</p><p>組込評価用キットは「CMOS evaluation kit_box（CEK_box）」及び「5C-SSM evaluation set」の2タイプをご提供中で、汎用膜セット3種（FS0101/FS0200/FS0300）または、お客様の用途に適した5膜を選定・搭載するカスタム膜セットより選択可能です。</p><p>膜セット1種（5C-SSM×1枚）で5膜分のデータが取得可能ですが、膜セット3種（5C-SSM×3枚）で15膜分のデータを取得することにより、分析の幅が広がります。</p><p>詳細はお問い合わせください。</p><p>*法人向け製品です。個人のお客様への販売は行っておりません。</p><p><img src=\"/uploads/2025/02/250227_news.jpg\" alt=\"\"></p><p><img src=\"/uploads/2025/02/evaset.jpg\" alt=\"\"></p><h2>参考資料</h2><p>＊評価用キットCEK_boxの内部に搭載されている部分です</p><video controls preload=\"metadata\" src=\"/uploads/2025/10/movie_CEK_box.mp4\"></video>",
+      "cases": [7673, 7580, 6988, 7048]
+    }
+  ]
+}

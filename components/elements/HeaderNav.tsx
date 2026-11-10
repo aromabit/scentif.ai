@@ -49,6 +49,10 @@ const HeaderNav: FC = () => {
             { href: `${home}#aroma-imaging-sensor`, label: t.ais },
           ]}
         />
+        <NavItem
+          label={t.products}
+          href={`${detectedLocale === "ja" ? "/ja" : ""}/products/`}
+        />
         <NavItem label={t.company} href={`${home}#company`} />
         <NavItem label={t.news} href={`${home}#news`} />
         <NavItem label={t.contact} href={`${home}#contact`} />

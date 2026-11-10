@@ -64,6 +64,7 @@ textarea:focus {
 }
 
 .news-content img,
+.news-content video,
 .news-content iframe,
 .news-content object {
   height: auto;
