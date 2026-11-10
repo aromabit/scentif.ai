@@ -56,6 +56,10 @@ const HeaderNav: FC = () => {
         <NavItem label={t.company} href={`${home}#company`} />
         <NavItem label={t.news} href={`${home}#news`} />
         <NavItem label={t.contact} href={`${home}#contact`} />
+        <NavItem
+          label={t.download}
+          href={`${detectedLocale === "ja" ? "/ja" : ""}/download/`}
+        />
         <li style={{ alignItems: "center", display: "flex" }}>
           <a
             href={detectedLocale === "en" ? "/ja/" : "/"}

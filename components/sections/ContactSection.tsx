@@ -3,7 +3,7 @@
 import { ComponentProps, FC, FormEvent, useState } from "react"
 import { Locale, translations } from "lib/translations"
 
-const Input: FC<ComponentProps<"input">> = ({ style, ...props }) => (
+export const Input: FC<ComponentProps<"input">> = ({ style, ...props }) => (
   <input
     style={{
       backgroundColor: "#fff",

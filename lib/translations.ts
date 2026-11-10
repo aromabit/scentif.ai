@@ -10,6 +10,7 @@ export const translations = {
       ais: "Aroma Imaging Sensor",
       company: "Company",
       contact: "Contact",
+      download: "Download",
       news: "News",
       platform: "Olfaction AI Platform",
       products: "Products",
@@ -168,6 +169,20 @@ export const translations = {
       message: "Message",
       submit: "Send Message",
     },
+    download: {
+      title: "Download",
+      button: "Download",
+      lead: "Please fill in the form below to download the document.",
+      name: "Name",
+      company: "Company",
+      phone: "Phone",
+      email: "Email",
+      privacy:
+        "By submitting, you agree that we may use this information to contact you about our products and services.",
+      submit: "Agree and Submit",
+      thankYou: "Thank you. Your document is ready.",
+      open: "Open the document",
+    },
   },
   ja: {
     nav: {
@@ -178,6 +193,7 @@ export const translations = {
       news: "ニュース",
       products: "製品・サービス",
       contact: "お問い合わせ",
+      download: "資料ダウンロード",
     },
     hero: {
       tagline: "デジタル嗅覚で、AIを「自然界」に解放する。",
@@ -325,6 +341,20 @@ export const translations = {
       company: "会社名",
       message: "メッセージ",
       submit: "送信する",
+    },
+    download: {
+      title: "資料ダウンロード",
+      button: "ダウンロードする",
+      lead: "以下項目をご入力の上、送信してください。",
+      name: "氏名",
+      company: "貴社名",
+      phone: "お電話番号",
+      email: "メールアドレス",
+      privacy:
+        "ご入力いただいた情報は、製品・サービスに関するご連絡に利用いたします。ご同意いただける方は「同意して送信する」ボタンを押してください。",
+      submit: "同意して送信する",
+      thankYou: "ありがとうございます。資料をご覧いただけます。",
+      open: "資料を開く",
     },
   },
 } as const
