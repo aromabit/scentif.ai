@@ -1,6 +1,7 @@
 import { GoogleAnalytics } from "@next/third-parties/google"
 import { Title } from "components/elements/layout"
 import HeaderNav from "components/elements/HeaderNav"
+import FooterNav from "components/elements/FooterNav"
 import "./reset.css"
 
 export const metadata = {
@@ -67,6 +68,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
             padding: "1rem",
           }}
         >
+          <FooterNav />
           <p>&copy; scentifai</p>
         </footer>
       </body>

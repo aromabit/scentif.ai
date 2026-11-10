@@ -12,6 +12,8 @@ export const translations = {
       contact: "Contact",
       download: "Download",
       news: "News",
+      privacy: "Privacy Policy",
+      terms: "Terms of Use",
       platform: "Olfaction AI Platform",
       products: "Products",
       scentifai: "ScentifAI",
@@ -194,6 +196,8 @@ export const translations = {
       products: "製品・サービス",
       contact: "お問い合わせ",
       download: "資料ダウンロード",
+      privacy: "プライバシーポリシー",
+      terms: "利用条件",
     },
     hero: {
       tagline: "デジタル嗅覚で、AIを「自然界」に解放する。",
